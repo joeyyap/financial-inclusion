@@ -1,0 +1,21 @@
+"0","df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14) %>% 
+  summarise(Median = median(ipercap), Mean=mean(ipercap), Std = sd(ipercap)) %>%
+  pivot_longer(cols = Median:Mean) %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = value, fill = name)) +
+  geom_col(position=""dodge"") +
+  geom_text(aes(label = comma(round(value,0))),
+            position = position_dodge2(width=1),
+            vjust = -0.5) +
+  scale_fill_brewer(palette=""Set2"") +
+  labs(x= ""Household income per capita"",
+       y= ""Own financial instrument"",
+       fill = """") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank()) +
+  coord_flip()
+"
+"2","`summarise()` ungrouping output (override with `.groups` argument)
+"

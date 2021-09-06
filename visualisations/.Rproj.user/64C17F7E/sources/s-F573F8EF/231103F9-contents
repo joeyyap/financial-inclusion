@@ -1,0 +1,301 @@
+#Setup
+```{r Import packages}
+
+pacman::p_load(ggplot2, dplyr, tidyr, patchwork, scales)
+
+theme_set(theme_classic())
+```
+
+```{r Import data}
+df <- read.csv("../ifls_hh2.csv")
+
+df 
+```
+
+#Visualise
+```{r Proportion financially included}
+
+df %>% 
+  filter(own_fininstrument_7 != 100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14) %>% 
+  count() %>% 
+  ungroup() %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = pct, y=as.factor(own_fininstrument_14))) +
+  geom_col(aes(fill=as.factor(own_fininstrument_14))) +
+  geom_text(aes(label = round(pct, 1)),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share",
+       y= "Own financial instrument") +
+  theme(legend.position="none")
+
+ggsave("fi_14.png", height=6, width=14, unit="cm")
+
+df %>% 
+  filter(own_fininstrument_7 != 100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_7) %>% 
+  count() %>% 
+  ungroup() %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(x = pct, y=as.factor(own_fininstrument_7))) +
+  geom_col(aes(fill=as.factor(own_fininstrument_7))) +
+  geom_text(aes(label = round(pct, 1)),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share",
+       y= "Own financial instrument") +
+  theme(legend.position="none")
+
+ggsave("fi_7.png", height=6, width=14, unit="cm")
+```
+
+```{r y by own_receivables}
+
+df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14, own_receivables) %>% 
+  count() %>% 
+  ungroup() %>% 
+  group_by(own_fininstrument_14) %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = pct, fill = as.factor(own_receivables))) +
+  geom_col() +
+  geom_text(aes(label = round(pct, 1)),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share (%)",
+       y= "Own financial instrument",
+       fill = "Own receivables") +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        legend.position = "none")
+
+ggsave("receivables_fi.png", height = 6, width = 14, unit="cm")
+
+```
+
+```{r y by house_type}
+
+df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14, housetype) %>% 
+  count() %>% 
+  ungroup() %>% 
+  group_by(own_fininstrument_14) %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = pct, fill = as.factor(housetype))) +
+  geom_col() +
+  geom_text(aes(label = ifelse(pct>1.5, round(pct, 1), "")),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share (%)",
+       y= "Own financial instrument",
+       fill = "Housetype") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "bottom") +
+  coord_flip()
+
+ggsave("housetype_fi.png", height = 16, width = 8, unit="cm")
+
+```
+
+```{r y by floor}
+
+df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14, floor) %>% 
+  count() %>% 
+  ungroup() %>% 
+  group_by(own_fininstrument_14) %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = pct, fill = as.factor(floor))) +
+  geom_col() +
+  geom_text(aes(label = ifelse(pct>1.5, round(pct, 1), "")),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share (%)",
+       y= "Own financial instrument",
+       fill = "Floor") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "bottom") +
+  coord_flip()
+
+ggsave("floor_fi.png", height = 16, width = 8, unit="cm")
+
+```
+
+```{r y by wall}
+
+df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14, outerwall) %>% 
+  count() %>% 
+  ungroup() %>% 
+  group_by(own_fininstrument_14) %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = pct, fill = as.factor(outerwall))) +
+  geom_col() +
+  geom_text(aes(label = ifelse(pct>1.5, round(pct, 1), "")),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share (%)",
+       y= "Own financial instrument",
+       fill = "Outer wall") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "bottom") +
+  coord_flip()
+
+ggsave("outerwall_fi.png", height = 16, width = 8, unit="cm")
+
+```
+
+```{r y by nearstable}
+
+df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  filter(nearstable != 100) %>% 
+  group_by(own_fininstrument_14, nearstable) %>% 
+  count() %>% 
+  ungroup() %>% 
+  group_by(own_fininstrument_14) %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = pct, fill = as.factor(nearstable))) +
+  geom_col() +
+  geom_text(aes(label = ifelse(pct>1.5, round(pct, 1), "")),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share (%)",
+       y= "Own financial instrument",
+       fill = "Near stable") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank(),
+        legend.position = "bottom") +
+  coord_flip()
+
+ggsave("nearstable_fi.png", height = 16, width = 8, unit="cm")
+
+```
+
+```{r y by own_vehicles}
+
+df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14, own_vehicles) %>% 
+  count() %>% 
+  ungroup() %>% 
+  group_by(own_fininstrument_14) %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = pct, fill = as.factor(own_vehicles))) +
+  geom_col() +
+  geom_text(aes(label = ifelse(pct>1.5, round(pct, 1), "")),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share (%)",
+       y= "Own financial instrument",
+       fill = "Own vehicles") +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        legend.position = "none")
+
+ggsave("vehicles_fi.png", height = 6, width = 14, unit="cm")
+
+```
+
+```{r y by own_jewelry}
+
+df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14, own_jewelry) %>% 
+  count() %>% 
+  ungroup() %>% 
+  group_by(own_fininstrument_14) %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = pct, fill = as.factor(own_jewelry))) +
+  geom_col() +
+  geom_text(aes(label = ifelse(pct>1.5, round(pct, 1), "")),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share (%)",
+       y= "Own financial instrument",
+       fill = "Own jewelry") +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        legend.position = "none")
+
+ggsave("jewelry_fi.png", height = 6, width = 14, unit="cm")
+
+```
+
+```{r y by own_hhappliance}
+
+df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14, own_hhappliance) %>% 
+  count() %>% 
+  ungroup() %>% 
+  group_by(own_fininstrument_14) %>% 
+  mutate(pct = n*100/sum(n)) %>% 
+  ungroup() %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = pct, fill = as.factor(own_hhappliance))) +
+  geom_col() +
+  geom_text(aes(label = ifelse(pct>1.5, round(pct, 1), "")),
+            position = position_stack(vjust = 0.5)) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Percentage share (%)",
+       y= "Own financial instrument",
+       fill = "Own household appliances") +
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        legend.position = "none")
+
+ggsave("hhappliance_fi.png", height = 6, width = 14, unit="cm")
+
+```
+
+```{r y by median}
+
+df %>% 
+  filter(own_fininstrument_7 !=100) %>% 
+  filter(!is.na(own_fininstrument_14)) %>% 
+  group_by(own_fininstrument_14) %>% 
+  summarise(Median = median(ipercap), Mean=mean(ipercap), Std = sd(ipercap)) %>%
+  pivot_longer(cols = Median:Mean) %>% 
+  ggplot(aes(y = as.factor(own_fininstrument_14), x = value, fill = name)) +
+  geom_col(position="dodge") +
+  geom_text(aes(label = comma(round(value,0))),
+            position = position_dodge2(width=1),
+            vjust = -0.5) +
+  scale_fill_brewer(palette="Set2") +
+  labs(x= "Household income per capita",
+       y= "Own financial instrument",
+       fill = "") +
+  theme(axis.text.y = element_blank(),
+        axis.ticks.y = element_blank()) +
+  coord_flip()
+
+ggsave("ipercap_fi.png", height = 14, width = 12, unit="cm")
+
+```
