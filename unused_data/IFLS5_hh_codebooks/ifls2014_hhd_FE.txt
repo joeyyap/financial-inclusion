@@ -1,0 +1,1445 @@
+                                                                                                                                                                                                                               17:02 Tuesday, April 10, 2018   1
+     ===================================================================
+
+         IIII     FFFFFFF     LLL          SSSSSS         555555555     
+          II       FF   F     LL          SS    SS        55            
+          II       FF         LL          SS     S        55            
+          II       FF         LL          SSS             5555555       
+          II       FFFFF      LL           SSSSS               5555     
+          II       FF         LL            SSSSS                555    
+          II       FF         LL               SSS                55    
+          II       FF         LL          S     SS        55      55    
+          II       FF         LL     L    SS    SS        555    555    
+         IIII     FFFF        LLLLLLLL     SSSSSS           555555      
+
+     ===================================================================
+
+
+
+     I N D O N E S I A N    F A M I L Y    L I F E    S U R V E Y    5  
+
+       A survey of individuals, households, families, communities       
+          and facilities conducted in 13 provinces in Indonesia         
+                   between November 2014 and July 2015                  
+
+     ===================================================================
+
+                               Directed by                              
+
+                      John Strauss, RAND and USC                        
+
+                      Firman Witoelar, Survey Meter                     
+
+                       Bondan Sikoki, Survey Meter                      
+
+
+     ===================================================================
+
+     Financial support for the Indonesian Family Life Survey Wave 5 has 
+     been provided by the National Institute of Aging grant number 2R01 
+     AG026676-05, the National Institute of Child and Human Development,
+     grant number 2R01 HD050764-05A1, and grants from the World Bank,   
+     Indonesia and GRM International, Australia from DFAT, the Departmen
+     of Foreign Affairs and Trade, Government of Australia              
+
+     ===================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+              Website: http://www.rand.org/FLS/IFLS                     
+          Send all questions to ifls-supp@rand.org                      
+
+
+                       Copyright (2009)                                 
+INDONESIAN FAMILY LIFE SURVEY 5: CODEBOOK                               page 2  
+                                                                                                                                                                                                                               17:02 Tuesday, April 10, 2018   2
+
+
+
+
+
+
+================================================================================
+
+          H   H   OOO    U   U    SS    EEEE   H   H   OOO   L     DDDD         
+          H   H  O   O   U   U   S  S   E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U   S      E      H   H  O   O  L     D   D        
+          HHHHH  O   O   U   U    S     EEEE   HHHHH  O   O  L     D   D        
+          H   H  O   O   U   U     S    E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U      S   E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U   S  S   E      H   H  O   O  L     D   D        
+          H   H   OOO     UUU     SS    EEEE   H   H   OOO   LLLL  DDDD         
+
+
+                    SS    U   U   RRR    V    V    EEEE   Y    Y                
+                   S  S   U   U   R  R   V    V    E      Y    Y                
+                   S      U   U   R  R   V    V    E       Y  Y                 
+                    S     U   U   RRR    V    V    EEE       Y                  
+                     S    U   U   R R     V  V     E         Y                  
+                      S   U   U   R  R    V  V     E         Y                  
+                   S  S   U   U   R  R     V       E         Y                  
+                    SS     UUU    R  R     V       EEEE      Y                  
+
+
+            CCC    OOO    DDDD    EEEE   BBBB     OOO     OOO    K   K          
+           C   C  O   O   D   D   E      B   B   O   O   O   O   K  K           
+           C      O   O   D   D   E      B   B   O   O   O   O   K K            
+           C      O   O   D   D   EEE    BBBB    O   O   O   O   KK             
+           C      O   O   D   D   E      B   B   O   O   O   O   KK             
+           C      O   O   D   D   E      B   B   O   O   O   O   K K            
+           C   C  O   O   D   D   E      B   B   O   O   O   O   K  K           
+            CCC    OOO    DDDD    EEEE   BBBB     OOO     OOO    K   K          
+
+================================================================================
+
+ B O O K :       FE                                            
+ T O P I C :     EXIT FORMS                                           
+
+================================================================================
+
+
+
+
+
+
+
+
+
+
+
+                               Prepared by                                      
+                Roald Euller, John Strauss, Firman Witolar                      
+                     Created on 10APR2018 at 17:02                           
+                                                                   17:02 Tuesday, April 10, 2018   1
+INDONESIAN FAMILY LIFE SURVEY 4: CODEBOOK                                       
+--------------------------------------------------------------------------------
+ H O U S E H O L D    S U R V E Y    C O D E B O O K                 page 3
+--------------------------------------------------------------------------------
+ B O O K :       FE
+ T O P I C :     Exit Forms
+
+--------------------------------------------------------------------------------
+
+DATA FILES                                                                    
+----------                                                                    
+  Data are available in SAS (9.2) export and STATA (8.0) formats.             
+  Data and electronic documentation are available on the IFLS website.        
+
+  The survey instrument contains multiple sections.  Where possible, sections 
+  have been merged together to form a single data module.  The modules are    
+  organized by level of observation.  The module names are listed below.  They
+  serve as the names of the SAS and STATA data files. The codebook is also    
+  organised by module.                                                        
+
+  The modules are:                                                            
+
+   --------------------------------------------------------------------------
+                                                             # of
+      Module    Description                                  recs
+   --------------------------------------------------------------------------
+      FE_1                                                   2652
+      FE_2                                                  26520
+      FE_34                                                  4962
+      FE_COV                                                 2687
+      FE_TIME                                                2925
+
+USER SUPPORT                                                                   
+------------                                                                   
+    These data should be used in conjunction with the Questionnaires and Users'
+    Manuals.  Check the IFLS web page for updates and answers to frequently    
+    asked questions.  Please send all questions to ifls-supp@rand.org.         
+
+USAGE NOTES                                                                    
+-----------                                                                    
+  READING THE DICTIONARY                                                       
+    For each variable in the dataset, the dictionary provides                  
+       Variable name : Typically the question number                           
+               Label : Describes variable                                      
+    Variable coding is described as follows:                                   
+               Value : Meaning of values for coded variables                   
+           Frequency : Frequency of each value                                 
+
+SPECIAL CODES                                                                  
+-------------                                                                  
+  The following values are reserved and have a special meaning:                
+      Numeric    Alphanumeric    Meaning                                       
+     5/95/995         V          Top coded/out of range                        
+     6/96/996         W          Not applicable                                
+     7/97/997         X          Refused to answer                             
+     8/98/998         Y          Don't know                                    
+     9/99/999         Z          Missing                                       
+
+DATASET VERSION                                                                
+---------------                                                                
+  The variable VERSION identifies the release version of these data; it        
+  will be updated with each revision of the data and can be used to confirm    
+  that you are using the most recent version of the data.                      
+                                                                   17:02 Tuesday, April 10, 2018   2
+INDONESIAN FAMILY LIFE SURVEY 4: CODEBOOK                                       
+--------------------------------------------------------------------------------
+ H O U S E H O L D    S U R V E Y    C O D E B O O K                 page 4
+--------------------------------------------------------------------------------
+ B O O K :       FE
+ T O P I C :     Exit Forms
+
+--------------------------------------------------------------------------------
+                                                                         17:02 Tuesday, April 10, 2018   1
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 5
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   FE_1                                         2,652    100.00
+                   total                                        2,652    100.00
+
+EF01               Cause of death:
+
+                   Variable EF01 can have multiple responses.  Users were asked to select 
+                   all applicable responses from a list of all possible responses.  These were  
+                   concatenated together into a single character string variable which appears  
+                   in this public use file.  For example, if the interviewee selected responses 
+                   A, C, and F from the list, EF01 will have the value ACF.  If the       
+                   interviewee selected D and E, EF01 will have the value DE.  Use the key
+                   below to correctly interpret these values.                                   
+
+
+                   key for variable: EF01      A = A:Heart attack                                  
+                                               B = B:Heart problems                                
+                                               C = C:Stroke                                        
+                                               D = D:Diabetes                                      
+                                               E = E:Cancer                                        
+                                               F = F:TBC                                           
+                                               G = G:Asthma                                        
+                                               H = H:Other respiratory illness                     
+                                               I = I:Dengue fever                                  
+                                               J = J:Malaria                                       
+                                               K = K:Death in childbirth                           
+                                               L = L:Kidney failure                                
+                                               M = M:Other illnesses                               
+                                               N = N:Accident                                      
+                                               O = O:Violence / conflict                           
+                                               P = P:Suicide                                       
+                                               Y = Y:Dont know                                     
+                                               Z = Z:Missing                                       
+
+
+EF02_X             How old was [...] when he/she died? (able to answer)
+
+                   1                                            2,505     94.46
+                   8:Don't know                                   147      5.54
+                   total                                        2,652    100.00
+                                                                         17:02 Tuesday, April 10, 2018   2
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 6
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EF02               How old when died
+
+                   min:                                          0.00
+                   mean:                                        66.26
+                   max:                                        998.00
+                   #obs                                         2,505
+                   #miss:                                         147
+
+EF03_X             When did […...] pass away? (able to answer)
+
+                   1                                            2,579     97.25
+                   8:Don't know                                    73      2.75
+                   total                                        2,652    100.00
+
+EF03_MTH           When passed away (month)
+
+                   missing                                         73      2.75
+                   1:January                                      132      4.98
+                   2:February                                     107      4.03
+                   3:March                                        161      6.07
+                   4:April                                        144      5.43
+                   5:May                                          140      5.28
+                   6:June                                         160      6.03
+                   7:July                                         157      5.92
+                   8:August                                       180      6.79
+                   9:September                                    130      4.90
+                   10:October                                     163      6.15
+                   11:November                                    141      5.32
+                   12:December                                    146      5.51
+                   98:Don't know                                  818     30.84
+                   total                                        2,652    100.00
+
+EF03_YR            When passed away (year)
+
+                   min:                                       1993.00
+                   mean:                                      2026.00
+                   max:                                       9998.00
+                   #obs                                         2,579
+                   #miss:                                          73
+
+EF04               At the time of death, was [...] in a hospital, in a nursing home, at home
+
+                   1:In this house                              1,546     58.30
+                   2:In the other house                           503     18.97
+                   3:In the hospital                              510     19.23
+                   4:In nursing home                                1      0.04
+                   95:Other                                        83      3.13
+                   98:Don't know                                    9      0.34
+                   total                                        2,652    100.00
+
+EF05_X
+How many days did [...] stay in bed more than half the day because of illness or injury during the last 3 
+months before death? (able to answer)
+
+                   1                                            2,550     96.15
+                                                                         17:02 Tuesday, April 10, 2018   3
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 7
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EF05_X  continued)
+
+                   8:Don't know                                   102      3.85
+                   total                                        2,652    100.00
+
+EF05               How many days did [...] stay in bed more than half the day?
+
+                   min:                                          0.00
+                   mean:                                        20.65
+                   max:                                         90.00
+                   #obs                                         2,550
+                   #miss:                                         102
+
+EF07AX             Where (village) did [...] die? (able to answer)
+
+                   missing                                      1,546     58.30
+                   1:Given                                        567     21.38
+                   3:Same                                         286     10.78
+                   8:Don't know                                   252      9.50
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF06               CAPI CEK : EF04=01
+
+                   1:Yes --> EF08                               1,546     58.30
+                   3:No                                         1,106     41.70
+                   total                                        2,652    100.00
+
+EF07BX             Where (kecamatan) did [...] die? (able to answer)
+
+                   missing                                      1,546     58.30
+                   1:Given                                        537     20.25
+                   3:Same                                         369     13.91
+                   8:Don't know                                   199      7.50
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF07B1             Where (kecamatan) did [...] die?
+
+                   min:                                         10.00
+                   mean:                                       247.71
+                   max:                                        999.00
+                   #obs                                         1,106
+                   #miss:                                       1,546
+
+EF07CX             Where (kabupaten) did [...] die? (able to answer)
+
+                   missing                                      1,546     58.30
+                   1:Given                                        500     18.85
+                   3:Same                                         555     20.93
+                   8:Don't know                                    50      1.89
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+                                                                         17:02 Tuesday, April 10, 2018   4
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 8
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EF07C1             Where (kabupaten) did [...] die?
+
+                   min:                                          1.00
+                   mean:                                        35.71
+                   max:                                         99.00
+                   #obs                                         1,106
+                   #miss:                                       1,546
+
+EF07DX             Where (province) did [...] die? (able to answer)
+
+                   missing                                      1,546     58.30
+                   1:Given                                        342     12.90
+                   3:Same                                         739     27.87
+                   8:Don't know                                    24      0.90
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF07D1             Where (province) did [...] die?
+
+                   min:                                         11.00
+                   mean:                                        36.24
+                   max:                                         99.00
+                   #obs                                         1,106
+                   #miss:                                       1,546
+
+EF07E              Where (country) did [...] die?
+
+
+EF07EX             Where (country) did [...] die? (able to answer)
+
+                   missing                                      1,546     58.30
+                   1:Given                                        263      9.92
+                   3:Same                                         833     31.41
+                   8:Don't know                                     9      0.34
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF07E1             Where (country) did [...] die?
+
+                   min:                                         62.00
+                   mean:                                        62.62
+                   max:                                         99.00
+                   #obs                                         1,106
+                   #miss:                                       1,546
+
+EF08               CAPI CEK COV3 :>=27 YEAR
+
+                   1:Yes --> EF12                               2,334     88.01
+                   3:No                                           318     11.99
+                   total                                        2,652    100.00
+
+EF09               Did you ever attend school?
+
+                   missing                                      2,334     88.01
+                   1:Yes                                          197      7.43
+                                                                         17:02 Tuesday, April 10, 2018   5
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 9
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EF09  continued)
+
+                   3:No --> EF08                                   72      2.71
+                   8:Don't know --> EF08                           49      1.85
+                   total                                        2,652    100.00
+
+EF10               Level of education attended
+
+                   missing                                      2,455     92.57
+                   2:Elementary school                            102      3.85
+                   3:Junior High - General                         32      1.21
+                   4:Junior High - Vocational                       2      0.08
+                   5:Senior High - General                         12      0.45
+                   6:Senior High - Vocational                      14      0.53
+                   17:School for the disable                        2      0.08
+                   60:College (D1, D2, D3)                          4      0.15
+                   61:University S1                                 9      0.34
+                   72:Madrasah Ibtidaiyah                           3      0.11
+                   73:Madrasah Tsanawiyah                           4      0.15
+                   74:Madrasah Aliyah                               3      0.11
+                   90:Kindergarden                                  3      0.11
+                   95:Others                                        1      0.04
+                   98:Don't know                                    6      0.23
+                   total                                        2,652    100.00
+
+EF11               What's the highest grade you completed at this level
+
+                   missing                                      2,455     92.57
+                   0:Didn't finish 1st class at that level         10      0.38
+                   1                                               18      0.68
+                   2                                               24      0.90
+                   3                                                9      0.34
+                   4                                                9      0.34
+                   5                                                7      0.26
+                   7:Graduated                                    103      3.88
+                   98:Don't Know                                   17      0.64
+                   total                                        2,652    100.00
+
+EF12               What was[...]’sprimary activity now/before his/her death
+
+                   1:Working/trying to find income/helping        935     35.26
+                   2:Job searching                                  1      0.04
+                   3:Attending school                              50      1.89
+                   4:Housekeeping                                 250      9.43
+                   5:Retired                                      432     16.29
+                   6:Stay at home / unemployed                    338     12.75
+                   7:Sick/disable                                 608     22.93
+                   95:Other                                         6      0.23
+                   98:Don't know                                   31      1.17
+                   99:Missing                                       1      0.04
+                   total                                        2,652    100.00
+
+EF13               Primary work status - last job
+
+                   missing                                      1,717     64.74
+                   1:Self-employed                                294     11.09
+                                                                         17:02 Tuesday, April 10, 2018   6
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 10
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EF13  continued)
+
+                   2:Self employed with  unpaid family/temp       230      8.67
+                   3:Self-employed with permanent workers          13      0.49
+                   4:Government employee                           44      1.66
+                   5:Private employee                             189      7.13
+                   6:Unpaid family worker                          55      2.07
+                   7:Casual worker in agriculture                  57      2.15
+                   8:Casual worker not in agriculture              50      1.89
+                   98:Don't know                                    3      0.11
+                   total                                        2,652    100.00
+
+EF14               How is the health status of [...] before his/her death?
+
+                   1:Very healthy                                 261      9.84
+                   2:Healthy enough                             1,075     40.54
+                   3:Rather unhealthy                             848     31.98
+                   4:Very unhealthy                               443     16.70
+                   8:Don't know                                    24      0.90
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF20               Did [...]have memory problems as of one month before[he/she] died?
+
+                   1:Yes                                          379     14.29
+                   3:No --> EF22                                2,272     85.67
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF21_X             How old was [...] when memory problems became apparent?  (able to answer)
+
+                   missing                                      2,273     85.71
+                   1:Age                                          245      9.24
+                   2:Year                                         134      5.05
+                   total                                        2,652    100.00
+
+EF21_AGE           How old was [...] when memory problems became apparent?  (age)
+
+                   min:                                          0.00
+                   mean:                                        87.83
+                   max:                                        998.00
+                   #obs                                           245
+                   #miss:                                       2,407
+
+EF21_YR            How old was [...] when memory problems became apparent?  (year)
+
+                   min:                                          1.00
+                   mean:                                      1852.24
+                   max:                                       9998.00
+                   #obs                                           134
+                   #miss:                                       2,518
+
+EF22               Has [...] fallen down in the last two years?
+
+                   1:Yes                                          692     26.09
+                   3:No --> EF24                                1,959     73.87
+                                                                         17:02 Tuesday, April 10, 2018   7
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 11
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EF22  continued)
+
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF23               Hpw many times did [...] fall down in the last two years?
+
+                   min:                                          0.00
+                   mean:                                         7.28
+                   max:                                        998.00
+                   #obs                                           692
+                   #miss:                                       1,960
+
+EF24               Has [...] fractured his/her hip since we talked in the last interview?
+
+                   1:Yes                                           56      2.11
+                   3:No                                         2,595     97.85
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF25               Was [...] often troubled with pain?
+
+                   1:Not at all                                 1,134     42.76
+                   2:A little bit                                 528     19.91
+                   3:Some                                         406     15.31
+                   4:Quite a bit                                  236      8.90
+                   5:A lot                                        347     13.08
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF26               Did [...] gainor lose 5 or more kilograms in thelast 2 years of his/her life?
+
+                   1:Yes, weight gain                             181      6.83
+                   2:Yes, weight loss                             985     37.14
+                   3:Yes, first gained and then lost weight        38      1.43
+                   4:Yes, first lost and then gained weight        22      0.83
+                   5:No                                         1,425     53.73
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF27               Did [...] ever smoke cigarettes in the last two years of [his/her] life?
+
+                   1:Yes                                          807     30.43
+                   3:No --> EF29                                1,844     69.53
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF28               About how many cigarettes did [...] usually smoke in a day?
+
+                   min:                                          0.00
+                   mean:                                        60.35
+                   max:                                        998.00
+                   #obs                                           807
+                   #miss:                                       1,845
+                                                                         17:02 Tuesday, April 10, 2018   8
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 12
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EF29
+In the last two years before [his/her] death, did [...] ever drink any alcoholic beverages such as beer, w
+ine, or liquor?
+
+                   1:Yes, at least once a month                    38      1.43
+                   2:Yes, less than once a month                   26      0.98
+                   3:No                                         2,587     97.55
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF30               IADL before death
+
+                   1:Yes                                        1,019     38.42
+                   3:No -->EF32                                 1,581     59.62
+                   8:Don't know --> EF32                           51      1.92
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF31_1             For how long/since when has [...] needed help?  (days)
+
+                   min:                                          0.00
+                   mean:                                        12.20
+                   max:                                         90.00
+                   #obs                                           333
+                   #miss:                                       2,319
+
+EF31_2             For how long/since when has [...] needed help?  (month)
+
+                   min:                                          1.00
+                   mean:                                         3.29
+                   max:                                         98.00
+                   #obs                                           459
+                   #miss:                                       2,193
+
+EF31_3             For how long/since when has [...] needed help?  (year)
+
+                   min:                                          1.00
+                   mean:                                         3.92
+                   max:                                         98.00
+                   #obs                                           154
+                   #miss:                                       2,498
+
+EF31_4             For how long/since when has [...] needed help? (since age)
+
+                   min:                                          1.00
+                   mean:                                        42.50
+                   max:                                         96.00
+                   #obs                                            42
+                   #miss:                                       2,610
+
+EF31_X             For how long/since when has [...] needed help?
+
+                   missing                                      1,633     61.58
+                   1:For [… ] days                                333     12.56
+                   2:For […] months                               459     17.31
+                                                                         17:02 Tuesday, April 10, 2018   9
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 13
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EF31_X  continued)
+
+                   3:For […] years                                154      5.81
+                   4:Since age […]                                 42      1.58
+                   5:Since the year […]                            31      1.17
+                   total                                        2,652    100.00
+
+EF31_5             For how long/since when has [...] needed help?  (since year)
+
+                   min:                                          1.00
+                   mean:                                      1941.68
+                   max:                                       2014.00
+                   #obs                                            31
+                   #miss:                                       2,621
+
+EF32_X             HEALTH CARE COSTS
+
+                   1:Yes                                        2,164     81.60
+                   8:Don't know                                   487     18.36
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF32               HEALTH CARE COSTS
+
+
+EF33_X             FUNERAL COSTS
+
+                   1:Yes                                        2,149     81.03
+                   8:Don't know                                   502     18.93
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF33               FUNERAL COSTS
+
+
+EF34               Who paid for the cost of the funeral?
+
+                   Variable EF34 can have multiple responses.  Users were asked to select 
+                   all applicable responses from a list of all possible responses.  These were  
+                   concatenated together into a single character string variable which appears  
+                   in this public use file.  For example, if the interviewee selected responses 
+                   A, C, and F from the list, EF34 will have the value ACF.  If the       
+                   interviewee selected D and E, EF34 will have the value DE.  Use the key
+                   below to correctly interpret these values.                                   
+
+
+                   key for variable: EF34      A = A:Parent                                        
+                                               B = B:Parents-in-law                                
+                                               C = C:Spouse                                        
+                                               D = D:Children                                      
+                                               E = E:Law                                           
+                                               F = F:Grandson                                      
+                                               G = G:Granddaughter                                 
+                                               H = H:Siblings / relatives                          
+                                               I = I:Workplace                                     
+                                               J = J:Insurance                                     
+                                                                         17:02 Tuesday, April 10, 2018  10
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 14
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+                                               K = K:Other                                         
+                                               Z = Z:Missing                                       
+
+
+EF34_A             Who paid for the funeral? (Parent)
+
+                   min:                                          0.00
+                   mean:                                         1.44
+                   max:                                          5.00
+                   #obs                                           262
+                   #miss:                                       2,390
+
+EF34_B             Who paid for the funeral? (Parents-in-law)
+
+                   min:                                          1.00
+                   mean:                                         3.19
+                   max:                                         51.00
+                   #obs                                            27
+                   #miss:                                       2,625
+
+EF34_C             Who paid for the funeral? (Spouse)
+
+                   min:                                          0.00
+                   mean:                                         1.31
+                   max:                                         96.00
+                   #obs                                           596
+                   #miss:                                       2,056
+
+EF34_D             Who paid for the funeral? (Children)
+
+                   min:                                          0.00
+                   mean:                                         2.91
+                   max:                                         98.00
+                   #obs                                         1,404
+                   #miss:                                       1,248
+
+EF34_E             Who paid for the funeral? (Law)
+
+                   min:                                          0.00
+                   mean:                                         2.61
+                   max:                                         98.00
+                   #obs                                           228
+                   #miss:                                       2,424
+
+EF34_F             Who paid for the funeral? (Grandson)
+
+                   min:                                          0.00
+                   mean:                                         1.96
+                   max:                                          7.00
+                   #obs                                            92
+                   #miss:                                       2,560
+                                                                         17:02 Tuesday, April 10, 2018  11
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 15
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EF34_G             Who paid for the funeral? (Granddaughter)
+
+                   min:                                          0.00
+                   mean:                                         1.53
+                   max:                                          5.00
+                   #obs                                           101
+                   #miss:                                       2,551
+
+EF34_H             Who paid for the funeral? (Siblings / relatives)
+
+                   min:                                          0.00
+                   mean:                                         4.52
+                   max:                                         98.00
+                   #obs                                           360
+                   #miss:                                       2,292
+
+EF35
+Has [...] or his/her household prepared for his/her  funeral by buying a cemeteryh plot or making payments
+/acquiring membership to funeral preparation services?
+
+                   1:Yes                                          381     14.37
+                   3:No => CK1                                  2,270     85.60
+                   9:Missing                                        1      0.04
+                   total                                        2,652    100.00
+
+EF36X
+How much has [...] has spent on his/her funeral preparation until the time of his/her death?  (able to ans
+wer)
+
+                   missing                                      2,271     85.63
+                   1:Yes                                          272     10.26
+                   8:No                                           109      4.11
+                   total                                        2,652    100.00
+
+EF36
+How much has [...] has spent on his/her funeral preparation until the time of his/her death?
+
+                   min:                                          0.00
+                   mean:                                   10932366.9
+                   max:                                     999999998
+                   #obs                                           272
+                   #miss:                                       2,380
+
+HHID_MATCH          
+
+
+IDRTFE             idrtfe.Household ID
+
+
+IDRTK               
+                                                                         17:02 Tuesday, April 10, 2018  12
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 16
+book:    FE  - Exit Forms                                   
+module:  FE_1                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                         2,652
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  13
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 17
+book:    FE  - Exit Forms                                   
+module:  FE_2                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   FE_2                                        26,520    100.00
+                   total                                       26,520    100.00
+
+EF15               Has [...]ever been told by a doctor that he/she had [ ……]
+
+                   1:Yes                                        1,565      5.90
+                   3:No                                        24,945     94.06
+                   9:Missing                                       10      0.04
+                   total                                       26,520    100.00
+
+EF16_X             When was [...]first told by a doctor that [he/she] had)? (able to answer)
+
+                   missing                                     25,003     94.28
+                   1:Age                                          927      3.50
+                   2:Year                                         590      2.22
+                   total                                       26,520    100.00
+
+EF16_AGE           When was [...]first told by a doctor that [he/she] had)? (age)
+
+                   min:                                         15.00
+                   mean:                                       107.43
+                   max:                                        998.00
+                   #obs                                           927
+                   #miss:                                      25,593
+
+EF16_YR            When was [...]first told by a doctor that [he/she] had)? (year)
+
+                   min:                                       1993.00
+                   mean:                                      2523.06
+                   max:                                       9998.00
+                   #obs                                           590
+                   #miss:                                      25,930
+
+EF17_X             Since his/her last interview, did [...]have a [....]? (able to answer)
+
+                   missing                                     24,955     94.10
+                   1:Yes                                        1,026      3.87
+                   3:No                                           539      2.03
+                   total                                       26,520    100.00
+                                                                         17:02 Tuesday, April 10, 2018  14
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 18
+book:    FE  - Exit Forms                                   
+module:  FE_2                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EF17_AGE           Since his/her last interview,  when did [...]have a [....]? (age)
+
+                   min:                                         15.00
+                   mean:                                        84.72
+                   max:                                        998.00
+                   #obs                                           568
+                   #miss:                                      25,952
+
+EF17_XX            Since his/her last interview,  when did [...]have a [....]? (able to answer)
+
+                   missing                                     25,494     96.13
+                   1:Age                                          568      2.14
+                   2:Year                                         458      1.73
+                   total                                       26,520    100.00
+
+EF17_YR            Since his/her last interview,  when did [...]have a [....]? (year)
+
+                   min:                                       1998.00
+                   mean:                                      2341.63
+                   max:                                       9998.00
+                   #obs                                           458
+                   #miss:                                      26,062
+
+EF18
+.In which organ or part of [...]body does he/she have cancer? Including the origins and metastasis of tumo
+r
+
+                   missing                                     26,391     99.51
+                   A:Brain                                         15      0.06
+                   B:Mouth cavity                                   2      0.01
+                   D:Throat                                         5      0.02
+                   E:Thyroid                                        3      0.01
+                   F:Lung                                          13      0.05
+                   FL                                               1      0.00
+                   G:Breast                                        23      0.09
+                   H:Oesophagus                                     1      0.00
+                   I:Stomach                                       10      0.04
+                   J:Liver                                          8      0.03
+                   K:Pancreas                                       2      0.01
+                   M:Prostate                                       1      0.00
+                   O:uterus                                        14      0.05
+                   P:Cervix                                         2      0.01
+                   R:Colon/rectum                                   2      0.01
+                   T:Skin                                           2      0.01
+                   TV                                               1      0.00
+                   V:Other                                         20      0.08
+                   W:Leukemia                                       3      0.01
+                   WV                                               1      0.00
+                   total                                       26,520    100.00
+
+EF19
+Has he/she taken any of the following treatments to treat[...][...] in the past two years
+
+                   Variable EF19 can have multiple responses.  Users were asked to select 
+                   all applicable responses from a list of all possible responses.  These were  
+                                                                         17:02 Tuesday, April 10, 2018  15
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 19
+book:    FE  - Exit Forms                                   
+module:  FE_2                 
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+                   concatenated together into a single character string variable which appears  
+                   in this public use file.  For example, if the interviewee selected responses 
+                   A, C, and F from the list, EF19 will have the value ACF.  If the       
+                   interviewee selected D and E, EF19 will have the value DE.  Use the key
+                   below to correctly interpret these values.                                   
+
+
+                   key for variable: EF19      A = A:Traditional medicine                          
+                                               B = B:Modern medicine                               
+                                               C = C:Surgery                                       
+                                               D = D:Changes in eating patterns / diet             
+                                               E = E:Sports                                        
+                                               F = F:Control smoking                               
+                                               G = G:Chemotherapy                                  
+                                               H = H:Radiotherapy                                  
+                                               W = W:NA (no effort)                                
+                                               Z = Z:Missing                                       
+
+
+EF1TYPE            EF1type
+
+                   A:Heart attack                               2,652     10.00
+                   B:Cancer                                     2,652     10.00
+                   C:Stroke                                     2,652     10.00
+                   D:Diabetes                                   2,652     10.00
+                   E:Emotional/nervous/psychiatric problem      2,652     10.00
+                   F:Kidney                                     2,652     10.00
+                   G:TBC                                        2,652     10.00
+                   H:Demam berdarah (dengue fever)              2,652     10.00
+                   I:Malaria                                    2,652     10.00
+                   J:Asthma                                     2,652     10.00
+                   total                                       26,520    100.00
+
+PIDFE              pidfe.Person ID
+
+                   min:                                          1.00
+                   mean:                                         2.63
+                   max:                                         21.00
+                   #obs                                        26,520
+                   #miss:                                           0
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        26,520
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  16
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 20
+book:    FE  - Exit Forms                                   
+module:  FE_34                
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   FE_34                                        4,962    100.00
+                   total                                        4,962    100.00
+
+IDRTFE             idrtfe.Household ID
+
+
+PID_A              EF34_A_PID
+
+                   min:                                          1.00
+                   mean:                                        30.67
+                   max:                                         96.00
+                   #obs                                           690
+                   #miss:                                       4,272
+
+PID_B              EF34_B_PID
+
+                   min:                                          1.00
+                   mean:                                        36.61
+                   max:                                         96.00
+                   #obs                                            38
+                   #miss:                                       4,924
+
+PID_C              EF34_C_PID
+
+                   min:                                          1.00
+                   mean:                                        29.33
+                   max:                                         96.00
+                   #obs                                         1,295
+                   #miss:                                       3,667
+
+PID_D              EF34_D_PID
+
+                   min:                                          1.00
+                   mean:                                        31.73
+                   max:                                         96.00
+                   #obs                                         4,056
+                   #miss:                                         906
+                                                                         17:02 Tuesday, April 10, 2018  17
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 21
+book:    FE  - Exit Forms                                   
+module:  FE_34                
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+PID_E              EF34_E_PID
+
+                   min:                                          1.00
+                   mean:                                        47.76
+                   max:                                         96.00
+                   #obs                                         1,098
+                   #miss:                                       3,864
+
+PID_F              EF34_F_PID
+
+                   min:                                          2.00
+                   mean:                                        45.97
+                   max:                                         96.00
+                   #obs                                           693
+                   #miss:                                       4,269
+
+PID_G              EF34_G_PID
+
+                   min:                                          2.00
+                   mean:                                        44.30
+                   max:                                         51.00
+                   #obs                                           705
+                   #miss:                                       4,257
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                         4,962
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  18
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 22
+book:    FE  - Exit Forms                                   
+module:  FE_COV               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+PID14              2014 Person ID within household
+
+
+PIDPROX            PID of Proxy who answer the Exit Form
+
+                   min:                                          1.00
+                   mean:                                        27.03
+                   max:                                         96.00
+                   #obs                                         2,652
+                   #miss:                                          35
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   FE_COV                                       2,687    100.00
+                   total                                        2,687    100.00
+
+IDIVWR             Code of Interviewer  Exit Form
+
+
+LANGMAIN           Interview in what language?
+
+                   missing                                         35      1.30
+                   0:Indonesian                                 2,222     82.69
+                   1:Javanese                                     242      9.01
+                   2:Sundanese                                     54      2.01
+                   5:Bugis                                         10      0.37
+                   7:Maduranese                                    25      0.93
+                   8:Sasak                                         34      1.27
+                   9:Minang                                        41      1.53
+                   14:Palembang                                    14      0.52
+                   15:Sumbawa                                       7      0.26
+                   18:Other South Sumatra                           3      0.11
+                   total                                        2,687    100.00
+
+LANGOTHER          Other language used if any
+
+                   missing                                         35      1.30
+                   0:Indonesian                                   316     11.76
+                   1:Javanese                                     438     16.30
+                   2:Sundanese                                     71      2.64
+                   3:Balinese                                      10      0.37
+                   4:Batak                                          2      0.07
+                   5:Bugis                                         12      0.45
+                   7:Maduranese                                     7      0.26
+                   8:Sasak                                         29      1.08
+                   9:Minang                                        46      1.71
+                   10:Banjar                                        4      0.15
+                   12:Makasar                                       2      0.07
+                   13:Nias                                          6      0.22
+                                                                         17:02 Tuesday, April 10, 2018  19
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 23
+book:    FE  - Exit Forms                                   
+module:  FE_COV               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(LANGOTHER  continued)
+
+                   14:Palembang                                     9      0.33
+                   15:Sumbawa                                       1      0.04
+                   18:Other South Sumatra                          20      0.74
+                   19:Betawi                                        3      0.11
+                   95:Other                                         2      0.07
+                   96:No other                                  1,674     62.30
+                   total                                        2,687    100.00
+
+PIDFE              pidfe.Person ID
+
+                   min:                                          1.00
+                   mean:                                         2.63
+                   max:                                         21.00
+                   #obs                                         2,687
+                   #miss:                                           0
+
+RELATPROX          Relationship with the respondent in IFLS 2007
+
+                   missing                                         35      1.30
+                   1:Spouse                                       550     20.47
+                   2:Child                                        902     33.57
+                   4:Parent                                       233      8.67
+                   5:Sibling                                      133      4.95
+                   6:Law                                          250      9.30
+                   95:Other                                       584     21.73
+                   total                                        2,687    100.00
+
+REASON             Reson for  C1
+
+                   missing                                      2,651     98.66
+                   1:Resnot at home                                 8      0.30
+                   2:Reswas ill                                     1      0.04
+                   3:Resrefused                                    27      1.00
+                   total                                        2,687    100.00
+
+RESULT             Results of Exit Form Interview
+
+                   1:Completed                                  2,651     98.66
+                   2:Partially completed                            1      0.04
+                   3:Not completed                                 35      1.30
+                   total                                        2,687    100.00
+
+SEXPROX            Respondent's sex
+
+                   missing                                         35      1.30
+                   1:Male                                       1,330     49.50
+                   3:Female                                     1,322     49.20
+                   total                                        2,687    100.00
+
+RESVIS             Result of Exit Form Visit
+
+                   1:Yes                                        2,652     98.70
+                   3:No                                            35      1.30
+                   total                                        2,687    100.00
+                                                                         17:02 Tuesday, April 10, 2018  20
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 24
+book:    FE  - Exit Forms                                   
+module:  FE_COV               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+
+SUP_EDIT           Edited by local supervisor
+
+                   1:Yes                                           47      1.75
+                   3:No                                         2,640     98.25
+                   total                                        2,687    100.00
+
+SUP_OBS            Observed by local supervisor
+
+                   1:Yes                                          204      7.59
+                   3:No                                         2,483     92.41
+                   total                                        2,687    100.00
+
+SUP_VERI           Verificated by local supervisor
+
+                   1:Yes                                           38      1.41
+                   3:No                                         2,649     98.59
+                   total                                        2,687    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                         2,687
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  21
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 25
+book:    FE  - Exit Forms                                   
+module:  FE_TIME              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   FE_TIME                                      2,925    100.00
+                   total                                        2,925    100.00
+
+BEGHR              Time interview began (hour)
+
+                   min:                                          0.00
+                   mean:                                        14.75
+                   max:                                         23.00
+                   #obs                                         2,925
+                   #miss:                                           0
+
+BEGMIN             Time interview began (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.51
+                   max:                                         59.00
+                   #obs                                         2,925
+                   #miss:                                           0
+
+ENDHR              Time interview ended (hour)
+
+                   min:                                          0.00
+                   mean:                                        14.88
+                   max:                                         23.00
+                   #obs                                         2,925
+                   #miss:                                           0
+
+ENDMIN             Time interview ended (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.56
+                   max:                                         59.00
+                   #obs                                         2,925
+                   #miss:                                           0
+
+IVWDAY             Date of intrvw (day)
+
+                   min:                                          1.00
+                   mean:                                        15.94
+                   max:                                         31.00
+                   #obs                                         2,925
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  22
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 26
+book:    FE  - Exit Forms                                   
+module:  FE_TIME              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+IVWMTH             Date of interview (month)
+
+                   min:                                          1.00
+                   mean:                                         7.32
+                   max:                                         12.00
+                   #obs                                         2,925
+                   #miss:                                           0
+
+IVWYR              Date of Visit (year)
+
+                   min:                                       2014.00
+                   mean:                                      2014.45
+                   max:                                       2015.00
+                   #obs                                         2,925
+                   #miss:                                           0
+
+PIDFE              pidfe.Person ID
+
+                   min:                                          1.00
+                   mean:                                         2.61
+                   max:                                         21.00
+                   #obs                                         2,925
+                   #miss:                                           0
+
+TIME_OCC           Serial number
+
+                   min:                                          1.00
+                   mean:                                         1.11
+                   max:                                          9.00
+                   #obs                                         2,925
+                   #miss:                                           0
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                         2,925
+                   #miss:                                           0

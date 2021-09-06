@@ -1,0 +1,2053 @@
+                                                                                                                                                                                                                               17:02 Tuesday, April 10, 2018   1
+     ===================================================================
+
+         IIII     FFFFFFF     LLL          SSSSSS         555555555     
+          II       FF   F     LL          SS    SS        55            
+          II       FF         LL          SS     S        55            
+          II       FF         LL          SSS             5555555       
+          II       FFFFF      LL           SSSSS               5555     
+          II       FF         LL            SSSSS                555    
+          II       FF         LL               SSS                55    
+          II       FF         LL          S     SS        55      55    
+          II       FF         LL     L    SS    SS        555    555    
+         IIII     FFFF        LLLLLLLL     SSSSSS           555555      
+
+     ===================================================================
+
+
+
+     I N D O N E S I A N    F A M I L Y    L I F E    S U R V E Y    5  
+
+       A survey of individuals, households, families, communities       
+          and facilities conducted in 13 provinces in Indonesia         
+                   between November 2014 and July 2015                  
+
+     ===================================================================
+
+                               Directed by                              
+
+                      John Strauss, RAND and USC                        
+
+                      Firman Witoelar, Survey Meter                     
+
+                       Bondan Sikoki, Survey Meter                      
+
+
+     ===================================================================
+
+     Financial support for the Indonesian Family Life Survey Wave 5 has 
+     been provided by the National Institute of Aging grant number 2R01 
+     AG026676-05, the National Institute of Child and Human Development,
+     grant number 2R01 HD050764-05A1, and grants from the World Bank,   
+     Indonesia and GRM International, Australia from DFAT, the Departmen
+     of Foreign Affairs and Trade, Government of Australia              
+
+     ===================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+              Website: http://www.rand.org/FLS/IFLS                     
+          Send all questions to ifls-supp@rand.org                      
+
+
+                       Copyright (2009)                                 
+INDONESIAN FAMILY LIFE SURVEY 5: CODEBOOK                               page 2  
+                                                                                                                                                                                                                               17:02 Tuesday, April 10, 2018   2
+
+
+
+
+
+
+================================================================================
+
+          H   H   OOO    U   U    SS    EEEE   H   H   OOO   L     DDDD         
+          H   H  O   O   U   U   S  S   E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U   S      E      H   H  O   O  L     D   D        
+          HHHHH  O   O   U   U    S     EEEE   HHHHH  O   O  L     D   D        
+          H   H  O   O   U   U     S    E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U      S   E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U   S  S   E      H   H  O   O  L     D   D        
+          H   H   OOO     UUU     SS    EEEE   H   H   OOO   LLLL  DDDD         
+
+
+                    SS    U   U   RRR    V    V    EEEE   Y    Y                
+                   S  S   U   U   R  R   V    V    E      Y    Y                
+                   S      U   U   R  R   V    V    E       Y  Y                 
+                    S     U   U   RRR    V    V    EEE       Y                  
+                     S    U   U   R R     V  V     E         Y                  
+                      S   U   U   R  R    V  V     E         Y                  
+                   S  S   U   U   R  R     V       E         Y                  
+                    SS     UUU    R  R     V       EEEE      Y                  
+
+
+            CCC    OOO    DDDD    EEEE   BBBB     OOO     OOO    K   K          
+           C   C  O   O   D   D   E      B   B   O   O   O   O   K  K           
+           C      O   O   D   D   E      B   B   O   O   O   O   K K            
+           C      O   O   D   D   EEE    BBBB    O   O   O   O   KK             
+           C      O   O   D   D   E      B   B   O   O   O   O   KK             
+           C      O   O   D   D   E      B   B   O   O   O   O   K K            
+           C   C  O   O   D   D   E      B   B   O   O   O   O   K  K           
+            CCC    OOO    DDDD    EEEE   BBBB     OOO     OOO    K   K          
+
+================================================================================
+
+ B O O K :       BUS                                            
+ T O P I C :     HEALTH MEASUREMENTS                                           
+
+================================================================================
+
+
+
+
+
+
+
+
+
+
+
+                               Prepared by                                      
+                Roald Euller, John Strauss, Firman Witolar                      
+                     Created on 10APR2018 at 17:02                           
+                                                                   17:02 Tuesday, April 10, 2018   1
+INDONESIAN FAMILY LIFE SURVEY 4: CODEBOOK                                       
+--------------------------------------------------------------------------------
+ H O U S E H O L D    S U R V E Y    C O D E B O O K                 page 3
+--------------------------------------------------------------------------------
+ B O O K :       BUS
+ T O P I C :     Health Measurements
+
+--------------------------------------------------------------------------------
+
+DATA FILES                                                                    
+----------                                                                    
+  Data are available in SAS (9.2) export and STATA (8.0) formats.             
+  Data and electronic documentation are available on the IFLS website.        
+
+  The survey instrument contains multiple sections.  Where possible, sections 
+  have been merged together to form a single data module.  The modules are    
+  organized by level of observation.  The module names are listed below.  They
+  serve as the names of the SAS and STATA data files. The codebook is also    
+  organised by module.                                                        
+
+  The modules are:                                                            
+
+   --------------------------------------------------------------------------
+                                                             # of
+      Module    Description                                  recs
+   --------------------------------------------------------------------------
+      BUS_COV                                               52580
+      BUS_TIME                                              55036
+      BUS_US                                                48139
+
+USER SUPPORT                                                                   
+------------                                                                   
+    These data should be used in conjunction with the Questionnaires and Users'
+    Manuals.  Check the IFLS web page for updates and answers to frequently    
+    asked questions.  Please send all questions to ifls-supp@rand.org.         
+
+USAGE NOTES                                                                    
+-----------                                                                    
+  READING THE DICTIONARY                                                       
+    For each variable in the dataset, the dictionary provides                  
+       Variable name : Typically the question number                           
+               Label : Describes variable                                      
+    Variable coding is described as follows:                                   
+               Value : Meaning of values for coded variables                   
+           Frequency : Frequency of each value                                 
+
+SPECIAL CODES                                                                  
+-------------                                                                  
+  The following values are reserved and have a special meaning:                
+      Numeric    Alphanumeric    Meaning                                       
+     5/95/995         V          Top coded/out of range                        
+     6/96/996         W          Not applicable                                
+     7/97/997         X          Refused to answer                             
+     8/98/998         Y          Don't know                                    
+     9/99/999         Z          Missing                                       
+
+DATASET VERSION                                                                
+---------------                                                                
+  The variable VERSION identifies the release version of these data; it        
+  will be updated with each revision of the data and can be used to confirm    
+  that you are using the most recent version of the data.                      
+
+NOTES ON BOOKS US1 AND US2                                                 
+                                                                   17:02 Tuesday, April 10, 2018   2
+INDONESIAN FAMILY LIFE SURVEY 4: CODEBOOK                                       
+--------------------------------------------------------------------------------
+ H O U S E H O L D    S U R V E Y    C O D E B O O K                 page 4
+--------------------------------------------------------------------------------
+ B O O K :       BUS
+ T O P I C :     Health Measurements
+
+--------------------------------------------------------------------------------
+--------------------------                                                 
+
+  Two specially trained nurses recorded                                    
+  physical measurements of health for household members.  The              
+  heath workers (usually newly trained nurses) visited each                
+  household (often multiple times) to record various measures of           
+  physical health for each household member.  The health workers           
+  received special training in taking the measurements, which              
+  included height, weight and head circumference (all members),            
+  waist and hip circumference (members 40 years and older),                
+  blood pressure and pulse (members 15 and older), lung capacity           
+  (members 9 and older), and hemoglobin (members 1 year and                
+  older).  In addition, respondents 15 and older were timed                
+  while they rose from a sitting to a standing position five               
+  times (nurses brought plastic stools for the respondents to              
+  sit on).  The nurses also assessed each respondent's health              
+  status on a nine-point scale.  In addition to individual                 
+  measurements, the iodine content of the household's salt was             
+  tested.  The head, waist and hip circumferences are new to               
+  IFLS5.  The latter two help to measure body fat content, which           
+  conditional on BMI, can be used to indicate risk of chronic              
+  health problems such as high blood pressure, diabetes, and               
+  generally cardiovascular diseases among the older population.            
+
+
+  To link records across waves of the IFLS, use PIDLINK.  It is                 
+  a unique person identifier which is the same in IFLS1, 2, 2+, 3,              
+  4, and 5 for a particular individual.  It may also be used to                 
+  link records within IFLS5, except that as is described in                     
+  Volume 2 of the User's Guide, a person if they moved                          
+  households since IFLS1 may be found in multiple households                    
+  with PIDLINK.  However there will be only 1 household in                      
+  which the respondent currently resides, which can be found by                 
+  examining variable ar01a in Book K, which is equal to 1 or 5 if               
+  the respondent is a resident.                                                 
+
+  PIDLINK is a string variable comprising 9 digits.  For a                      
+  respondent in IFLS1, 2, 2+, or 3. PIDLINK is made up of HHID for              
+  the wave in which they were first found, followed by 00 and                   
+  then the person identifier, PID, for that wave of IFLS.  For                  
+  a new respondent in IFLS5, PIDLINK is made up of HHID14 and                   
+  PID14.                                                                        
+
+
+  In IFLS5, HHID14 is a seven digit character variable whose digits carry       
+  the following meaning:                                                        
+
+                  x  x  x           x  x                    x  x                
+                  -------    ------------------        ---------------          
+                    EA       specific household        origin/split-off         
+
+  In the last two digits, 00 designates an origin household.  For a split-off   
+  household, the 6th digit is either 1, 2, 3 or 4 depending on which wave the   
+  split-off first appeared.  Split-offs from IFLS2 have their sixth digit equal 
+  to 1, while split-off households first appearing in IFLS2+ have a 2, new      
+                                                                   17:02 Tuesday, April 10, 2018   3
+INDONESIAN FAMILY LIFE SURVEY 4: CODEBOOK                                       
+--------------------------------------------------------------------------------
+ H O U S E H O L D    S U R V E Y    C O D E B O O K                 page 5
+--------------------------------------------------------------------------------
+ B O O K :       BUS
+ T O P I C :     Health Measurements
+
+--------------------------------------------------------------------------------
+  split-offs in 2000 have a 3, and new 2007 split-off have a 4.  The 7th digit  
+  indicates whether it is the first, second, or other split-off (some multiple  
+  split-offs occurred).                                                         
+
+  Note that the enumeration area identifier used to define a               
+  household contains no information about the current whereabouts          
+  of the household unless it has not moved.  The location of the           
+  household is recorded in BK_SC.                                          
+                                                                         17:02 Tuesday, April 10, 2018   1
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 6
+book:    BUS  - Health Measurements                                   
+module:  BUS_COV              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   BUS_COV                                     52,580    100.00
+                   total                                       52,580    100.00
+
+IDIVWR             Interviewer ID code
+
+
+LANGMAIN           Language of interview?
+
+                   0:Indonesian                                47,111     89.60
+                   1:Javanese                                   2,689      5.11
+                   2:Sundanese                                    871      1.66
+                   3:Balinese                                      11      0.02
+                   4:Batak                                          6      0.01
+                   5:Bugis                                         78      0.15
+                   6:Chinese                                        2      0.00
+                   7:Maduranese                                   211      0.40
+                   8:Sasak                                        539      1.03
+                   9:Minang                                       717      1.36
+                   10:Banjar                                        2      0.00
+                   11:Bima                                          1      0.00
+                   12:Makasar                                       9      0.02
+                   13:Nias                                          9      0.02
+                   14:Palembang                                   194      0.37
+                   15:Sumbawa                                      11      0.02
+                   17:Lahat                                        10      0.02
+                   18:Other South Sumatra                          64      0.12
+                   20:Lampung                                       1      0.00
+                   95:Other                                         1      0.00
+                   96:No other                                     43      0.08
+                   total                                       52,580    100.00
+
+LANGOTH            Other language used if any?
+
+                   0:Indonesian                                 4,613      8.77
+                   1:Javanese                                   8,738     16.62
+                   2:Sundanese                                  1,134      2.16
+                   3:Balinese                                     157      0.30
+                   4:Batak                                         35      0.07
+                   5:Bugis                                        151      0.29
+                   6:Chinese                                       10      0.02
+                   7:Maduranese                                   186      0.35
+                                                                         17:02 Tuesday, April 10, 2018   2
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 7
+book:    BUS  - Health Measurements                                   
+module:  BUS_COV              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(LANGOTH  continued)
+
+                   8:Sasak                                        706      1.34
+                   9:Minang                                       890      1.69
+                   10:Banjar                                        3      0.01
+                   11:Bima                                          5      0.01
+                   12:Makasar                                      24      0.05
+                   13:Nias                                         56      0.11
+                   14:Palembang                                   230      0.44
+                   15:Sumbawa                                      28      0.05
+                   16:Toraja                                       10      0.02
+                   17:Lahat                                        11      0.02
+                   18:Other South Sumatra                         519      0.99
+                   19:Betawi                                      117      0.22
+                   95:Other                                        37      0.07
+                   96:No other                                 34,920     66.41
+                   total                                       52,580    100.00
+
+REASON             Reason not completed
+
+                   missing                                     47,977     91.25
+                   1:Resp. not at home                          1,371      2.61
+                   2:Resp. seriously ill                          250      0.48
+                   3:Resp. refused                              2,750      5.23
+                   5:Other                                        232      0.44
+                   total                                       52,580    100.00
+
+RESULT             Result of interview
+
+                   1:Completed -->C4                           47,977     91.25
+                   2:Partially completed                          162      0.31
+                   3:Not completed                              4,441      8.45
+                   total                                       52,580    100.00
+
+SUP_EDIT           Reviewed by local supervisor
+
+                   1:Yes                                        1,612      3.07
+                   3:No                                        50,968     96.93
+                   total                                       52,580    100.00
+
+SUP_OBS            Observed by local supervisor
+
+                   1:Yes                                        5,486     10.43
+                   3:No                                        47,094     89.57
+                   total                                       52,580    100.00
+
+SUP_VERIF          Verified local supervisor
+
+                   1:Yes                                        1,133      2.15
+                   3:No                                        51,447     97.85
+                   total                                       52,580    100.00
+
+US00               Respondent measured?
+
+                   1:Yes                                       48,139     91.55
+                   3:Why not measured -->C1                       996      1.89
+                                                                         17:02 Tuesday, April 10, 2018   3
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 8
+book:    BUS  - Health Measurements                                   
+module:  BUS_COV              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(US00  continued)
+
+                   6:Could not be contacted -->C1                 894      1.70
+                   7:Refused -->C1                              2,551      4.85
+                   total                                       52,580    100.00
+
+US00A              As we have informed you earlier,
+
+                   Variable US00A can have multiple responses.  Users were asked to select 
+                   all applicable responses from a list of all possible responses.  These were  
+                   concatenated together into a single character string variable which appears  
+                   in this public use file.  For example, if the interviewee selected responses 
+                   A, C, and F from the list, US00A will have the value ACF.  If the       
+                   interviewee selected D and E, US00A will have the value DE.  Use the key
+                   below to correctly interpret these values.                                   
+
+
+                   key for variable: US00A     A = A:Physical examination                          
+                                               B = B:Blood hemoglobin test                         
+                                               C = C:Take dried blood spot                         
+                                               D = D:Store the DBS for future analysis of c-reac   
+                                               W = W:consent not asked                             
+                                               Z = Z:Missing                                       
+
+
+US01               Sex
+
+                   missing                                      4,441      8.45
+                   1:Male                                      23,236     44.19
+                   3:Female                                    24,903     47.36
+                   total                                       52,580    100.00
+
+US02DAY            Date of birth (day)
+
+                   min:                                          1.00
+                   mean:                                        15.94
+                   max:                                         98.00
+                   #obs                                        48,139
+                   #miss:                                       4,441
+
+US02MTH            Date of birth (month)
+
+                   missing                                      4,441      8.45
+                   1:January                                    3,273      6.22
+                   2:February                                   3,164      6.02
+                   3:March                                      3,612      6.87
+                   4:April                                      3,805      7.24
+                   5:May                                        4,170      7.93
+                   6:June                                       4,064      7.73
+                   7:July                                       4,421      8.41
+                   8:August                                     4,110      7.82
+                   9:September                                  5,797     11.03
+                   10:October                                   3,601      6.85
+                   11:N0vember                                  3,258      6.20
+                   12:December                                  4,393      8.35
+                   98:DK                                          471      0.90
+                                                                         17:02 Tuesday, April 10, 2018   4
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 9
+book:    BUS  - Health Measurements                                   
+module:  BUS_COV              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+                   total                                       52,580    100.00
+
+US02YR             Date of birth (year)
+
+                   min:                                       1907.00
+                   mean:                                      1999.97
+                   max:                                       9998.00
+                   #obs                                        48,139
+                   #miss:                                       4,441
+
+US03               Age
+
+                   min:                                          0.00
+                   mean:                                        28.36
+                   max:                                        998.00
+                   #obs                                        48,139
+                   #miss:                                       4,441
+
+US13AA             DBS sample
+
+                   missing                                      4,441      8.45
+                   1:Yes                                        7,720     14.68
+                   3:No                                        40,419     76.87
+                   total                                       52,580    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        52,580
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018   5
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 10
+book:    BUS  - Health Measurements                                   
+module:  BUS_TIME             
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   BUS_TIME                                    55,036    100.00
+                   total                                       55,036    100.00
+
+BEGHR              Time interview book US began (hour)
+
+                   min:                                          0.00
+                   mean:                                        16.15
+                   max:                                         23.00
+                   #obs                                        55,036
+                   #miss:                                           0
+
+BEGMIN             Time interview book US began (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.62
+                   max:                                         59.00
+                   #obs                                        55,036
+                   #miss:                                           0
+
+ENDHR              Time interview book US ended (hour)
+
+                   min:                                          0.00
+                   mean:                                        16.31
+                   max:                                         23.00
+                   #obs                                        55,036
+                   #miss:                                           0
+
+ENDMIN             Time interview book US ended (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.57
+                   max:                                         59.00
+                   #obs                                        55,036
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018   6
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 11
+book:    BUS  - Health Measurements                                   
+module:  BUS_TIME             
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+IVWDAY             Date of interview (day of month)
+
+                   min:                                          1.00
+                   mean:                                        15.91
+                   max:                                         31.00
+                   #obs                                        55,036
+                   #miss:                                           0
+
+IVWMTH             Date of interview (month)
+
+                   min:                                          1.00
+                   mean:                                         6.86
+                   max:                                         12.00
+                   #obs                                        55,036
+                   #miss:                                           0
+
+IVWYR              Date of interview (year)
+
+                   min:                                       2009.00
+                   mean:                                      2014.55
+                   max:                                       2016.00
+                   #obs                                        55,036
+                   #miss:                                           0
+
+TIME_OCC           Time Occurrence
+
+                   min:                                          1.00
+                   mean:                                         1.05
+                   max:                                          7.00
+                   #obs                                        55,036
+                   #miss:                                           0
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        55,036
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018   7
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 12
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   BUS_US                                      48,139    100.00
+                   total                                       48,139    100.00
+
+US04X              Height measured?
+
+                   1:Yes                                       47,859     99.42
+                   3:Why not measured                             189      0.39
+                   7:Refused                                       91      0.19
+                   total                                       48,139    100.00
+
+US04               Height (cm)
+
+                   min:                                         42.00
+                   mean:                                       142.79
+                   max:                                        198.00
+                   #obs                                        47,859
+                   #miss:                                         280
+
+US04_CD            Reason  height not measured
+
+                   missing                                     47,950     99.61
+                   1:R felt it would not be safe                   34      0.07
+                   2:interviewer felt it would not be safe         23      0.05
+                   3:R tried but was unable to complete the        14      0.03
+                   5:R's health condition prevent measureme       104      0.22
+                   6:R has rash, a cast, edema, open sores          1      0.00
+                   7:R's hand had surgery, swelling, inflam         2      0.00
+                   8:R recently had surgery/injury/conditio         9      0.02
+                   9:no suitable space                              1      0.00
+                   10:problem with equipment or supplies            1      0.00
+                   total                                       48,139    100.00
+
+US05               Method of measuring
+
+                   missing                                        280      0.58
+                   1:Standing                                  45,856     95.26
+                   3:Lying                                      2,003      4.16
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018   8
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 13
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US05AX             Knee height (>=40 years)
+
+                   1:Measured                                  13,237     27.50
+                   3:Reason not measured                          104      0.22
+                   6:<40 years                                 34,785     72.26
+                   7:Refused                                       12      0.02
+                   9:Missing                                        1      0.00
+                   total                                       48,139    100.00
+
+US05A              Knee height
+
+                   min:                                         19.20
+                   mean:                                        47.52
+                   max:                                        151.20
+                   #obs                                        13,237
+                   #miss:                                      34,902
+
+US05A_CD           Reason not knee height was not measured
+
+                   missing                                     48,035     99.78
+                   1:R felt it would not be safe                   14      0.03
+                   2:interviewer felt it would not be safe         12      0.02
+                   4:R did not understand instructions              3      0.01
+                   5:R's health condition prevent measureme        70      0.15
+                   7:R's hand had surgery, swelling, inflam         2      0.00
+                   8:R recently had surgery/injury/conditio         3      0.01
+                   total                                       48,139    100.00
+
+US05B              Left or right knee?
+
+                   missing                                     34,798     72.29
+                   1:Left                                         160      0.33
+                   3:Right                                     13,077     27.17
+                   6:NA                                           104      0.22
+                   total                                       48,139    100.00
+
+US05CX             measuring the length of the upper arm
+
+                   1:Measured                                  13,275     27.58
+                   3:Reason not measured                           65      0.14
+                   6:<40 years                                 34,785     72.26
+                   7:Refused                                       14      0.03
+                   total                                       48,139    100.00
+
+US05C              Measuring the length of the upper arm
+
+                   min:                                         12.80
+                   mean:                                        33.62
+                   max:                                         98.80
+                   #obs                                        13,275
+                   #miss:                                      34,864
+                                                                         17:02 Tuesday, April 10, 2018   9
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 14
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US05C_CD           Reason not measuring the length of the upper arm
+
+                   missing                                     48,074     99.86
+                   1:R felt it would not be safe                    8      0.02
+                   2:interviewer felt it would not be safe          9      0.02
+                   4:R did not understand instructions              2      0.00
+                   5:R's health condition prevent measureme        42      0.09
+                   7:R's hand had surgery, swelling, inflam         2      0.00
+                   8:R recently had surgery/injury/conditio         2      0.00
+                   total                                       48,139    100.00
+
+US05D              Left or right arm?
+
+                   missing                                     34,799     72.29
+                   1:Left                                         209      0.43
+                   3:Right                                     13,066     27.14
+                   6:NA                                            65      0.14
+                   total                                       48,139    100.00
+
+US05_0             INTRO: KNEE HEIGHT MEASUREMENT GUIDE
+
+                   missing                                         91      0.19
+                   1:Enter 1 to be continue                    48,048     99.81
+                   total                                       48,139    100.00
+
+US05_00            INTRO: UPPER ARM LENGTH
+
+                   missing                                     34,798     72.29
+                   1:Enter 1 to continue                       13,341     27.71
+                   total                                       48,139    100.00
+
+US06               Weight (kg)
+
+                   min:                                          1.50
+                   mean:                                        45.97
+                   max:                                        142.30
+                   #obs                                        47,929
+                   #miss:                                         210
+
+US06AX             Waist circumference measured
+
+                   1:Yes                                       13,223     27.47
+                   3:Why not measured                             116      0.24
+                   6:< 40                                      34,785     72.26
+                   7:Refused                                       15      0.03
+                   total                                       48,139    100.00
+
+US06A              Waist circumference (cm)
+
+                   min:                                         32.00
+                   mean:                                        84.02
+                   max:                                        150.00
+                   #obs                                        13,223
+                   #miss:                                      34,916
+                                                                         17:02 Tuesday, April 10, 2018  10
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 15
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US06A_CD           Reason waist circumference not measured
+
+                   missing                                     48,023     99.76
+                   1:R felt it would not be safe                   17      0.04
+                   2:interviewer felt it would not be safe         17      0.04
+                   4:R did not understand instructions              3      0.01
+                   5:R's health condition prevent measureme        73      0.15
+                   6:R has rash, a cast, edema, open sores          1      0.00
+                   7:R's hand had surgery, swelling, inflam         2      0.00
+                   8:R recently had surgery/injury/conditio         3      0.01
+                   total                                       48,139    100.00
+
+US06BX             Hip circumference measured
+
+                   1:Yes                                       13,209     27.44
+                   3:Why not measured                             131      0.27
+                   6:< 40                                      34,785     72.26
+                   7:Refused                                       14      0.03
+                   total                                       48,139    100.00
+
+US06B              Hip circumference (cm)
+
+                   min:                                         47.60
+                   mean:                                        92.46
+                   max:                                        180.00
+                   #obs                                        13,209
+                   #miss:                                      34,930
+
+US06X              Weight measured?
+
+                   1:Yes                                       47,929     99.56
+                   3:Why not measured                             194      0.40
+                   7:Refused                                       15      0.03
+                   9:Missing                                        1      0.00
+                   total                                       48,139    100.00
+
+US06B_CD           Reason hip circumference not measured
+
+                   missing                                     48,008     99.73
+                   1:R felt it would not be safe                   18      0.04
+                   2:interviewer felt it would not be safe         20      0.04
+                   4:R did not understand instructions              3      0.01
+                   5:R's health condition prevent measureme        82      0.17
+                   6:R has rash, a cast, edema, open sores          1      0.00
+                   7:R's hand had surgery, swelling, inflam         2      0.00
+                   8:R recently had surgery/injury/conditio         5      0.01
+                   total                                       48,139    100.00
+
+US06_0             INTRO: WEIGHT AND HEIGHT MEASUREMENT
+
+                   1:Enter 1 to  continue                      48,139    100.00
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  11
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 16
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US06_00            INTRO : Waist circumference measured and hip circumference measured
+
+                   min:                                          1.00
+                   mean:                                         1.00
+                   max:                                          1.00
+                   #obs                                        13,340
+                   #miss:                                      34,799
+
+US06_CD            Code of reason why weight was not  measured
+
+                   missing                                     47,945     99.60
+                   1:R felt it would not be safe                   20      0.04
+                   2:interviewer felt it would not be safe         12      0.02
+                   3:R tried but was unable to complete the         4      0.01
+                   5:R's health condition prevent measureme        90      0.19
+                   7:R's hand had surgery, swelling, inflam         1      0.00
+                   8:R recently had surgery/injury/conditio         8      0.02
+                   missing                                         59      0.12
+                   total                                       48,139    100.00
+
+US07A1             Blood pressure - systolic  (1st measurement)
+
+                   min:                                         64.00
+                   mean:                                       129.28
+                   max:                                        246.00
+                   #obs                                        32,558
+                   #miss:                                      15,581
+
+US07A2             Blood pressure - diastolic (1st measurement)
+
+                   min:                                         35.00
+                   mean:                                        79.35
+                   max:                                        220.00
+                   #obs                                        32,558
+                   #miss:                                      15,581
+
+US07AA
+Do you have a rash, a cast, edema (swelling) in the arm, etwhere the blood pressure cuff will be in contac
+t?
+
+                   1:Yes                                        2,026      4.21
+                   3:No                                        30,783     63.95
+                   6:Age < 15                                  15,330     31.85
+                   total                                       48,139    100.00
+
+US07AX             Blood pressure (1st measurement) (able to measure)
+
+                   1:Yes                                       32,558     67.63
+                   3:Why not measured                             234      0.49
+                   6:Age < 15                                  15,330     31.85
+                   7:Refused                                       17      0.04
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  12
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 17
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US07AP             Pulse
+
+                   min:                                         10.00
+                   mean:                                        77.19
+                   max:                                        189.00
+                   #obs                                        32,558
+                   #miss:                                      15,581
+
+US07A_1            Left or right arm
+
+                   missing                                     15,347     31.88
+                   1:Left                                      32,555     67.63
+                   3:Right                                          3      0.01
+                   6:NA                                           234      0.49
+                   total                                       48,139    100.00
+
+US07A_CD           Reason  Blood pressure  not measured (1st measurement)
+
+                   missing                                     47,905     99.51
+                   1:R felt it would not be safe                   38      0.08
+                   2:interviewer felt it would not be safe         20      0.04
+                   3:R tried but was unable to complete the        58      0.12
+                   4:R did not understand instructions              1      0.00
+                   5:R's health condition prevent measureme        16      0.03
+                   6:R has rash, a cast, edema, open sores         26      0.05
+                   7:R's hand had surgery, swelling, inflam        11      0.02
+                   8:R recently had surgery/injury/conditio        11      0.02
+                   9:no suitable space                              7      0.01
+                   10:problem with equipment or supplies           46      0.10
+                   total                                       48,139    100.00
+
+US07B1             Blood pressure -systolic  (2nd measurement)
+
+                   min:                                         67.00
+                   mean:                                       129.15
+                   max:                                        245.00
+                   #obs                                        32,572
+                   #miss:                                      15,567
+
+US07B2             Blood pressure - diastolic (2nd measurement)
+
+                   min:                                         32.00
+                   mean:                                        78.66
+                   max:                                        168.00
+                   #obs                                        32,572
+                   #miss:                                      15,567
+
+US07BX             Blod pressure (2nd measurement) (able to measure)
+
+                   1:Yes                                       32,572     67.66
+                   3:Why not measured                             220      0.46
+                   6:Age < 15                                  15,330     31.85
+                   7:Refused                                       17      0.04
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  13
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 18
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US07BP             Pulse  (2nd measurement)
+
+                   min:                                          9.00
+                   mean:                                        76.74
+                   max:                                        199.00
+                   #obs                                        32,572
+                   #miss:                                      15,567
+
+US07B_1            Left or right arm
+
+                   missing                                     15,347     31.88
+                   1:Left                                           4      0.01
+                   3:Right                                     32,568     67.65
+                   6:NA                                           220      0.46
+                   total                                       48,139    100.00
+
+US07B_CD           Reason  Blood pressure  not measured (2nd measurement)
+
+                   missing                                     47,919     99.54
+                   1:R felt it would not be safe                   21      0.04
+                   2:interviewer felt it would not be safe          5      0.01
+                   3:R tried but was unable to complete the        82      0.17
+                   5:R's health condition prevent measureme        20      0.04
+                   6:R has rash, a cast, edema, open sores         17      0.04
+                   7:R's hand had surgery, swelling, inflam         2      0.00
+                   8:R recently had surgery/injury/conditio         2      0.00
+                   9:no suitable space                              8      0.02
+                   10:problem with equipment or supplies           63      0.13
+                   total                                       48,139    100.00
+
+US07C1             Blood pressure -systolic  (3rd measurement)
+
+                   min:                                         66.00
+                   mean:                                       125.75
+                   max:                                        242.00
+                   #obs                                        32,508
+                   #miss:                                      15,631
+
+US07C2             Blood pressure - diastolic (3rd measurement)
+
+                   min:                                          1.00
+                   mean:                                        78.10
+                   max:                                        170.00
+                   #obs                                        32,508
+                   #miss:                                      15,631
+
+US07CX             Blod pressure (3rd measurement) (able to measure)
+
+                   1:Yes                                       32,508     67.53
+                   3:Why not measured                             280      0.58
+                   6:Age < 15                                  15,330     31.85
+                   7:Refused                                       21      0.04
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  14
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 19
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US07CP             Pulse  (3rd measurement)
+
+                   min:                                          0.00
+                   mean:                                        77.09
+                   max:                                        199.00
+                   #obs                                        32,508
+                   #miss:                                      15,631
+
+US07C_1            Left or right arm
+
+                   missing                                     15,351     31.89
+                   1:Left                                      32,505     67.52
+                   3:Right                                          3      0.01
+                   6:NA                                           280      0.58
+                   total                                       48,139    100.00
+
+US07C_CD           Reason  Blood pressure  not measured (3rd measurement)
+
+                   missing                                     47,859     99.42
+                   1:R felt it would not be safe                   44      0.09
+                   2:interviewer felt it would not be safe         23      0.05
+                   3:R tried but was unable to complete the        79      0.16
+                   5:R's health condition prevent measureme        21      0.04
+                   6:R has rash, a cast, edema, open sores         27      0.06
+                   7:R's hand had surgery, swelling, inflam        12      0.02
+                   8:R recently had surgery/injury/conditio         8      0.02
+                   9:no suitable space                              9      0.02
+                   10:problem with equipment or supplies           57      0.12
+                   total                                       48,139    100.00
+
+US07_0             INTRO:  BLOOD PRESSURE MEASUREMENT
+
+                   1:Enter 1 to continue                       48,139    100.00
+                   total                                       48,139    100.00
+
+US09AX             Lung capacities (1st measured)
+
+                   1:Measured                                  38,038     79.02
+                   3:Reason not measured                          457      0.95
+                   6:< 9 years old                              9,569     19.88
+                   7:Rejected                                      75      0.16
+                   total                                       48,139    100.00
+
+US09A              Lung capacities (1st measured)
+
+                   min:                                          0.00
+                   mean:                                       313.74
+                   max:                                        801.00
+                   #obs                                        38,038
+                   #miss:                                      10,101
+
+US09A_CD           Reason lung capacities (1st measured) not measured
+
+                   missing                                     47,682     99.05
+                   1:R felt it would not be safe                   59      0.12
+                                                                         17:02 Tuesday, April 10, 2018  15
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 20
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(US09A_CD  continued)
+
+                   2:interviewer felt it would not be safe         41      0.09
+                   3:R tried but was unable to complete the       101      0.21
+                   4:R did not understand instructions             29      0.06
+                   5:R's health condition prevent measureme       177      0.37
+                   7:R's hand had surgery, swelling, inflam        10      0.02
+                   8:R recently had surgery/injury/conditio        14      0.03
+                   9:no suitable space                              2      0.00
+                   10:problem with equipment or supplies           24      0.05
+                   total                                       48,139    100.00
+
+US09BX             Lung capacities (3rd measured)
+
+                   1:Measured                                  38,027     78.99
+                   3:Reason not measured                          465      0.97
+                   6:< 9 years old                              9,569     19.88
+                   7:Rejected                                      78      0.16
+                   total                                       48,139    100.00
+
+US09B              Lung capacities (3rd measured)
+
+                   min:                                          0.00
+                   mean:                                       335.40
+                   max:                                        951.00
+                   #obs                                        38,027
+                   #miss:                                      10,112
+
+US09B_CD           Lung capacities (3rd measured) not measured
+
+                   missing                                     47,674     99.03
+                   1:R felt it would not be safe                   60      0.12
+                   2:interviewer felt it would not be safe         44      0.09
+                   3:R tried but was unable to complete the       102      0.21
+                   4:R did not understand instructions             27      0.06
+                   5:R's health condition prevent measureme       180      0.37
+                   6:R has rash, a cast, edema, open sores          1      0.00
+                   7:R's hand had surgery, swelling, inflam        11      0.02
+                   8:R recently had surgery/injury/conditio        14      0.03
+                   9:no suitable space                              2      0.00
+                   10:problem with equipment or supplies           24      0.05
+                   total                                       48,139    100.00
+
+US09CX             Lung capacities (3rd measured)
+
+                   1:Measured                                  38,021     78.98
+                   3:Reason not measured                          468      0.97
+                   6:< 9 years old                              9,569     19.88
+                   7:Rejected                                      81      0.17
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  16
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 21
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US09C              Lung capacities (3rd measured)
+
+                   min:                                          0.00
+                   mean:                                       346.28
+                   max:                                        880.00
+                   #obs                                        38,021
+                   #miss:                                      10,118
+
+US09C_CD           Lung capacities (3rd measured) not measured
+
+                   missing                                     47,671     99.03
+                   1:R felt it would not be safe                   60      0.12
+                   2:interviewer felt it would not be safe         47      0.10
+                   3:R tried but was unable to complete the       103      0.21
+                   4:R did not understand instructions             27      0.06
+                   5:R's health condition prevent measureme       181      0.38
+                   7:R's hand had surgery, swelling, inflam        11      0.02
+                   8:R recently had surgery/injury/conditio        14      0.03
+                   9:no suitable space                              2      0.00
+                   10:problem with equipment or supplies           23      0.05
+                   total                                       48,139    100.00
+
+US09D              Did respondent give full effort to this test?
+
+                   missing                                      9,650     20.05
+                   1:Yes                                       37,972     78.88
+                   2:No, because of pain, illness or other        294      0.61
+                   3:No, for other reasons                        222      0.46
+                   9:Missing                                        1      0.00
+                   total                                       48,139    100.00
+
+US09_0             DESCRIBE HOW THE MEASUREMENT WILL BE TAKEN.
+
+                   missing                                     37,907     78.74
+                   1:Enter 1 to  continue                      10,232     21.26
+                   total                                       48,139    100.00
+
+US10X              Time from sitting to standing (5 times) measured?
+
+                   missing                                     15,330     31.85
+                   1:Yes                                       31,358     65.14
+                   2:Less than 5 times                              7      0.01
+                   3:Not measured                               1,306      2.71
+                   7:Refused                                      138      0.29
+                   total                                       48,139    100.00
+
+US10AA
+Have you recently received surgery, injury, or in a country that could complicate this measurement?
+
+                   1:Measured                                   3,410      7.08
+                   3:Reason not measured                       29,399     61.07
+                   6:<15 years/moved/not yet contacted         15,330     31.85
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  17
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 22
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US10_0             INTRO: SIT TO STAND TEST
+
+                   1:Enter 1 to  continue                      48,139    100.00
+                   total                                       48,139    100.00
+
+US10_1             Time sit-to-stand test (5 times) measured?
+
+                   min:                                          0.08
+                   mean:                                         7.16
+                   max:                                         89.10
+                   #obs                                        31,358
+                   #miss:                                      16,781
+
+US10_2             Time sit-to-stand test (5 times) measured?
+
+                   min:                                          4.78
+                   mean:                                        16.26
+                   max:                                         30.98
+                   #obs                                             7
+                   #miss:                                      48,132
+
+US10_CD            Reason sit-to-stand test not done
+
+                   missing                                     46,833     97.29
+                   1:R felt it would not be safe                  405      0.84
+                   2:interviewer felt it would not be safe        345      0.72
+                   3:R tried but was unable to complete the         8      0.02
+                   4:R did not understand instructions             11      0.02
+                   5:R's health condition prevent measureme       390      0.81
+                   6:R has rash, a cast, edema, open sores         10      0.02
+                   7:R's hand had surgery, swelling, inflam        31      0.06
+                   8:R recently had surgery/injury/conditio        95      0.20
+                   9:no suitable space                              9      0.02
+                   10:problem with equipment or supplies            2      0.00
+                   total                                       48,139    100.00
+
+US11               How many times sit to stand?
+
+                   missing                                     48,132     99.99
+                   3                                                3      0.01
+                   4                                                4      0.01
+                   total                                       48,139    100.00
+
+US11A              Reason sit-to-stand test  not measured
+
+                   missing                                     48,132     99.99
+                   1:R felt it would not be safe                    1      0.00
+                   3:R tried but was unable to complete the         2      0.00
+                   4:R did not understand instructions              1      0.00
+                   5:R's health condition prevent measureme         3      0.01
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  18
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 23
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US12               Did respondent use his/her trunk arms during repeated chair stands?
+
+                   missing                                     16,774     34.84
+                   1:Yes                                        1,519      3.16
+                   3:No                                        29,846     62.00
+                   total                                       48,139    100.00
+
+US12A              Did respondent give full effort to this test?
+
+                   missing                                     16,774     34.84
+                   1:Yes                                       31,216     64.85
+                   2:No, because of pain, illness or other         54      0.11
+                   3:No, for other reasons                         95      0.20
+                   total                                       48,139    100.00
+
+US13               Hb measurement
+
+                   min:                                          1.80
+                   mean:                                        13.02
+                   max:                                         23.30
+                   #obs                                        44,641
+                   #miss:                                       3,498
+
+US13A              DBS collection done
+
+                   min:                                          1.00
+                   mean:                                         3.37
+                   max:                                          5.00
+                   #obs                                         7,577
+                   #miss:                                      40,562
+
+US13AX             DBS collection done
+
+                   missing                                     40,419     83.96
+                   1:Yes                                        7,577     15.74
+                   3:Why not measured                              67      0.14
+                   7:Refused                                       76      0.16
+                   total                                       48,139    100.00
+
+US13AB             Interviewer check AR01E = 1
+
+                   1:Yes                                        7,720     16.04
+                   3:No                                        40,419     83.96
+                   total                                       48,139    100.00
+
+US13X              Hb measurement
+
+                   1:Yes                                       44,641     92.73
+                   3:Why don't measured                           676      1.40
+                   6:Age < 1                                    1,109      2.30
+                   7:Refused                                    1,712      3.56
+                   9:Missing                                        1      0.00
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  19
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 24
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(US13A_CD  continued)
+
+US13A_CD           Reason DBS not collected
+
+                   missing                                     48,072     99.86
+                   1:R felt it would not be safe                   31      0.06
+                   2:interviewer felt it would not be safe          5      0.01
+                   3:R tried but was unable to complete the         6      0.01
+                   4:R did not understand instructions              1      0.00
+                   5:R's health condition prevent measureme         9      0.02
+                   8:R recently had surgery/injury/conditio         1      0.00
+                   10:problem with equipment or supplies           14      0.03
+                   total                                       48,139    100.00
+
+US13_0             INTRO: HB LEVEL MEASUREMENT
+
+                   1:Enter 1 to continue                       48,139    100.00
+                   total                                       48,139    100.00
+
+US13_CD            Reason Hb measurement not done
+
+                   missing                                     47,463     98.60
+                   1:R felt it would not be safe                  474      0.98
+                   2:interviewer felt it would not be safe         67      0.14
+                   3:R tried but was unable to complete the        48      0.10
+                   4:R did not understand instructions              4      0.01
+                   5:R's health condition prevent measureme        50      0.10
+                   6:R has rash, a cast, edema, open sores          2      0.00
+                   8:R recently had surgery/injury/conditio         2      0.00
+                   9:no suitable space                              3      0.01
+                   10:problem with equipment or supplies           26      0.05
+                   total                                       48,139    100.00
+
+US14
+HOW DOES THE HEALTH OF THIS PERSON COMPARE, IN GENERAL, TO THE HEALTH STATUS OF OTHER PEOPLE OF THE SAME A
+GE AND SEX?
+
+                   min:                                          1.00
+                   mean:                                         6.95
+                   max:                                          9.00
+                   #obs                                        48,139
+                   #miss:                                           0
+
+US15A              Check if pregnant
+
+                   1:Yes                                          651      1.35
+                   3:No                                        12,684     26.35
+                   6:Male / Female <15 years old or >49 yea    34,804     72.30
+                   total                                       48,139    100.00
+
+US15B              Check if menstruation
+
+                   1:Yes                                        1,906      3.96
+                   3:No                                        11,429     23.74
+                   6:Male / Female <15 years old or >49 yea    34,804     72.30
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  20
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 25
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+
+US15C              Check if breastfeeding
+
+                   1:Yes                                        1,874      3.89
+                   3:No                                        11,461     23.81
+                   6:Male / Female <15 years old or >49 yea    34,804     72.30
+                   total                                       48,139    100.00
+
+US18               Currently fasting
+
+                   1:Yes                                        1,974      4.10
+                   3:No                                        46,165     95.90
+                   total                                       48,139    100.00
+
+US18AA             Take medicine for anemia
+
+                   1:Yes                                          880      1.83
+                   3:No                                        47,259     98.17
+                   total                                       48,139    100.00
+
+US18AB             Take medicine for hypertension
+
+                   1:Yes                                          881      1.83
+                   3:No                                        47,258     98.17
+                   total                                       48,139    100.00
+
+US18AC             Take medicine for Diabetes
+
+                   1:Yes                                          353      0.73
+                   3:No                                        47,786     99.27
+                   total                                       48,139    100.00
+
+US18AD             Take medicine for cholesterol
+
+                   1:Yes                                          341      0.71
+                   3:No                                        47,798     99.29
+                   total                                       48,139    100.00
+
+US18B_HR           When do you last eat (hour)
+
+                   min:                                          0.00
+                   mean:                                        13.28
+                   max:                                         98.00
+                   #obs                                        48,139
+                   #miss:                                           0
+
+US18B_KET          When do you last eat (day)
+
+                   1:Today                                     45,628     94.78
+                   2:Yesterday                                  2,511      5.22
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  21
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 26
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US18B_MIN          When do you last eat (minute)
+
+                   min:                                          0.00
+                   mean:                                         8.71
+                   max:                                         98.00
+                   #obs                                        48,139
+                   #miss:                                           0
+
+US18C              Does [HHM NAME] have physical disability
+
+                   Variable US18C can have multiple responses.  Users were asked to select 
+                   all applicable responses from a list of all possible responses.  These were  
+                   concatenated together into a single character string variable which appears  
+                   in this public use file.  For example, if the interviewee selected responses 
+                   A, C, and F from the list, US18C will have the value ACF.  If the       
+                   interviewee selected D and E, US18C will have the value DE.  Use the key
+                   below to correctly interpret these values.                                   
+
+
+                   key for variable: US18C     A = A:Disable right hand                            
+                                               B = B:Disable left hand                             
+                                               C = C:Disable right foot                            
+                                               D = D:Disable left foot                             
+                                               E = E:E. Disable eyes                               
+                                               F = F:F. Disable hear                               
+                                               G = G:G. Disable speak                              
+                                               W = W:No physical disability                        
+                                               Z = Z:Missing                                       
+
+
+US19A              CAPI CHECK: >= 45YEARS
+
+                   missing                                      5,641     11.72
+                   1:Yes                                        4,591      9.54
+                   3:No --> US09A                              37,907     78.74
+                   total                                       48,139    100.00
+
+US19B              Balance test semi tandem >= 45 year
+
+                   missing                                     37,907     78.74
+                   1:Measured                                   9,688     20.13
+                   3:Reason not measured                          524      1.09
+                   7:Refused                                       20      0.04
+                   total                                       48,139    100.00
+
+US19B_CD           Balance test semi tandem >= 45 year
+
+                   missing                                     47,615     98.91
+                   1:R felt it would not be safe                  105      0.22
+                   2:interviewer felt it would not be safe        126      0.26
+                   3:R tried but was unable to complete the        21      0.04
+                   4:R did not understand instructions             11      0.02
+                   5:R's health condition prevent measureme       234      0.49
+                   6:R has rash, a cast, edema, open sores          3      0.01
+                   7:R's hand had surgery, swelling, inflam         6      0.01
+                                                                         17:02 Tuesday, April 10, 2018  22
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 27
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(US19B_CD  continued)
+
+                   8:R recently had surgery/injury/conditio        16      0.03
+                   9:no suitable space                              2      0.00
+                   total                                       48,139    100.00
+
+US19C              Do successfully performed for 10 seconds without holding?
+
+                   missing                                     38,451     79.87
+                   1:Yes                                        9,557     19.85
+                   3:Less than 10 seconds                         100      0.21
+                   4:Tried but failed --> US19L                    31      0.06
+                   total                                       48,139    100.00
+
+US19C1
+Did respondent hold semi-tandem stand for full 10 seconds without stepping out of place or grabbing anythi
+ng?
+
+                   min:                                          0.43
+                   mean:                                         5.65
+                   max:                                          9.84
+                   #obs                                           100
+                   #miss:                                      48,039
+
+US19D
+Did respondent use any compensatory movement of his/her trunk, arms or legs to steady himself during the s
+tand?
+
+                   missing                                     38,482     79.94
+                   1:Yes                                        1,300      2.70
+                   3:No                                         8,357     17.36
+                   total                                       48,139    100.00
+
+US19E              CAPI CHECK (US19C=1) SUCCESSFUL DOING FOR 10 SECONDS
+
+                   missing                                     38,482     79.94
+                   1:Yes                                        9,557     19.85
+                   3:No --> US19L                                 100      0.21
+                   total                                       48,139    100.00
+
+US19F              CAPI CHECK >= 70YEAR
+
+                   missing                                     38,582     80.15
+                   1:Yes                                        1,174      2.44
+                   3:No --> (45<=age<70)                        8,383     17.41
+                   total                                       48,139    100.00
+
+US19G              Balance test full tandem >= 70 year
+
+                   missing                                     46,965     97.56
+                   1:Measured --> US19i                         1,136      2.36
+                   3:Reason not measured                           38      0.08
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  23
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 28
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US19G_CD           Balance test full tandem >= 70 year
+
+                   missing                                     48,101     99.92
+                   1:R felt it would not be safe                    6      0.01
+                   2:interviewer felt it would not be safe          5      0.01
+                   3:R tried but was unable to complete the        22      0.05
+                   4:R did not understand instructions              2      0.00
+                   5:R's health condition prevent measureme         3      0.01
+                   total                                       48,139    100.00
+
+US19H              Test balance full tandem (45<=age<70)
+
+                   missing                                     39,756     82.59
+                   1:Measured                                   8,338     17.32
+                   3:Reason not measured                           44      0.09
+                   7:Refused --> US19p                              1      0.00
+                   total                                       48,139    100.00
+
+US19H_CD           Test balance full tandem (45<=age<70)
+
+                   missing                                     48,095     99.91
+                   1:R felt it would not be safe                    9      0.02
+                   2:interviewer felt it would not be safe          6      0.01
+                   3:R tried but was unable to complete the        19      0.04
+                   5:R's health condition prevent measureme         9      0.02
+                   9:no suitable space                              1      0.00
+                   total                                       48,139    100.00
+
+US19I              Do successfully performed for [30/60 seconds] without holding?
+
+                   missing                                     38,665     80.32
+                   1:Yes                                        8,562     17.79
+                   3:Less than 60 seconds                         867      1.80
+                   4:Tried but failed --> US19P                    45      0.09
+                   total                                       48,139    100.00
+
+US19I1
+Did respondent hold full-tandem stand for full [30/60] seconds without stepping out of place or grabbing a
+nything?
+
+                   min:                                          0.00
+                   mean:                                        22.91
+                   max:                                         59.87
+                   #obs                                           867
+                   #miss:                                      47,272
+
+US19J
+Did respondent use any compensatory movement of his/her trunk, arms or legs to steady himself during the s
+tand?
+
+                   missing                                     38,710     80.41
+                   1:Yes                                        2,467      5.12
+                   3:No                                         6,962     14.46
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  24
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 29
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US19K              Record the type of floor surface the balance measure was conducted on:
+
+                   missing                                     38,710     80.41
+                   1:Tile / wood                                8,274     17.19
+                   2:Carpet                                       283      0.59
+                   3:Land                                         404      0.84
+                   4:Concrete                                     294      0.61
+                   5:Other                                        174      0.36
+                   total                                       48,139    100.00
+
+US19L              Test balance >= 45 year
+
+                   missing                                     47,464     98.60
+                   1:Measured                                     201      0.42
+                   3:Reason not measured                          457      0.95
+                   7:Refused --> US19P                             17      0.04
+                   total                                       48,139    100.00
+
+US19L_CD           Test balance >= 45 year
+
+                   missing                                     47,682     99.05
+                   1:R felt it would not be safe                   82      0.17
+                   2:interviewer felt it would not be safe        121      0.25
+                   3:R tried but was unable to complete the        10      0.02
+                   4:R did not understand instructions              6      0.01
+                   5:R's health condition prevent measureme       216      0.45
+                   6:R has rash, a cast, edema, open sores          1      0.00
+                   7:R's hand had surgery, swelling, inflam         5      0.01
+                   8:R recently had surgery/injury/conditio        15      0.03
+                   9:no suitable space                              1      0.00
+                   total                                       48,139    100.00
+
+US19M              Do successfully performed for 10 seconds without holding?
+
+                   missing                                     47,938     99.58
+                   1:Yes                                          186      0.39
+                   3:Less than 10 seconds                          12      0.02
+                   4:Tried but failed --> US19P                     3      0.01
+                   total                                       48,139    100.00
+
+US19M1
+Did respondent hold side-by-side stand for full 10 seconds without stepping out of place or grabbing anyth
+ing?
+
+                   min:                                          3.09
+                   mean:                                         5.17
+                   max:                                          6.78
+                   #obs                                            12
+                   #miss:                                      48,127
+
+US19N
+Did respondent use any compensatory movement of his/her trunk, arms or legs to steady himself during the s
+tand?
+
+                   missing                                     47,938     99.58
+                                                                         17:02 Tuesday, April 10, 2018  25
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 30
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(US19N  continued)
+
+                   1:Yes                                           47      0.10
+                   3:No                                           154      0.32
+                   total                                       48,139    100.00
+
+US19O              Record the type of floor surface the balance measure was conducted on:
+
+                   missing                                     47,938     99.58
+                   1:Tile / wood                                  176      0.37
+                   2:Carpet                                         5      0.01
+                   3:Land                                           5      0.01
+                   4:Concrete                                       8      0.02
+                   5:Other                                          7      0.01
+                   total                                       48,139    100.00
+
+US19P
+Do you have any problems from recent surgery, injury, or other health conditions that might prevent you fr
+om walking
+
+                   missing                                     37,907     78.74
+                   1:Yes                                          698      1.45
+                   3:No                                         3,044      6.32
+                   6:<60year                                    6,490     13.48
+                   total                                       48,139    100.00
+
+US19QX             FIRST WALKING SPEED >= 60 YEAR
+
+                   missing                                     44,397     92.23
+                   1:Measured                                   3,335      6.93
+                   3:Reason not measured                          390      0.81
+                   6:< 60 year -->US09A                             1      0.00
+                   7:Refused --> US09A                             16      0.03
+                   total                                       48,139    100.00
+
+US19Q              Timed walk  in seconds (1st measurement)
+
+                   min:                                          1.00
+                   mean:                                         5.26
+                   max:                                         92.50
+                   #obs                                         3,335
+                   #miss:                                      44,804
+
+US19Q_CD           FIRST WALKING SPEED >= 60 YEAR
+
+                   missing                                     47,749     99.19
+                   1:R felt it would not be safe                   61      0.13
+                   2:interviewer felt it would not be safe         83      0.17
+                   3:R tried but was unable to complete the         2      0.00
+                   4:R did not understand instructions              5      0.01
+                   5:R's health condition prevent measureme       170      0.35
+                   7:R's hand had surgery, swelling, inflam         2      0.00
+                   8:R recently had surgery/injury/conditio         7      0.01
+                   9:no suitable space                             60      0.12
+                   total                                       48,139    100.00
+                                                                         17:02 Tuesday, April 10, 2018  26
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 31
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US19RX             Timed walk  in seconds (2nd measurement)
+
+                   missing                                     44,804     93.07
+                   1:Measured                                   3,332      6.92
+                   3:Reason not measured                            2      0.00
+                   7:Refused                                        1      0.00
+                   total                                       48,139    100.00
+
+US19R              Timed walk  in seconds (2nd measurement)
+
+                   min:                                          1.12
+                   mean:                                         5.00
+                   max:                                         83.10
+                   #obs                                         3,332
+                   #miss:                                      44,807
+
+US19R_CD           Reason walking speed test not done
+
+                   missing                                     48,137    100.00
+                   5:R's health condition prevent measureme         2      0.00
+                   total                                       48,139    100.00
+
+US19S              Record the type of floor surface the walking speed test conducted on:
+
+                   missing                                     44,804     93.07
+                   1:Tile / wood                                2,902      6.03
+                   2:Carpet                                        43      0.09
+                   3:Land                                         217      0.45
+                   4:Concrete                                     109      0.23
+                   5:Other                                         64      0.13
+                   total                                       48,139    100.00
+
+US19T              Walking aid
+
+                   missing                                     44,804     93.07
+                   1:None                                       3,306      6.87
+                   2:Walking stick                                 17      0.04
+                   3:Elbow crutches                                 5      0.01
+                   5:Other                                          7      0.01
+                   total                                       48,139    100.00
+
+US19_0             INTRO : BALANCE TEST
+
+                   missing                                     37,907     78.74
+                   1:Enter 1 to  continue                      10,232     21.26
+                   total                                       48,139    100.00
+
+US19_00            INTRO: WALKING SPEED TEST MEASUREMENT GUIDE (AGE> = 60 YEARS)
+
+                   min:                                          1.00
+                   mean:                                         1.00
+                   max:                                          1.00
+                   #obs                                        10,232
+                   #miss:                                      37,907
+                                                                         17:02 Tuesday, April 10, 2018  27
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 32
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+US20               More dominant hand?
+
+                   1:Left                                       1,550      3.22
+                   2:Right                                     30,717     63.81
+                   3:Ambidextrous                                 515      1.07
+                   6:Both hand not functioning or Age < 15     15,357     31.90
+                   total                                       48,139    100.00
+
+US20A              Left Hand: Grip Strength #1
+
+                   min:                                          0.00
+                   mean:                                        25.77
+                   max:                                         81.00
+                   #obs                                        32,160
+                   #miss:                                      15,979
+
+US20AX             Left Hand: Grip Strength #1
+
+                   1:Measured                                  32,160     66.81
+                   3:Reason not measured                          621      1.29
+                   6:<15 years/moved/not yet contacted         15,330     31.85
+                   7:Refused                                       28      0.06
+                   total                                       48,139    100.00
+
+US20AA
+Did you recently had surgery, swelling, inflammation, severe pain or injury in one or both hands in the la
+st 6 months?
+
+                   1:Yes, in both hands                           149      0.31
+                   2:Yes, the left hand                           200      0.42
+                   3:Yes, the right hand                          296      0.61
+                   4:No                                        32,164     66.81
+                   6:<15 years                                 15,330     31.85
+                   total                                       48,139    100.00
+
+US20A_CD           Left Hand: Reason not measured #1
+
+                   missing                                     47,518     98.71
+                   1:R felt it would not be safe                   40      0.08
+                   2:interviewer felt it would not be safe         40      0.08
+                   3:R tried but was unable to complete the        17      0.04
+                   4:R did not understand instructions             11      0.02
+                   5:R's health condition prevent measureme       108      0.22
+                   6:R has rash, a cast, edema, open sores          8      0.02
+                   7:R's hand had surgery, swelling, inflam       357      0.74
+                   8:R recently had surgery/injury/conditio         5      0.01
+                   9:no suitable space                              1      0.00
+                   10:problem with equipment or supplies           34      0.07
+                   total                                       48,139    100.00
+
+US20BX             Right Hand: Grip Strength #1
+
+                   1:Measured                                  32,085     66.65
+                   3:Reason not measured                          695      1.44
+                   6:<15 years/moved/not yet contacted         15,330     31.85
+                                                                         17:02 Tuesday, April 10, 2018  28
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 33
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(US20BX  continued)
+
+                   7:Refused                                       29      0.06
+                   total                                       48,139    100.00
+
+US20B              Right Hand: Grip Strength #1
+
+                   min:                                          0.00
+                   mean:                                        27.95
+                   max:                                         82.00
+                   #obs                                        32,085
+                   #miss:                                      16,054
+
+US20B_CD           Right Hand: Reason not measured #1
+
+                   missing                                     47,444     98.56
+                   1:R felt it would not be safe                   37      0.08
+                   2:interviewer felt it would not be safe         34      0.07
+                   3:R tried but was unable to complete the        18      0.04
+                   4:R did not understand instructions             10      0.02
+                   5:R's health condition prevent measureme       101      0.21
+                   6:R has rash, a cast, edema, open sores          1      0.00
+                   7:R's hand had surgery, swelling, inflam       453      0.94
+                   8:R recently had surgery/injury/conditio         5      0.01
+                   9:no suitable space                              2      0.00
+                   10:problem with equipment or supplies           34      0.07
+                   total                                       48,139    100.00
+
+US20CX             Left Hand: Grip Strength #2
+
+                   1:Measured                                  32,157     66.80
+                   3:Reason not measured                          622      1.29
+                   6:<15 years/moved/not yet contacted         15,330     31.85
+                   7:Refused                                       30      0.06
+                   total                                       48,139    100.00
+
+US20C              Left Hand: Grip Strength #2
+
+                   min:                                          0.00
+                   mean:                                        26.07
+                   max:                                         91.00
+                   #obs                                        32,157
+                   #miss:                                      15,982
+
+US20C_CD           Left Hand: Reason not measured #2
+
+                   missing                                     47,517     98.71
+                   1:R felt it would not be safe                   39      0.08
+                   2:interviewer felt it would not be safe         40      0.08
+                   3:R tried but was unable to complete the        19      0.04
+                   4:R did not understand instructions             10      0.02
+                   5:R's health condition prevent measureme       108      0.22
+                   6:R has rash, a cast, edema, open sores          8      0.02
+                   7:R's hand had surgery, swelling, inflam       357      0.74
+                   8:R recently had surgery/injury/conditio         6      0.01
+                   9:no suitable space                              1      0.00
+                                                                         17:02 Tuesday, April 10, 2018  29
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 34
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(US20C_CD  continued)
+
+                   10:problem with equipment or supplies           34      0.07
+                   total                                       48,139    100.00
+
+US20DX             Right Hand: Grip Strength #2
+
+                   1:Measured                                  32,081     66.64
+                   3:Reason not measured                          699      1.45
+                   6:<15 years/moved/not yet contacted         15,330     31.85
+                   7:Refused                                       29      0.06
+                   total                                       48,139    100.00
+
+US20D              Right Hand: Grip Strength #2
+
+                   min:                                          0.00
+                   mean:                                        28.24
+                   max:                                         82.00
+                   #obs                                        32,081
+                   #miss:                                      16,058
+
+US20D_CD           Right Hand: Reason not measured #2
+
+                   missing                                     47,440     98.55
+                   1:R felt it would not be safe                   37      0.08
+                   2:interviewer felt it would not be safe         36      0.07
+                   3:R tried but was unable to complete the        18      0.04
+                   4:R did not understand instructions             10      0.02
+                   5:R's health condition prevent measureme       105      0.22
+                   6:R has rash, a cast, edema, open sores          1      0.00
+                   7:R's hand had surgery, swelling, inflam       451      0.94
+                   8:R recently had surgery/injury/conditio         5      0.01
+                   9:no suitable space                              1      0.00
+                   10:problem with equipment or supplies           35      0.07
+                   total                                       48,139    100.00
+
+US20_0             INTRO : GRIP STRENGTH MEASUREMENT
+
+                   missing                                     16,774     34.84
+                   1:Enter 1 to be continue                    31,365     65.16
+                   total                                       48,139    100.00
+
+US23               Method of measurement
+
+                   missing                                        417      0.87
+                   1:Standing                                  28,162     58.50
+                   2:Sitting                                    4,227      8.78
+                   6:Both hand not functioning or Age < 15     15,333     31.85
+                   total                                       48,139    100.00
+
+US23A              Did respondent give full effort to this test?
+
+                   missing                                        417      0.87
+                   1:Yes                                       32,253     67.00
+                   2:No, because of pain, illness or other         70      0.15
+                   3:No, for other reasons                     15,399     31.99
+                                                                         17:02 Tuesday, April 10, 2018  30
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 35
+book:    BUS  - Health Measurements                                   
+module:  BUS_US               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+                   total                                       48,139    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        48,139
+                   #miss:                                           0

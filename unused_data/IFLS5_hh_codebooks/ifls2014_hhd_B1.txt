@@ -1,0 +1,2175 @@
+                                                                                                                                                                                                                               17:02 Tuesday, April 10, 2018   1
+     ===================================================================
+
+         IIII     FFFFFFF     LLL          SSSSSS         555555555     
+          II       FF   F     LL          SS    SS        55            
+          II       FF         LL          SS     S        55            
+          II       FF         LL          SSS             5555555       
+          II       FFFFF      LL           SSSSS               5555     
+          II       FF         LL            SSSSS                555    
+          II       FF         LL               SSS                55    
+          II       FF         LL          S     SS        55      55    
+          II       FF         LL     L    SS    SS        555    555    
+         IIII     FFFF        LLLLLLLL     SSSSSS           555555      
+
+     ===================================================================
+
+
+
+     I N D O N E S I A N    F A M I L Y    L I F E    S U R V E Y    5  
+
+       A survey of individuals, households, families, communities       
+          and facilities conducted in 13 provinces in Indonesia         
+                   between November 2014 and July 2015                  
+
+     ===================================================================
+
+                               Directed by                              
+
+                      John Strauss, RAND and USC                        
+
+                      Firman Witoelar, Survey Meter                     
+
+                       Bondan Sikoki, Survey Meter                      
+
+
+     ===================================================================
+
+     Financial support for the Indonesian Family Life Survey Wave 5 has 
+     been provided by the National Institute of Aging grant number 2R01 
+     AG026676-05, the National Institute of Child and Human Development,
+     grant number 2R01 HD050764-05A1, and grants from the World Bank,   
+     Indonesia and GRM International, Australia from DFAT, the Departmen
+     of Foreign Affairs and Trade, Government of Australia              
+
+     ===================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+              Website: http://www.rand.org/FLS/IFLS                     
+          Send all questions to ifls-supp@rand.org                      
+
+
+                       Copyright (2009)                                 
+INDONESIAN FAMILY LIFE SURVEY 5: CODEBOOK                               page 2  
+                                                                                                                                                                                                                               17:02 Tuesday, April 10, 2018   2
+
+
+
+
+
+
+================================================================================
+
+          H   H   OOO    U   U    SS    EEEE   H   H   OOO   L     DDDD         
+          H   H  O   O   U   U   S  S   E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U   S      E      H   H  O   O  L     D   D        
+          HHHHH  O   O   U   U    S     EEEE   HHHHH  O   O  L     D   D        
+          H   H  O   O   U   U     S    E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U      S   E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U   S  S   E      H   H  O   O  L     D   D        
+          H   H   OOO     UUU     SS    EEEE   H   H   OOO   LLLL  DDDD         
+
+
+                    SS    U   U   RRR    V    V    EEEE   Y    Y                
+                   S  S   U   U   R  R   V    V    E      Y    Y                
+                   S      U   U   R  R   V    V    E       Y  Y                 
+                    S     U   U   RRR    V    V    EEE       Y                  
+                     S    U   U   R R     V  V     E         Y                  
+                      S   U   U   R  R    V  V     E         Y                  
+                   S  S   U   U   R  R     V       E         Y                  
+                    SS     UUU    R  R     V       EEEE      Y                  
+
+
+            CCC    OOO    DDDD    EEEE   BBBB     OOO     OOO    K   K          
+           C   C  O   O   D   D   E      B   B   O   O   O   O   K  K           
+           C      O   O   D   D   E      B   B   O   O   O   O   K K            
+           C      O   O   D   D   EEE    BBBB    O   O   O   O   KK             
+           C      O   O   D   D   E      B   B   O   O   O   O   KK             
+           C      O   O   D   D   E      B   B   O   O   O   O   K K            
+           C   C  O   O   D   D   E      B   B   O   O   O   O   K  K           
+            CCC    OOO    DDDD    EEEE   BBBB     OOO     OOO    K   K          
+
+================================================================================
+
+ B O O K :       1                                            
+ T O P I C :     HOUSEHOLD ECONOMY                                           
+
+================================================================================
+
+
+
+
+
+
+
+
+
+
+
+                               Prepared by                                      
+                Roald Euller, John Strauss, Firman Witolar                      
+                     Created on 10APR2018 at 17:02                           
+                                                                   17:02 Tuesday, April 10, 2018   1
+INDONESIAN FAMILY LIFE SURVEY 4: CODEBOOK                                       
+--------------------------------------------------------------------------------
+ H O U S E H O L D    S U R V E Y    C O D E B O O K                 page 3
+--------------------------------------------------------------------------------
+ B O O K :       1
+ T O P I C :     Household Economy
+
+--------------------------------------------------------------------------------
+
+DATA FILES                                                                    
+----------                                                                    
+  Data are available in SAS (9.2) export and STATA (8.0) formats.             
+  Data and electronic documentation are available on the IFLS website.        
+
+  The survey instrument contains multiple sections.  Where possible, sections 
+  have been merged together to form a single data module.  The modules are    
+  organized by level of observation.  The module names are listed below.  They
+  serve as the names of the SAS and STATA data files. The codebook is also    
+  organised by module.                                                        
+
+  The modules are:                                                            
+
+   --------------------------------------------------------------------------
+                                                             # of
+      Module    Description                                  recs
+   --------------------------------------------------------------------------
+      B1_COV                                                15349
+      B1_KS0                                                15144
+      B1_KS1                                               560328
+      B1_KS2                                               181692
+      B1_KS3                                               105973
+      B1_KS4                                               151350
+      B1_KSR1                                               45402
+      B1_KSR2                                               15134
+      B1_KSR3                                               60532
+      B1_KSR4                                               30266
+      B1_PP                                                181584
+      B1_TIME                                               23369
+
+USER SUPPORT                                                                   
+------------                                                                   
+    These data should be used in conjunction with the Questionnaires and Users'
+    Manuals.  Check the IFLS web page for updates and answers to frequently    
+    asked questions.  Please send all questions to ifls-supp@rand.org.         
+
+USAGE NOTES                                                                    
+-----------                                                                    
+  READING THE DICTIONARY                                                       
+    For each variable in the dataset, the dictionary provides                  
+       Variable name : Typically the question number                           
+               Label : Describes variable                                      
+    Variable coding is described as follows:                                   
+               Value : Meaning of values for coded variables                   
+           Frequency : Frequency of each value                                 
+
+SPECIAL CODES                                                                  
+-------------                                                                  
+  The following values are reserved and have a special meaning:                
+      Numeric    Alphanumeric    Meaning                                       
+     5/95/995         V          Top coded/out of range                        
+     6/96/996         W          Not applicable                                
+     7/97/997         X          Refused to answer                             
+     8/98/998         Y          Don't know                                    
+                                                                   17:02 Tuesday, April 10, 2018   2
+INDONESIAN FAMILY LIFE SURVEY 4: CODEBOOK                                       
+--------------------------------------------------------------------------------
+ H O U S E H O L D    S U R V E Y    C O D E B O O K                 page 4
+--------------------------------------------------------------------------------
+ B O O K :       1
+ T O P I C :     Household Economy
+
+--------------------------------------------------------------------------------
+     9/99/999         Z          Missing                                       
+
+DATASET VERSION                                                                
+---------------                                                                
+  The variable VERSION identifies the release version of these data; it        
+  will be updated with each revision of the data and can be used to confirm    
+  that you are using the most recent version of the data.                      
+
+NOTES ABOUT BOOK 1                                                         
+------------------                                                         
+
+  BOOK 1 contains information on household expenditures on food and        
+  non-food items.  The modules are similar to the SUSENAS short            
+  consumption module.  The book also contains information on prices        
+  of goods and a module about health facilities that the respondent        
+  knows about.  Responses in this module were used to draw the sample      
+  of health facilities enumerated in the Community and Facility Survey.    
+
+  One member of each household is asked to complete Book 1.  This          
+  person is typically the woman in charge of food preparation and          
+  shopping.                                                                
+
+  In IFLS5, HHID14 is a seven digit character variable whose digits carry       
+  the following meaning:                                                        
+
+                  x  x  x           x  x                    x  x                
+                  -------    ------------------        ---------------          
+                    EA       specific household        origin/split-off         
+
+  In the last two digits, 00 designates an origin household.  For a split-off   
+  household, the 6th digit is either 1, 2, 3 or 4 depending on which wave the   
+  split-off first appeared.  Split-offs from IFLS2 have their sixth digit equal 
+  to 1, while split-off households first appearing in IFLS2+ have a 2, new      
+  split-offs in 2000 have a 3, and new 2007 split-off have a 4.  The 7th digit  
+  indicates whether it is the first, second, or other split-off (some multiple  
+  split-offs occurred).                                                         
+
+  Note that the enumeration area identifier used to define a               
+  household contains no information about the current whereabouts          
+  of the household unless it has not moved.  The location of the           
+  household is recorded in BK_SC.                                          
+                                                                         17:02 Tuesday, April 10, 2018   1
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 5
+book:    1  - Household Economy                                   
+module:  B1_COV               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_COV                                      15,349    100.00
+                   total                                       15,349    100.00
+
+CP1
+ANYBODY (OTHERS) OTHER THAN THOSE WHICH PRESENT DURING LAST INTERVIEW? (MAY BE MORE THAN ONE ANSWER)
+
+                   Variable CP1 can have multiple responses.  Users were asked to select 
+                   all applicable responses from a list of all possible responses.  These were  
+                   concatenated together into a single character string variable which appears  
+                   in this public use file.  For example, if the interviewee selected responses 
+                   A, C, and F from the list, CP1 will have the value ACF.  If the       
+                   interviewee selected D and E, CP1 will have the value DE.  Use the key
+                   below to correctly interpret these values.                                   
+
+
+                   key for variable: CP1       A = A:No one                                        
+                                               B = B:Children 5 or under                           
+                                               C = C:Children older than 5                         
+                                               D = D:Husband/wife                                  
+                                               E = E:An Adult                                      
+                                               F = F:An Adult                                      
+                                               Z = Z:Missing                                       
+
+
+CP2                Evaluation of accuracy of Respondent's answers
+
+                   1:Excellent                                  3,625     23.62
+                   2:Good                                      10,035     65.38
+                   3:Fair                                       1,573     10.25
+                   4:Not so good                                   88      0.57
+                   5:Very bad                                      28      0.18
+                   total                                       15,349    100.00
+
+CP3                How serious and attentive was Respondent's?
+
+                   1:Excellent                                  3,656     23.82
+                   2:Good                                      10,033     65.37
+                   3:Fair                                       1,555     10.13
+                   4:Not so good                                   79      0.51
+                   5:Very bad                                      26      0.17
+                   total                                       15,349    100.00
+
+IDIVWR             Code of Interviewer Book 1
+
+
+LANGMAIN           Interview in what language?
+                                                                         17:02 Tuesday, April 10, 2018   2
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 6
+book:    1  - Household Economy                                   
+module:  B1_COV               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+                   0:Indonesian                                13,251     86.33
+                   1:Javanese                                   1,146      7.47
+                   2:Sundanese                                    285      1.86
+                   3:Balinese                                      14      0.09
+                   4:Batak                                          4      0.03
+                   5:Bugis                                         53      0.35
+                   7:Maduranese                                    96      0.63
+                   8:Sasak                                        227      1.48
+                   9:Minang                                       176      1.15
+                   10:Banjar                                        3      0.02
+                   12:Makasar                                       3      0.02
+                   13:Nias                                          3      0.02
+                   14:Palembang                                    34      0.22
+                   15:Sumbawa                                      22      0.14
+                   16:Toraja                                        1      0.01
+                   17:Lahat                                         7      0.05
+                   18:Other South Sumatra                          17      0.11
+                   19:Betawi                                        1      0.01
+                   20:Lampung                                       1      0.01
+                   96:No other                                      5      0.03
+                   total                                       15,349    100.00
+
+LANGOTHR           Other language used if any
+
+                   0:Indonesian                                 1,627     10.60
+                   1:Javanese                                   2,714     17.68
+                   2:Sundanese                                    388      2.53
+                   3:Balinese                                      77      0.50
+                   4:Batak                                         13      0.08
+                   5:Bugis                                         49      0.32
+                   6:Chinese                                        3      0.02
+                   7:Maduranese                                    35      0.23
+                   8:Sasak                                        141      0.92
+                   9:Minang                                       258      1.68
+                   10:Banjar                                        5      0.03
+                   11:Bima                                          2      0.01
+                   12:Makasar                                       9      0.06
+                   13:Nias                                          8      0.05
+                   14:Palembang                                    80      0.52
+                   15:Sumbawa                                       4      0.03
+                   16:Toraja                                        6      0.04
+                   17:Lahat                                         2      0.01
+                   18:Other South Sumatra                         128      0.83
+                   19:Betawi                                       27      0.18
+                   95:Other                                         8      0.05
+                   96:No other                                  9,765     63.62
+                   total                                       15,349    100.00
+
+NUMVIS             Number of visits
+
+                   min:                                           .  
+                   mean:                                          .  
+                   max:                                           .  
+                   #obs                                             0
+                   #miss:                                      15,349
+                                                                         17:02 Tuesday, April 10, 2018   3
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 7
+book:    1  - Household Economy                                   
+module:  B1_COV               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+
+REASON             Reason for C1
+
+                   missing                                     15,130     98.57
+                   1:Resnot at home/did not found                  34      0.22
+                   2:Reswas seriously ill                           1      0.01
+                   3:Resrefused                                   178      1.16
+                   5:Other                                          6      0.04
+                   total                                       15,349    100.00
+
+RESULT             Interview of book I
+
+                   1:Completed                                 15,130     98.57
+                   2:Partially completed                           16      0.10
+                   3:Not completed                                203      1.32
+                   total                                       15,349    100.00
+
+RESVIS             Result of Book 1 visit
+
+                   1:Interviewed                               15,146     98.68
+                   3:Not interviewed                              203      1.32
+                   total                                       15,349    100.00
+
+RSPNDNT            Respondent household member type
+
+                   missing                                        203      1.32
+                   1:Head of household                          3,845     25.05
+                   2:Spouse of head                             9,974     64.98
+                   3:Other HH member                            1,327      8.65
+                   total                                       15,349    100.00
+
+SUP_EDIT           Edited by local supervisor
+
+                   1:Yes                                          522      3.40
+                   3:No                                        14,827     96.60
+                   total                                       15,349    100.00
+
+SUP_OBS            Observed by local supervisor
+
+                   1:Yes                                        1,201      7.82
+                   3:No                                        14,148     92.18
+                   total                                       15,349    100.00
+
+SUP_VERI           Verified local supervisor
+
+                   1:Yes                                          253      1.65
+                   3:No                                        15,096     98.35
+                   total                                       15,349    100.00
+
+US21               Result of salt iodine test
+
+                   missing                                        203      1.32
+                   1:White                                        774      5.04
+                   3:Blue                                      11,286     73.53
+                   5:A Little blue                              2,221     14.47
+                                                                         17:02 Tuesday, April 10, 2018   4
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 8
+book:    1  - Household Economy                                   
+module:  B1_COV               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(US21  continued)
+
+                   6:Not Applicable                               828      5.39
+                   9:Missing                                       37      0.24
+                   total                                       15,349    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        15,349
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018   5
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 9
+book:    1  - Household Economy                                   
+module:  B1_KS0               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_KS0                                      15,144    100.00
+                   total                                       15,144    100.00
+
+KS02AX             able to answer question KS02A
+
+                   1.given                                      8,136     53.72
+                   3.not given                                  7,008     46.28
+                   total                                       15,144    100.00
+
+KS02A              During the past week, what was the total expenditure to purchase [...]?
+
+                   min:                                          0.00
+                   mean:                                         7.95
+                   max:                                       9999.99
+                   #obs                                        15,144
+                   #miss:                                           0
+
+KS03AX             able to answer question KS03A
+
+                   1.given                                      4,242     28.01
+                   3.not given                                 10,902     71.99
+                   total                                       15,144    100.00
+
+KS03A
+How many kg of rice that were consumed by this household that were self-produced or received from another 
+source in the past week?
+
+                   min:                                          0.00
+                   mean:                                         3.72
+                   max:                                       9999.99
+                   #obs                                        15,144
+                   #miss:                                           0
+
+KS04BX             able to answer question KS04B
+
+                   1.given                                      5,135     33.91
+                   3.not given                                  9,958     65.76
+                   5                                               17      0.11
+                   6                                                1      0.01
+                   7.refused                                        3      0.02
+                   8.don't know                                    29      0.19
+                   9.missing                                        1      0.01
+                   total                                       15,144    100.00
+                                                                         17:02 Tuesday, April 10, 2018   6
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 10
+book:    1  - Household Economy                                   
+module:  B1_KS0               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+KS04B
+What was the rupiah value of food given to other parties outside the household during the past week?
+
+                   min:                                          0.00
+                   mean:                                     17186.86
+                   max:                                     950000.00
+                   #obs                                        15,093
+                   #miss:                                          51
+
+KS07AX             able to answer question KS07A
+
+                   missing                                          3      0.02
+                   1.given                                      3,536     23.35
+                   3.not given                                 11,525     76.10
+                   6                                                2      0.01
+                   8.don't know                                    78      0.52
+                   total                                       15,144    100.00
+
+KS07A
+What was the total value of  non-food items consumed by this household that were self-produced or received
+ from another source in the past month?
+
+                   min:                                          0.00
+                   mean:                                     55904.35
+                   max:                                    95000000.0
+                   #obs                                        15,061
+                   #miss:                                          83
+
+KS10AAX            able to answer question KS10AA
+
+                   missing                                          5      0.03
+                   1.given                                      6,382     42.14
+                   3.not given                                  8,708     57.50
+                   5                                                1      0.01
+                   8.don't know                                    47      0.31
+                   9.missing                                        1      0.01
+                   total                                       15,144    100.00
+
+KS10AA
+Approwhat was the total expenditures  for school fees for children/family members inside the household dur
+ing the past year?
+
+                   min:                                          0.00
+                   mean:                                   1097135.36
+                   max:                                    65000000.0
+                   #obs                                        15,090
+                   #miss:                                          54
+
+KS10ABX            able to answer question KS10AB
+
+                   missing                                          5      0.03
+                   1.given                                      1,103      7.28
+                   3.not given                                 14,014     92.54
+                   5                                                1      0.01
+                   8.don't know                                    20      0.13
+                                                                         17:02 Tuesday, April 10, 2018   7
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 11
+book:    1  - Household Economy                                   
+module:  B1_KS0               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(KS10ABX  continued)
+
+                   9.missing                                        1      0.01
+                   total                                       15,144    100.00
+
+KS10AB
+Approhow much was spent  for school fees for children/family members outside the household during the past
+ year?
+
+                   min:                                          0.00
+                   mean:                                    327114.32
+                   max:                                    88500000.0
+                   #obs                                        15,117
+                   #miss:                                          27
+
+KS11AAX            able to answer question KS11AA
+
+                   missing                                          5      0.03
+                   1.given                                      8,340     55.07
+                   3.not given                                  6,742     44.52
+                   8.don't know                                    56      0.37
+                   9.missing                                        1      0.01
+                   total                                       15,144    100.00
+
+KS11AA
+Approhow much was spent  for schooling needs for children/family members inside the household during the p
+ast year?
+
+                   min:                                          0.00
+                   mean:                                    380459.79
+                   max:                                    30000000.0
+                   #obs                                        15,082
+                   #miss:                                          62
+
+KS11ABX            able to answer question KS11AB
+
+                   missing                                          5      0.03
+                   1.given                                      1,113      7.35
+                   3.not given                                 13,980     92.31
+                   8.don't know                                    44      0.29
+                   9.missing                                        2      0.01
+                   total                                       15,144    100.00
+
+KS11AB
+Approhow much was spent  for schooling needs for children/family members outside the household during the 
+past year?
+
+                   min:                                          0.00
+                   mean:                                     68452.86
+                   max:                                    30000000.0
+                   #obs                                        15,093
+                   #miss:                                          51
+                                                                         17:02 Tuesday, April 10, 2018   8
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 12
+book:    1  - Household Economy                                   
+module:  B1_KS0               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+KS12AAX            able to answer question KS12AA
+
+                   missing                                          5      0.03
+                   1.given                                      8,559     56.52
+                   3.not given                                  6,542     43.20
+                   5                                                1      0.01
+                   8.don't know                                    36      0.24
+                   9.missing                                        1      0.01
+                   total                                       15,144    100.00
+
+KS12AA
+Approhow much was spent  on school transportation and pocket money for children/family members in the hous
+ehold during the past year?
+
+                   min:                                          0.00
+                   mean:                                   1888402.64
+                   max:                                    75000000.0
+                   #obs                                        15,101
+                   #miss:                                          43
+
+KS12ABX            able to answer question KS12AB
+
+                   missing                                          5      0.03
+                   1.given                                      1,631     10.77
+                   3.not given                                 13,477     88.99
+                   8.don't know                                    30      0.20
+                   9.missing                                        1      0.01
+                   total                                       15,144    100.00
+
+KS12AB
+Approhow much was spent  on school transportation and pocket money for children/family members outside the
+ household during the past year?
+
+                   min:                                          0.00
+                   mean:                                    397204.44
+                   max:                                    72000000.0
+                   #obs                                        15,108
+                   #miss:                                          36
+
+KS12BBX            able to answer question KS12BB
+
+                   missing                                          5      0.03
+                   1.given                                        898      5.93
+                   3.not given                                 14,221     93.91
+                   8.don't know                                    19      0.13
+                   9.missing                                        1      0.01
+                   total                                       15,144    100.00
+
+KS12BB
+Approhow much was spent  on food and boarding/rent for children/family members outside the household durin
+g the past year?
+
+                   min:                                          0.00
+                   mean:                                    228150.13
+                   max:                                    48000000.0
+                                                                         17:02 Tuesday, April 10, 2018   9
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 13
+book:    1  - Household Economy                                   
+module:  B1_KS0               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+                   #obs                                        15,119
+                   #miss:                                          25
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        15,144
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  10
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 14
+book:    1  - Household Economy                                   
+module:  B1_KS1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_KS1                                     560,328    100.00
+                   total                                      560,328    100.00
+
+KS02X              able to answer question KS02
+
+                   1.given                                    227,824     40.66
+                   3.not given                                332,134     59.27
+                   5                                               13      0.00
+                   7.refused                                        1      0.00
+                   8.don't know                                   338      0.06
+                   9.missing                                       18      0.00
+                   total                                      560,328    100.00
+
+KS02               During the last week
+
+                   min:                                          0.00
+                   mean:                                     10131.08
+                   max:                                     960000.00
+                   #obs                                       559,958
+                   #miss:                                         370
+
+KS03X              able to answer question KS03
+
+                   1.given                                     50,564      9.02
+                   3.not given                                509,394     90.91
+                   5                                                5      0.00
+                   6                                                1      0.00
+                   8.don't know                                   346      0.06
+                   9.missing                                       18      0.00
+                   total                                      560,328    100.00
+
+KS03
+What was the total value of [...] consumed by this household that were self-produced or received from anot
+her source in the past week?
+
+                   min:                                          0.00
+                   mean:                                      1874.20
+                   max:                                     960000.00
+                   #obs                                       559,958
+                   #miss:                                         370
+
+KS1TYPE            Type of food item
+
+                   A:Rice                                      15,144      2.70
+                   AA:Granulated sugar                         15,144      2.70
+                   B:Corn                                      15,144      2.70
+                   BA:Coffee                                   15,144      2.70
+                                                                         17:02 Tuesday, April 10, 2018  11
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 15
+book:    1  - Household Economy                                   
+module:  B1_KS1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(KS1TYPE  continued)
+
+                   C:Sago                                      15,144      2.70
+                   CA:Tea                                      15,144      2.70
+                   D:Cassava                                   15,144      2.70
+                   DA:Cocoa                                    15,144      2.70
+                   E:Other staple foods                        15,144      2.70
+                   EA:Soft drink like fanta                    15,144      2.70
+                   F:Kangkung                                  15,144      2.70
+                   FA:Alcoholic beverages like beer            15,144      2.70
+                   G:Beans like mung-beans                     15,144      2.70
+                   GA:Betel nut(for chewing)                   15,144      2.70
+                   H:Fruits like papaya                        15,144      2.70
+                   HA:Cigarettes                               15,144      2.70
+                   I:Noodles                                   15,144      2.70
+                   IA:Snacks(eaten at home)                    15,144      2.70
+                   IB:Meals eaten away from home               15,144      2.70
+                   J:Cookies                                   15,144      2.70
+                   K:Beef                                      15,144      2.70
+                   L:Chicken                                   15,144      2.70
+                   M:Fresh fish                                15,144      2.70
+                   N:Salted fish                               15,144      2.70
+                   OA:Jerky                                    15,144      2.70
+                   OB:Tofu                                     15,144      2.70
+                   P:Eggs                                      15,144      2.70
+                   Q:Fresh milk                                15,144      2.70
+                   R:Sweet and salty soy sauce                 15,144      2.70
+                   S:Salt                                      15,144      2.70
+                   T:Shrimp paste                              15,144      2.70
+                   U:Chili sauce                               15,144      2.70
+                   V:Shallot                                   15,144      2.70
+                   W:Javanese (brown) sugar                    15,144      2.70
+                   X:Butter                                    15,144      2.70
+                   Y:Cooking oil like coconut oil              15,144      2.70
+                   Z:Drinking water                            15,144      2.70
+                   total                                      560,328    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                       560,328
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  12
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 16
+book:    1  - Household Economy                                   
+module:  B1_KS2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_KS2                                     181,692    100.00
+                   total                                      181,692    100.00
+
+KS06X              able to answer question KS06
+
+                   1.given                                    100,008     55.04
+                   3.not given                                 81,202     44.69
+                   5                                                1      0.00
+                   8.don't know                                   481      0.26
+                   total                                      181,692    100.00
+
+KS06
+What were the total expenditures by all household members for [...] during the past month?
+
+                   min:                                          0.00
+                   mean:                                    114426.14
+                   max:                                    96000000.0
+                   #obs                                       181,210
+                   #miss:                                         482
+
+KS2TYPE            Type of non-food items
+
+                   missing                                          1      0.00
+                   A1:Electricity                              15,141      8.33
+                   A2:Water                                    15,141      8.33
+                   A3:Household fuel                           15,141      8.33
+                   A4:Telephone                                15,141      8.33
+                   B:Personal toiletries                       15,141      8.33
+                   C:Houshold items                            15,141      8.33
+                   C1:Domestic service and servant's wages     15,141      8.33
+                   D:Recreation and entertainment              15,141      8.33
+                   E:Transportation                            15,141      8.33
+                   F1:Sweeptakes                               15,141      8.33
+                   F2:Arisan                                   15,141      8.33
+                   G:Value of non food items given to other    15,140      8.33
+                   total                                      181,692    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                       181,692
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  13
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 17
+book:    1  - Household Economy                                   
+module:  B1_KS3               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_KS3                                     105,973    100.00
+                   total                                      105,973    100.00
+
+KS08X              able to answer question KS08
+
+                   1.given                                     66,860     63.09
+                   3.not given                                 38,701     36.52
+                   6                                                1      0.00
+                   7.refused                                        8      0.01
+                   8.don't know                                   400      0.38
+                   9.missing                                        3      0.00
+                   total                                      105,973    100.00
+
+KS08
+What were the total expenditures by all household members for [...] during the past year?
+
+                   min:                                          0.00
+                   mean:                                   1246278.18
+                   max:                                    1110500000
+                   #obs                                       105,561
+                   #miss:                                         412
+
+KS09AX             able to answer question KS09A
+
+                   missing                                     30,278     28.57
+                   1.given                                     14,926     14.08
+                   3.not given                                 60,318     56.92
+                   7.refused                                        6      0.01
+                   8.don't know                                   443      0.42
+                   9.missing                                        2      0.00
+                   total                                      105,973    100.00
+
+KS09A
+What was the total value of [...] consumed by all household members that was self-produced or received, fr
+om another source during the last year?
+
+                   min:                                          0.00
+                   mean:                                    794867.35
+                   max:                                          4E10
+                   #obs                                        75,244
+                   #miss:                                      30,729
+
+KS3TYPE            Type of non-food items
+
+                   A:Clothing                                  15,139     14.29
+                   B:Household supplies and furniture          15,139     14.29
+                   C:Medical costs                             15,139     14.29
+                                                                         17:02 Tuesday, April 10, 2018  14
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 18
+book:    1  - Household Economy                                   
+module:  B1_KS3               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(KS3TYPE  continued)
+
+                   D:Ritual ceremonies                         15,139     14.29
+                   E:Taxes                                     15,139     14.29
+                   F:Other expenditures not specified above    15,139     14.29
+                   G:Value of non food items given to other    15,139     14.29
+                   total                                      105,973    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                       105,973
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  15
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 19
+book:    1  - Household Economy                                   
+module:  B1_KS4               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_KS4                                     151,350    100.00
+                   total                                      151,350    100.00
+
+KS13               The last time you purchased [...] , what was the quantity you purchased?
+
+                   min:                                          0.00
+                   mean:                                         4.57
+                   max:                                        999.98
+                   #obs                                        83,624
+                   #miss:                                      67,726
+
+KS13X              able to answer question KS13
+
+                   missing                                     67,726     44.75
+                   1.given                                     83,601     55.24
+                   3.not given                                     23      0.02
+                   total                                      151,350    100.00
+
+KS13A              In the last month, have you purchased [...] ?
+
+                   1:Yes                                       83,624     55.25
+                   3:No                                        67,717     44.74
+                   9:Missing                                        9      0.01
+                   total                                      151,350    100.00
+
+KS14               Ivwr Note : Unit of quantity
+
+                   missing                                     67,726     44.75
+                   1:Kg -> KS15                                45,984     30.38
+                   2:Liter -> KS15                             20,215     13.36
+                   3:Bunch                                     12,792      8.45
+                   4:Bottle                                       322      0.21
+                   5:Bag                                          624      0.41
+                   6:Bamboo scoop                                  10      0.01
+                   7:Tail                                       2,481      1.64
+                   9:Ounce                                        784      0.52
+                   95:Other                                       269      0.18
+                   98:Don't know                                  143      0.09
+                   total                                      151,350    100.00
+
+KS14A              If the unit is not in kg, grams or liters, try to estimate the amount that you bought.
+
+                   min:                                          0.00
+                   mean:                                        23.32
+                   max:                                        999.98
+                   #obs                                        17,440
+                   #miss:                                     133,910
+                                                                         17:02 Tuesday, April 10, 2018  16
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 20
+book:    1  - Household Economy                                   
+module:  B1_KS4               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+
+KS14X              able to answer question KS14
+
+                   missing                                     67,726     44.75
+                   1.given                                     83,624     55.25
+                   total                                      151,350    100.00
+
+KS14B              INTERVIEWER NOTE: RECORD UNIT/UNITESTIMATE IF NECESSARDO NOT RECORD UNIT/UNITS SUCH AS
+
+                   missing                                    133,910     88.48
+                   1:Kilograms                                 16,344     10.80
+                   2:Liters                                       311      0.21
+                   98:Don't Know                                  785      0.52
+                   total                                      151,350    100.00
+
+KS15               How much did you pay for that amount?
+
+                   min:                                        200.00
+                   mean:                                     30086.27
+                   max:                                     999998.00
+                   #obs                                        83,624
+                   #miss:                                      67,726
+
+KS16               Specify brand or comment on quality
+
+                   missing                                     84,078     55.55
+                   1:High/Fresh fish/premium gasoline          25,370     16.76
+                   2:Medium/average/briny fish/pertamax gas    28,301     18.70
+                   3:Low/sardines                               2,013      1.33
+                   4:Import quality                             1,893      1.25
+                   5:Local quality                              9,463      6.25
+                   8:Don't know                                   232      0.15
+                   total                                      151,350    100.00
+
+KS4TYPE            Type of consumption
+
+                   A:Rice                                      15,135     10.00
+                   C:Fish                                      15,135     10.00
+                   E:Cooking oil                               15,135     10.00
+                   F:Granulated Sugar                          15,135     10.00
+                   H1:Kangkung                                 15,135     10.00
+                   H3:Spinach                                  15,135     10.00
+                   K:Kerosene                                  15,135     10.00
+                   L:Vehicle fuel                              15,135     10.00
+                   M:Beef                                      15,135     10.00
+                   N:Chicken                                   15,135     10.00
+                   total                                      151,350    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                       151,350
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  17
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 21
+book:    1  - Household Economy                                   
+module:  B1_KSR1              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_KSR1                                     45,402    100.00
+                   total                                       45,402    100.00
+
+KSR17              Has this household ever received cash transfer from [...] program
+
+                   1:Yes                                        4,522      9.96
+                   3:No -> the next column                     40,320     88.81
+                   6:No Program -> the next column                559      1.23
+                   9:Missing                                        1      0.00
+                   total                                       45,402    100.00
+
+KSR18M
+When was the first time  this household receive the cash transfer from [...] program?( Month)
+
+                   missing                                     43,230     95.22
+                   1:January                                       94      0.21
+                   2:February                                      36      0.08
+                   3:March                                         34      0.07
+                   4:April                                         53      0.12
+                   5:May                                           38      0.08
+                   6:June                                          92      0.20
+                   7:July                                         127      0.28
+                   8:August                                        64      0.14
+                   9:September                                     43      0.09
+                   10:October                                      39      0.09
+                   11:November                                    105      0.23
+                   12:December                                    105      0.23
+                   98:Don't know                                1,341      2.95
+                   99:Missing                                       1      0.00
+                   total                                       45,402    100.00
+
+KSR18Y
+When was the first time  this household receive the cash transfer from [...] program?(year)
+
+                   min:                                       2007.00
+                   mean:                                      2785.16
+                   max:                                       9999.00
+                   #obs                                         2,172
+                   #miss:                                      43,230
+
+KSR19              During this
+
+                   min:                                          1.00
+                   mean:                                         4.26
+                   max:                                         99.00
+                   #obs                                         2,172
+                   #miss:                                      43,230
+                                                                         17:02 Tuesday, April 10, 2018  18
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 22
+book:    1  - Household Economy                                   
+module:  B1_KSR1              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+
+KSR21X
+Do u know the total amount of cash transfer  this household received in the last 1 year from [...] program
+ ?
+
+                   missing                                     43,230     95.22
+                   1                                            1,909      4.20
+                   6:Did not receive in the last 1 year           225      0.50
+                   8:Don't know                                    37      0.08
+                   9:Missing                                        1      0.00
+                   total                                       45,402    100.00
+
+KSR21
+What was the total amount of cash transfer  this household received in the last 1 year from [...] program 
+?
+
+                   min:                                          0.00
+                   mean:                                   1254608.64
+                   max:                                     999999999
+                   #obs                                         1,910
+                   #miss:                                      43,492
+
+KSR22M
+When was the last  time  this household receive the cash transfer from [...] program?( Month)
+
+                   missing                                     43,230     95.22
+                   1:January                                       79      0.17
+                   2:February                                      33      0.07
+                   3:March                                         43      0.09
+                   4:April                                        123      0.27
+                   5:May                                           33      0.07
+                   6:June                                          49      0.11
+                   7:July                                          69      0.15
+                   8:August                                        61      0.13
+                   9:September                                     97      0.21
+                   10:October                                     130      0.29
+                   11:November                                    420      0.93
+                   12:December                                    397      0.87
+                   98:Don't know                                  637      1.40
+                   99:Missing                                       1      0.00
+                   total                                       45,402    100.00
+
+KSR22Y
+When was the last  time  this household receive the cash transfer from [...] program?(year)
+
+                   min:                                       2008.00
+                   mean:                                      2315.25
+                   max:                                       9999.00
+                   #obs                                         2,172
+                   #miss:                                      43,230
+
+KSR23X
+The last time this household received the cash transfer from [...] program, what  was the amount? (know am
+ount)
+                                                                         17:02 Tuesday, April 10, 2018  19
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 23
+book:    1  - Household Economy                                   
+module:  B1_KSR1              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+                   missing                                     43,230     95.22
+                   1                                            2,149      4.73
+                   8:Don't know                                    22      0.05
+                   9:Missing                                        1      0.00
+                   total                                       45,402    100.00
+
+KSR23
+The last time this household received the cash transfer from [...] program, what  was the amount?
+
+                   min:                                      20000.00
+                   mean:                                    833902.09
+                   max:                                     999999999
+                   #obs                                         2,150
+                   #miss:                                      43,252
+
+KSR3TYPE           Program type
+
+                   A:Program Kompensasi Penurunan Subsidi B    15,134     33.33
+                   B:Program Bantuan Tunai Bersyarat (Kelua    15,134     33.33
+                   C:Bantuan Langsung Tunai Bersyarat (UCT)    15,134     33.33
+                   total                                       45,402    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        45,402
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  20
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 24
+book:    1  - Household Economy                                   
+module:  B1_KSR2              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_KSR2                                     15,134    100.00
+                   total                                       15,134    100.00
+
+KSR24A
+During the past year, has this household ever bought rice/received money  from [...] program?
+
+                   missing                                          1      0.01
+                   A:Yes, bought RASKIN rice                    6,692     44.22
+                   AB                                              19      0.13
+                   B:Yes, received money from RASKIN               47      0.31
+                   C:No                                         8,105     53.55
+                   W:Don't know/No Program                        270      1.78
+                   total                                       15,134    100.00
+
+KSR26BX
+What was the total quantity rice bought by this household from the [...] program in the last year? (know a
+mount)
+
+                   missing                                      8,376     55.35
+                   A:Total quantity rice bought                 6,685     44.17
+                   AB                                               7      0.05
+                   B:Total money received                          47      0.31
+                   Y:Don't know                                    19      0.13
+                   total                                       15,134    100.00
+
+KSR25B
+How many times in the past year did the household buy rice/receive money from [...] program?
+
+                   min:                                          1.00
+                   mean:                                         7.40
+                   max:                                         50.00
+                   #obs                                         6,758
+                   #miss:                                       8,376
+
+KSR26B_KG
+What was the total quantity rice bought by this household from the [...] program in the last year?
+
+                   min:                                          0.80
+                   mean:                                        51.74
+                   max:                                        999.00
+                   #obs                                         6,692
+                   #miss:                                       8,442
+
+KSR27BX
+What was the total quantity rice bought by this household from the [...] program in the last 4 weeks?
+
+                   missing                                      8,376     55.35
+                                                                         17:02 Tuesday, April 10, 2018  21
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 25
+book:    1  - Household Economy                                   
+module:  B1_KSR2              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(KSR27BX  continued)
+
+                   A:Total quantity rice bought                 6,677     44.12
+                   AB                                               2      0.01
+                   B:Total money received                          50      0.33
+                   Y:Don't know                                    29      0.19
+                   total                                       15,134    100.00
+
+KSR26B_RP
+What was the total quantity rice bought by this household from the [...] program in the last year?
+
+                   min:                                       9000.00
+                   mean:                                    168731.48
+                   max:                                     600000.00
+                   #obs                                            54
+                   #miss:                                      15,080
+
+KSR27B_KG
+What was the total quantity rice bought by this household from the [...] program in the last 4 weeks?
+
+                   min:                                          0.00
+                   mean:                                         3.74
+                   max:                                        200.00
+                   #obs                                         6,679
+                   #miss:                                       8,455
+
+KSR27B_RP
+What was the total quantity rice bought by this household from the [...] program in the last 4 weeks?
+
+                   min:                                          0.00
+                   mean:                                      9567.31
+                   max:                                     100000.00
+                   #obs                                            52
+                   #miss:                                      15,082
+
+KSR28X             What was the last time you obtained/bought RASKIN rice (month/year)?
+
+                   missing                                      8,376     55.35
+                   1:Month/Year                                 6,711     44.34
+                   6:Don't buy Raskin -> KSR34                     47      0.31
+                   total                                       15,134    100.00
+
+KSR28M             What was the last time you obtained/bought RASKIN rice (month)?
+
+                   missing                                      8,423     55.66
+                   1:January                                      593      3.92
+                   2:February                                     315      2.08
+                   3:March                                        499      3.30
+                   4:April                                        300      1.98
+                   5:May                                          242      1.60
+                   6:June                                         294      1.94
+                   7:July                                         303      2.00
+                   8:August                                       611      4.04
+                   9:September                                  1,021      6.75
+                   10:October                                   1,532     10.12
+                   11:November                                    432      2.85
+                                                                         17:02 Tuesday, April 10, 2018  22
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 26
+book:    1  - Household Economy                                   
+module:  B1_KSR2              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(KSR28M  continued)
+
+                   12:December                                    344      2.27
+                   98:Don't know                                  225      1.49
+                   total                                       15,134    100.00
+
+KSR28Y             What was the last time you obtained/bought RASKIN rice (year)?
+
+                   missing                                      8,423     55.66
+                   2013                                            20      0.13
+                   2014                                         4,624     30.55
+                   2015                                         2,056     13.59
+                   9998:Don't know                                 11      0.07
+                   total                                       15,134    100.00
+
+KSR29
+The last time you bought rice from the [...] program, what was the quantity of rice you bought?
+
+                   min:                                          0.00
+                   mean:                                         7.94
+                   max:                                        200.00
+                   #obs                                         6,693
+                   #miss:                                       8,441
+
+KSR29AX            The last time you receive money from the [...] program, how much did you receive?
+
+                   missing                                      8,376     55.35
+                   1:The amount of rupiah                          65      0.43
+                   6:Don't accept money from raskin -> KSR3     6,692     44.22
+                   8:Don't know                                     1      0.01
+                   total                                       15,134    100.00
+
+KSR29A
+The last time you bought rice from the [...] program, what was the quantity of rice you bought?
+
+                   min:                                       5000.00
+                   mean:                                     51523.08
+                   max:                                     600000.00
+                   #obs                                            65
+                   #miss:                                      15,069
+
+KSR29BX            How much [...] rice were you supposed to receive?
+
+                   missing                                     15,068     99.56
+                   1:The amount of kilograms                       59      0.39
+                   8:Don't know                                     7      0.05
+                   total                                       15,134    100.00
+
+KSR29B             How much [...] rice were you supposed to receive?
+
+                   min:                                          1.50
+                   mean:                                         6.65
+                   max:                                         50.00
+                   #obs                                            59
+                   #miss:                                      15,075
+                                                                         17:02 Tuesday, April 10, 2018  23
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 27
+book:    1  - Household Economy                                   
+module:  B1_KSR2              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+KSR29X
+The last time you bought rice from the [...] program, what was the quantity of rice you bought?
+
+                   missing                                      8,423     55.66
+                   1:Yes                                        6,693     44.22
+                   8:Don't know                                    18      0.12
+                   total                                       15,134    100.00
+
+KSR30X
+The last time you obtained/bought rice from the [...] program hat was the maximum amount of rice you could
+ purchase?
+
+                   missing                                      8,423     55.66
+                   1:Yes                                        6,586     43.52
+                   6:No maximum                                    81      0.54
+                   8:Don't know                                    44      0.29
+                   total                                       15,134    100.00
+
+KSR30
+The last time you obtained/bought rice from the [...] program hat was the maximum amount of rice you could
+ purchase?
+
+                   min:                                          0.00
+                   mean:                                         7.83
+                   max:                                        250.00
+                   #obs                                         6,586
+                   #miss:                                       8,548
+
+KSR31X
+The last time you bought rice from the [...] program, what was the total amount that you spent buying?
+
+                   missing                                      8,423     55.66
+                   1:Yes                                        6,670     44.07
+                   8:Don't know                                    41      0.27
+                   total                                       15,134    100.00
+
+KSR31
+The last time you bought rice from the [...] program, what was the total amount that you spent buying?
+
+                   min:                                          0.00
+                   mean:                                     32231.27
+                   max:                                    99999998.0
+                   #obs                                         6,670
+                   #miss:                                       8,464
+
+KSR32X             What would the same amount have cost in regular market at that time?
+
+                   missing                                      8,423     55.66
+                   1:Yes                                        5,798     38.31
+                   8:Don't know                                   913      6.03
+                   total                                       15,134    100.00
+                                                                         17:02 Tuesday, April 10, 2018  24
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 28
+book:    1  - Household Economy                                   
+module:  B1_KSR2              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+KSR32              What would the same amount have cost in regular market at that time?
+
+                   min:                                       2500.00
+                   mean:                                    137871.83
+                   max:                                    99999998.0
+                   #obs                                         5,798
+                   #miss:                                       9,336
+
+KSR34X             What  was price per kg of rice in the regular market at that time?
+
+                   missing                                      8,376     55.35
+                   1:Yes                                        6,416     42.39
+                   8:Don't know                                   342      2.26
+                   total                                       15,134    100.00
+
+KSR34              What  was price per kg of rice in the regular market at that time?
+
+                   min:                                       2000.00
+                   mean:                                      7565.19
+                   max:                                      99998.00
+                   #obs                                         6,416
+                   #miss:                                       8,718
+
+KSR35              What was the  quality of rice purchased  from the [...] program?
+
+                   missing                                      8,376     55.35
+                   1:High                                          87      0.57
+                   2:Medium                                     1,721     11.37
+                   3:Low                                        4,903     32.40
+                   6:NA/ Don't buy Raskin                          47      0.31
+                   total                                       15,134    100.00
+
+KSR36
+During the past year, have you ever refused to buy rice from the [...] program even though you had the opt
+ion of buying?
+
+                   missing                                          1      0.01
+                   1:Yes                                        1,359      8.98
+                   3:No ->KSR38                                 8,469     55.96
+                   6:NA -> KSR38                                5,305     35.05
+                   total                                       15,134    100.00
+
+KSR37              Why didn�t you buy rice from the [...] program at that time  ?
+
+                   missing                                     13,775     91.02
+                   1:Have no money                                237      1.57
+                   2:The rice's quality is low                    445      2.94
+                   3:Have no time                                  29      0.19
+                   4:Too far                                       14      0.09
+                   5:Someone else need it more                    264      1.74
+                   6:No eligible                                   43      0.28
+                   7:Don't have coupon for the program             75      0.50
+                   8:Out of rice                                  252      1.67
+                   total                                       15,134    100.00
+                                                                         17:02 Tuesday, April 10, 2018  25
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 29
+book:    1  - Household Economy                                   
+module:  B1_KSR2              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        15,134
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  26
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 30
+book:    1  - Household Economy                                   
+module:  B1_KSR3              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_KSR3                                     60,532    100.00
+                   total                                       60,532    100.00
+
+KSR2TYPE           Type of purchase from subsidized market
+
+                   B:Rice                                      15,133     25.00
+                   D:Sugar                                     15,133     25.00
+                   J:Cooking oil                               15,133     25.00
+                   K:Kerosene                                  15,133     25.00
+                   total                                       60,532    100.00
+
+KSR38              In the past 12 months, has this household ever bought [...] from market operation
+
+                   1:Yes                                          687      1.13
+                   3:No                                        59,845     98.87
+                   total                                       60,532    100.00
+
+KSR39              Who distributed or sold [...] ?
+
+                   Variable KSR39 can have multiple responses.  Users were asked to select 
+                   all applicable responses from a list of all possible responses.  These were  
+                   concatenated together into a single character string variable which appears  
+                   in this public use file.  For example, if the interviewee selected responses 
+                   A, C, and F from the list, KSR39 will have the value ACF.  If the       
+                   interviewee selected D and E, KSR39 will have the value DE.  Use the key
+                   below to correctly interpret these values.                                   
+
+
+                   key for variable: KSR39     A = A:Central Government                            
+                                               B = B:Regional Government                           
+                                               C = C:Non-government                                
+                                               Y = Y:Dont know                                     
+                                               Z = Z:Missing                                       
+
+
+KSR40X             How many times in the last 12 months did this household buy [...] ?
+
+                   missing                                     59,845     98.87
+                   1:Given                                        685      1.13
+                   8:Don't know                                     2      0.00
+                   total                                       60,532    100.00
+                                                                         17:02 Tuesday, April 10, 2018  27
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 31
+book:    1  - Household Economy                                   
+module:  B1_KSR3              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+KSR40              How many times in the last 12 months did this household buy [...] ?
+
+                   min:                                          1.00
+                   mean:                                         1.81
+                   max:                                         98.00
+                   #obs                                           685
+                   #miss:                                      59,847
+
+KSR41M             When was the last time (month)
+
+                   missing                                     59,845     98.87
+                   1:January                                       27      0.04
+                   2:February                                      37      0.06
+                   3:March                                         19      0.03
+                   4:April                                         24      0.04
+                   5:May                                           32      0.05
+                   6:June                                          97      0.16
+                   7:July                                         204      0.34
+                   8:August                                        57      0.09
+                   9:September                                     12      0.02
+                   10:October                                      17      0.03
+                   11:November                                     20      0.03
+                   12:December                                     63      0.10
+                   98:Don't know                                   78      0.13
+                   total                                       60,532    100.00
+
+KSR41Y             When was the last time (year)
+
+                   missing                                     59,845     98.87
+                   2013                                            12      0.02
+                   2014                                           572      0.94
+                   2015                                           100      0.17
+                   9998:Don't know                                  3      0.00
+                   total                                       60,532    100.00
+
+KSR42X
+The last time you bought [...] , what was the total amount that you spent buying [...]  from the market op
+eration?
+
+                   missing                                     59,845     98.87
+                   1:Yes                                          591      0.98
+                   8:Don't know                                    96      0.16
+                   total                                       60,532    100.00
+
+KSR42
+The last time you bought [...] , what was the total amount that you spent buying [...]  from the market op
+eration?
+
+                   min:                                          0.00
+                   mean:                                     25942.81
+                   max:                                     450000.00
+                   #obs                                           591
+                   #miss:                                      59,941
+                                                                         17:02 Tuesday, April 10, 2018  28
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 32
+book:    1  - Household Economy                                   
+module:  B1_KSR3              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+KSR43X
+The last time you bought [...] , what was the price per unit of [...] you bought   from the market operati
+on?
+
+                   missing                                     59,845     98.87
+                   1:Yes                                          497      0.82
+                   8:Don't know                                   190      0.31
+                   total                                       60,532    100.00
+
+KSR43
+The last time you bought [...] , what was the price per unit of [...] you bought   from the market operati
+on?
+
+                   min:                                          0.00
+                   mean:                                      9223.29
+                   max:                                      82000.00
+                   #obs                                           497
+                   #miss:                                      60,035
+
+KSR44              Unit
+
+                   missing                                     59,845     98.87
+                   1:Kg                                           523      0.86
+                   2:Liter                                        164      0.27
+                   total                                       60,532    100.00
+
+KSR45X
+The last time you bought [...] , what was the price per unit of [...] in the regular market?
+
+                   missing                                     59,845     98.87
+                   1:Yes                                          657      1.09
+                   8:Don't know                                    30      0.05
+                   total                                       60,532    100.00
+
+KSR45
+The last time you bought [...] , what was the price per unit of [...] in the regular market?
+
+                   min:                                          0.00
+                   mean:                                     12319.48
+                   max:                                     120000.00
+                   #obs                                           657
+                   #miss:                                      59,875
+
+KSR46              Unit
+
+                   missing                                     59,845     98.87
+                   1:Kg                                           506      0.84
+                   2:Liter                                        181      0.30
+                   total                                       60,532    100.00
+                                                                         17:02 Tuesday, April 10, 2018  29
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 33
+book:    1  - Household Economy                                   
+module:  B1_KSR3              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        60,532
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  30
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 34
+book:    1  - Household Economy                                   
+module:  B1_KSR4              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_KSR4                                     30,266    100.00
+                   total                                       30,266    100.00
+
+KSR47              In the last 12 months, did this household receive assistance like other [...] ?
+
+                   1:Yes                                        1,682      5.56
+                   3:No -> the next row                        28,584     94.44
+                   total                                       30,266    100.00
+
+KSR48              From what institution was the source of that assistance?
+
+                   Variable KSR48 can have multiple responses.  Users were asked to select 
+                   all applicable responses from a list of all possible responses.  These were  
+                   concatenated together into a single character string variable which appears  
+                   in this public use file.  For example, if the interviewee selected responses 
+                   A, C, and F from the list, KSR48 will have the value ACF.  If the       
+                   interviewee selected D and E, KSR48 will have the value DE.  Use the key
+                   below to correctly interpret these values.                                   
+
+
+                   key for variable: KSR48     A = A:Religious Organization                        
+                                               B = B:Politic Organization                          
+                                               C = C:Local LSM                                     
+                                               D = D:Individual                                    
+                                               E = E:Company                                       
+                                               F = F:Foreign government/foreign LSM/donor          
+                                               Z = Z:Missing                                       
+
+
+KSR49X             In the last 12 months, when the last time this household receive the assistance?
+
+                   missing                                     28,584     94.44
+                   1:Yes                                        1,662      5.49
+                   8:Don't know                                    20      0.07
+                   total                                       30,266    100.00
+
+KSR49M             In the last 12 months, when the last time this household receive the assistance?
+
+                   missing                                     28,604     94.51
+                   1:January                                       52      0.17
+                   2:February                                      33      0.11
+                   3:March                                         94      0.31
+                   4:April                                        343      1.13
+                   5:May                                           34      0.11
+                   6:June                                          92      0.30
+                   7:July                                         346      1.14
+                   8:August                                       129      0.43
+                                                                         17:02 Tuesday, April 10, 2018  31
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 35
+book:    1  - Household Economy                                   
+module:  B1_KSR4              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(KSR49M  continued)
+
+                   9:September                                     72      0.24
+                   10:October                                     185      0.61
+                   11:November                                     77      0.25
+                   12:December                                     97      0.32
+                   98:Don't know                                  108      0.36
+                   total                                       30,266    100.00
+
+KSR49Y             In the last 12 months
+
+                   min:                                       2013.00
+                   mean:                                      2014.13
+                   max:                                       2015.00
+                   #obs                                         1,662
+                   #miss:                                      28,604
+
+KSR50X             What was the total amount that this household received in the last 4 weeks?
+
+                   missing                                     28,584     94.44
+                   1:Enter ammount/ yes                           615      2.03
+                   6:NOT RECEIVED WITHIN 4 WEEKS                1,054      3.48
+                   8:Don't know                                    13      0.04
+                   total                                       30,266    100.00
+
+KSR50              What was the total amount that this household received in the last 4 weeks?
+
+                   min:                                       1000.00
+                   mean:                                   3624460.16
+                   max:                                     999999998
+                   #obs                                           615
+                   #miss:                                      29,651
+
+KSR5TYPE           Type of household aid for disaster and market operation
+
+                   A:Cash                                      15,133     50.00
+                   B:In-kind (food and non-food)               15,133     50.00
+                   total                                       30,266    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        30,266
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  32
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 36
+book:    1  - Household Economy                                   
+module:  B1_PP                
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_PP                                      181,584    100.00
+                   total                                      181,584    100.00
+
+PP3X
+Do you know name of the facility? (IF MORE THAN ONE FACILITY CHOOSE THE FACILITY THE RESPONDENT IS MOST LI
+KELY TO USE )
+
+                   missing                                     87,758     48.33
+                   1:Yes                                       90,972     50.10
+                   8:Don't know                                 2,854      1.57
+                   total                                      181,584    100.00
+
+PP2                Do you know where facility is located?
+
+                   1:Yes                                       93,826     51.67
+                   3:No -> the next row                        87,749     48.32
+                   9:Missing                                        9      0.00
+                   total                                      181,584    100.00
+
+PP4ADDRX           Do you know the address of facility?
+
+                   missing                                     99,279     54.67
+                   1:Yes                                       80,721     44.45
+                   8:Don't know                                 1,584      0.87
+                   total                                      181,584    100.00
+
+PP4AX              Do you know Desa/Kel of facility?
+
+                   missing                                     99,279     54.67
+                   1:Desa/Kel known                            29,284     16.13
+                   3:Same                                      42,262     23.27
+                   8:Don't know                                10,759      5.93
+                   total                                      181,584    100.00
+
+PP4BX              Do you know kecamatan of facility?
+
+                   missing                                     99,279     54.67
+                   1:Kecamatan known                           17,846      9.83
+                   3:Same                                      58,290     32.10
+                   8:Don't know                                 6,169      3.40
+                   total                                      181,584    100.00
+
+PP4CX              Do you know kabupaten of facility?
+
+                   missing                                     99,279     54.67
+                   1:Kabupten known                             5,753      3.17
+                   3:Same                                      76,330     42.04
+                                                                         17:02 Tuesday, April 10, 2018  33
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 37
+book:    1  - Household Economy                                   
+module:  B1_PP                
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(PP4CX  continued)
+
+                   8:Don't know                                   222      0.12
+                   total                                      181,584    100.00
+
+PP4DX              Do you know province of facility
+
+                   missing                                     99,279     54.67
+                   1:Province known                               542      0.30
+                   3:Same                                      81,693     44.99
+                   8:Don't know                                    70      0.04
+                   total                                      181,584    100.00
+
+PP5X               How long does it take to go to [...] (one way trip)?
+
+                   missing                                     87,758     48.33
+                   1:Minutes                                   87,700     48.30
+                   2:Hours                                      5,975      3.29
+                   3:Days                                          15      0.01
+                   98:Don't know                                  136      0.07
+                   total                                      181,584    100.00
+
+PP5                How long does it take to go to [...] (one way trip)?
+
+                   min:                                          0.00
+                   mean:                                        11.81
+                   max:                                         98.00
+                   #obs                                        93,826
+                   #miss:                                      87,758
+
+PP6X               Approtransportation cost from home to [...] one way?
+
+                   missing                                     87,758     48.33
+                   1:Estimate of cost                          11,511      6.34
+                   3:Walk                                      25,929     14.28
+                   5:Use own transportation                    56,207     30.95
+                   8:Don't know                                   179      0.10
+                   total                                      181,584    100.00
+
+PP6                Approtransportation cost from home to [...] one way?
+
+                   min:                                          0.00
+                   mean:                                     10823.50
+                   max:                                     999998.00
+                   #obs                                        11,511
+                   #miss:                                     170,073
+
+PPTYPE             Type of out-patient facility
+
+                   missing                                          1      0.00
+                   A:Public Hospital (General or Specify)      15,132      8.33
+                   B:Private Hospital                          15,132      8.33
+                   C:Public Health Center/Auxiliary Center     15,132      8.33
+                   D:Private Clinic                            15,132      8.33
+                   E:Private Physician                         15,132      8.33
+                   F1:Midwife (Private or village Midwife)     15,132      8.33
+                                                                         17:02 Tuesday, April 10, 2018  34
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 38
+book:    1  - Household Economy                                   
+module:  B1_PP                
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(PPTYPE  continued)
+
+                   F2:Nurse/Paramedic                          15,132      8.33
+                   G1:Traditional Birth Attendant              15,132      8.33
+                   G2:Traditional Practitioner (Shamans        15,132      8.33
+                   H:Pharmacy                                  15,132      8.33
+                   I1:Posyandu                                 15,132      8.33
+                   I2:Posyandu for Elderly                     15,131      8.33
+                   total                                      181,584    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                       181,584
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  35
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 39
+book:    1  - Household Economy                                   
+module:  B1_TIME              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+MODULE             IFLS survey module
+
+                   B1_TIME                                     23,369    100.00
+                   total                                       23,369    100.00
+
+BEGHR              Time interview began (hour)
+
+                   min:                                          0.00
+                   mean:                                        14.00
+                   max:                                         23.00
+                   #obs                                        23,369
+                   #miss:                                           0
+
+BEGMIN             Time interview began (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.53
+                   max:                                         59.00
+                   #obs                                        23,369
+                   #miss:                                           0
+
+ENDHR              Time interview ended (hour)
+
+                   min:                                          0.00
+                   mean:                                        14.48
+                   max:                                         23.00
+                   #obs                                        23,369
+                   #miss:                                           0
+
+ENDMIN             Time interview ended (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.58
+                   max:                                         59.00
+                   #obs                                        23,369
+                   #miss:                                           0
+
+IVWDAY             Date of interview (day of month)
+
+                   min:                                          1.00
+                   mean:                                        15.81
+                   max:                                         31.00
+                   #obs                                        23,369
+                   #miss:                                           0
+
+IVWMTH             Date of interview (month)
+
+                   1-January                                    2,746     11.75
+                   2-February                                   2,031      8.69
+                                                                         17:02 Tuesday, April 10, 2018  36
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 40
+book:    1  - Household Economy                                   
+module:  B1_TIME              
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(IVWMTH  continued)
+
+                   3-March                                      1,742      7.45
+                   4-April                                      1,485      6.35
+                   5-May                                        1,227      5.25
+                   6-June                                         998      4.27
+                   7-July                                         362      1.55
+                   8-August                                     1,036      4.43
+                   9-September                                  2,160      9.24
+                   10-October                                   3,121     13.36
+                   11-November                                  3,334     14.27
+                   12-December                                  3,127     13.38
+                   total                                       23,369    100.00
+
+IVWYR              Date of intterview (year)
+
+                   min:                                       2014.00
+                   mean:                                      2014.51
+                   max:                                       2015.00
+                   #obs                                        23,369
+                   #miss:                                           0
+
+TIME_OCC           Time occurrence
+
+                   min:                                          1.00
+                   mean:                                         1.60
+                   max:                                         17.00
+                   #obs                                        23,369
+                   #miss:                                           0
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        23,369
+                   #miss:                                           0

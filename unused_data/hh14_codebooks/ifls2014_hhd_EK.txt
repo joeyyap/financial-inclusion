@@ -1,0 +1,1886 @@
+                                                                                                                                                                                                                               17:02 Tuesday, April 10, 2018   1
+     ===================================================================
+
+         IIII     FFFFFFF     LLL          SSSSSS         555555555     
+          II       FF   F     LL          SS    SS        55            
+          II       FF         LL          SS     S        55            
+          II       FF         LL          SSS             5555555       
+          II       FFFFF      LL           SSSSS               5555     
+          II       FF         LL            SSSSS                555    
+          II       FF         LL               SSS                55    
+          II       FF         LL          S     SS        55      55    
+          II       FF         LL     L    SS    SS        555    555    
+         IIII     FFFF        LLLLLLLL     SSSSSS           555555      
+
+     ===================================================================
+
+
+
+     I N D O N E S I A N    F A M I L Y    L I F E    S U R V E Y    5  
+
+       A survey of individuals, households, families, communities       
+          and facilities conducted in 13 provinces in Indonesia         
+                   between November 2014 and July 2015                  
+
+     ===================================================================
+
+                               Directed by                              
+
+                      John Strauss, RAND and USC                        
+
+                      Firman Witoelar, Survey Meter                     
+
+                       Bondan Sikoki, Survey Meter                      
+
+
+     ===================================================================
+
+     Financial support for the Indonesian Family Life Survey Wave 5 has 
+     been provided by the National Institute of Aging grant number 2R01 
+     AG026676-05, the National Institute of Child and Human Development,
+     grant number 2R01 HD050764-05A1, and grants from the World Bank,   
+     Indonesia and GRM International, Australia from DFAT, the Departmen
+     of Foreign Affairs and Trade, Government of Australia              
+
+     ===================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+              Website: http://www.rand.org/FLS/IFLS                     
+          Send all questions to ifls-supp@rand.org                      
+
+
+                       Copyright (2009)                                 
+INDONESIAN FAMILY LIFE SURVEY 5: CODEBOOK                               page 2  
+                                                                                                                                                                                                                               17:02 Tuesday, April 10, 2018   2
+
+
+
+
+
+
+================================================================================
+
+          H   H   OOO    U   U    SS    EEEE   H   H   OOO   L     DDDD         
+          H   H  O   O   U   U   S  S   E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U   S      E      H   H  O   O  L     D   D        
+          HHHHH  O   O   U   U    S     EEEE   HHHHH  O   O  L     D   D        
+          H   H  O   O   U   U     S    E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U      S   E      H   H  O   O  L     D   D        
+          H   H  O   O   U   U   S  S   E      H   H  O   O  L     D   D        
+          H   H   OOO     UUU     SS    EEEE   H   H   OOO   LLLL  DDDD         
+
+
+                    SS    U   U   RRR    V    V    EEEE   Y    Y                
+                   S  S   U   U   R  R   V    V    E      Y    Y                
+                   S      U   U   R  R   V    V    E       Y  Y                 
+                    S     U   U   RRR    V    V    EEE       Y                  
+                     S    U   U   R R     V  V     E         Y                  
+                      S   U   U   R  R    V  V     E         Y                  
+                   S  S   U   U   R  R     V       E         Y                  
+                    SS     UUU    R  R     V       EEEE      Y                  
+
+
+            CCC    OOO    DDDD    EEEE   BBBB     OOO     OOO    K   K          
+           C   C  O   O   D   D   E      B   B   O   O   O   O   K  K           
+           C      O   O   D   D   E      B   B   O   O   O   O   K K            
+           C      O   O   D   D   EEE    BBBB    O   O   O   O   KK             
+           C      O   O   D   D   E      B   B   O   O   O   O   KK             
+           C      O   O   D   D   E      B   B   O   O   O   O   K K            
+           C   C  O   O   D   D   E      B   B   O   O   O   O   K  K           
+            CCC    OOO    DDDD    EEEE   BBBB     OOO     OOO    K   K          
+
+================================================================================
+
+ B O O K :       EK                                            
+ T O P I C :     LOGIC MEASUREMENT                                           
+
+================================================================================
+
+
+
+
+
+
+
+
+
+
+
+                               Prepared by                                      
+                Roald Euller, John Strauss, Firman Witolar                      
+                     Created on 10APR2018 at 17:02                           
+                                                                   17:02 Tuesday, April 10, 2018   1
+INDONESIAN FAMILY LIFE SURVEY 4: CODEBOOK                                       
+--------------------------------------------------------------------------------
+ H O U S E H O L D    S U R V E Y    C O D E B O O K                 page 3
+--------------------------------------------------------------------------------
+ B O O K :       EK
+ T O P I C :     Logic Measurement
+
+--------------------------------------------------------------------------------
+
+DATA FILES                                                                    
+----------                                                                    
+  Data are available in SAS (9.2) export and STATA (8.0) formats.             
+  Data and electronic documentation are available on the IFLS website.        
+
+  The survey instrument contains multiple sections.  Where possible, sections 
+  have been merged together to form a single data module.  The modules are    
+  organized by level of observation.  The module names are listed below.  They
+  serve as the names of the SAS and STATA data files. The codebook is also    
+  organised by module.                                                        
+
+  The modules are:                                                            
+
+   --------------------------------------------------------------------------
+                                                             # of
+      Module    Description                                  recs
+   --------------------------------------------------------------------------
+      EK_EK1                                                14943
+      EK_EK2                                                36380
+      EK_TIME1                                              15052
+      EK_TIME2                                              36657
+
+USER SUPPORT                                                                   
+------------                                                                   
+    These data should be used in conjunction with the Questionnaires and Users'
+    Manuals.  Check the IFLS web page for updates and answers to frequently    
+    asked questions.  Please send all questions to ifls-supp@rand.org.         
+
+USAGE NOTES                                                                    
+-----------                                                                    
+  READING THE DICTIONARY                                                       
+    For each variable in the dataset, the dictionary provides                  
+       Variable name : Typically the question number                           
+               Label : Describes variable                                      
+    Variable coding is described as follows:                                   
+               Value : Meaning of values for coded variables                   
+           Frequency : Frequency of each value                                 
+
+SPECIAL CODES                                                                  
+-------------                                                                  
+  The following values are reserved and have a special meaning:                
+      Numeric    Alphanumeric    Meaning                                       
+     5/95/995         V          Top coded/out of range                        
+     6/96/996         W          Not applicable                                
+     7/97/997         X          Refused to answer                             
+     8/98/998         Y          Don't know                                    
+     9/99/999         Z          Missing                                       
+
+DATASET VERSION                                                                
+---------------                                                                
+  The variable VERSION identifies the release version of these data; it        
+  will be updated with each revision of the data and can be used to confirm    
+  that you are using the most recent version of the data.                      
+                                                                         17:02 Tuesday, April 10, 2018   1
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 4
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   EK_EK1                                      14,943    100.00
+                   total                                       14,943    100.00
+
+AGE                Age of respondent
+
+                   min:                                          7.00
+                   mean:                                        15.18
+                   max:                                         44.00
+                   #obs                                        14,943
+                   #miss:                                           0
+                   min:                                          7.00
+                   mean:                                        15.18
+                   max:                                         44.00
+                   #obs                                        14,943
+                   #miss:                                           0
+
+AGE                Age of respondent
+
+                   min:                                          7.00
+                   mean:                                        15.18
+                   max:                                         44.00
+                   #obs                                        14,943
+                   #miss:                                           0
+                   min:                                          7.00
+                   mean:                                        15.18
+                   max:                                         44.00
+                   #obs                                        14,943
+                   #miss:                                           0
+
+EK1                EK1
+
+                   missing                                        948      6.34
+                   A                                              163      1.09
+                   B                                              234      1.57
+                   C                                              106      0.71
+                   D                                              351      2.35
+                   E                                           13,019     87.12
+                   F                                              116      0.78
+                   Y:Don't know                                     6      0.04
+                   total                                       14,943    100.00
+                                                                         17:02 Tuesday, April 10, 2018   2
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 5
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EK10X              able to answer question EK10
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK10               EK10
+
+                   missing                                        948      6.34
+                   A                                              862      5.77
+                   B                                           10,778     72.13
+                   C                                              851      5.69
+                   D                                              512      3.43
+                   E                                              219      1.47
+                   F                                              764      5.11
+                   Y:Don't know                                     9      0.06
+                   total                                       14,943    100.00
+
+EK10_ANS            
+
+                   0:incorrect                                  4,165     27.87
+                   1:correct                                   10,778     72.13
+                   total                                       14,943    100.00
+
+EK11X              able to answer question EK11
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK11               EK11
+
+                   missing                                        948      6.34
+                   A                                              488      3.27
+                   B                                              602      4.03
+                   C                                           11,557     77.34
+                   D                                              389      2.60
+                   E                                              342      2.29
+                   F                                              601      4.02
+                   Y:Don't know                                    16      0.11
+                   total                                       14,943    100.00
+
+EK11_ANS            
+
+                   0:incorrect                                  3,386     22.66
+                   1:correct                                   11,557     77.34
+                   total                                       14,943    100.00
+
+EK12X              able to answer question EK12
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+                                                                         17:02 Tuesday, April 10, 2018   3
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 6
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK12  continued)
+
+EK12               EK12
+
+                   missing                                        948      6.34
+                   A                                            2,249     15.05
+                   B                                            1,910     12.78
+                   C                                              886      5.93
+                   D                                            2,413     16.15
+                   E                                            3,575     23.92
+                   F                                            2,942     19.69
+                   Y:Don't know                                    20      0.13
+                   total                                       14,943    100.00
+
+EK12_ANS            
+
+                   0:incorrect                                 11,368     76.08
+                   1:correct                                    3,575     23.92
+                   total                                       14,943    100.00
+
+EK13X              able to answer question EK13
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK13               EK13
+
+                   missing                                        948      6.34
+                   A                                              944      6.32
+                   B                                           11,384     76.18
+                   C                                            1,241      8.30
+                   X:Refused                                       10      0.07
+                   Y:Don't know                                   416      2.78
+                   total                                       14,943    100.00
+
+EK13_ANS            
+
+                   0:incorrect                                  3,559     23.82
+                   1:correct                                   11,384     76.18
+                   total                                       14,943    100.00
+
+EK14X              able to answer question EK14
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK14               EK14
+
+                   missing                                        948      6.34
+                   A                                            1,881     12.59
+                   B                                            1,665     11.14
+                   C                                            9,826     65.76
+                   X:Refused                                       14      0.09
+                   Y:Don't know                                   608      4.07
+                                                                         17:02 Tuesday, April 10, 2018   4
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 7
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK14  continued)
+
+                   Z:Missing                                        1      0.01
+                   total                                       14,943    100.00
+
+EK14_ANS            
+
+                   0:incorrect                                  5,117     34.24
+                   1:correct                                    9,826     65.76
+                   total                                       14,943    100.00
+
+EK15X              able to answer question EK15
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK15               EK15
+
+                   missing                                        948      6.34
+                   A                                            1,552     10.39
+                   B                                            2,023     13.54
+                   C                                            9,633     64.46
+                   X:Refused                                       19      0.13
+                   Y:Don't know                                   767      5.13
+                   Z:Missing                                        1      0.01
+                   total                                       14,943    100.00
+
+EK15_ANS            
+
+                   0:incorrect                                  5,310     35.54
+                   1:correct                                    9,633     64.46
+                   total                                       14,943    100.00
+
+EK16X              able to answer question EK16
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK16               EK16
+
+                   missing                                        948      6.34
+                   A                                            2,516     16.84
+                   B                                            5,021     33.60
+                   C                                            2,659     17.79
+                   D                                            2,183     14.61
+                   X:Refused                                       26      0.17
+                   Y:Don't know                                 1,587     10.62
+                   Z:Missing                                        3      0.02
+                   total                                       14,943    100.00
+
+EK16_ANS            
+
+                   0:incorrect                                  9,922     66.40
+                   1:correct                                    5,021     33.60
+                                                                         17:02 Tuesday, April 10, 2018   5
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 8
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+                   total                                       14,943    100.00
+
+EK17X              able to answer question EK17
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK17               EK17
+
+                   missing                                        948      6.34
+                   A                                            1,912     12.80
+                   B                                            4,935     33.03
+                   C                                            3,772     25.24
+                   D                                            1,861     12.45
+                   X:Refused                                       25      0.17
+                   Y:Don't know                                 1,487      9.95
+                   Z:Missing                                        3      0.02
+                   total                                       14,943    100.00
+
+EK17_ANS            
+
+                   0:incorrect                                 11,171     74.76
+                   1:correct                                    3,772     25.24
+                   total                                       14,943    100.00
+
+EK18X              able to answer question EK18
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK18               EK18
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK18_ANS            
+
+                   0:incorrect                                 14,943    100.00
+                   total                                       14,943    100.00
+
+EK19X              able to answer question EK19
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK19               EK19
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK1X               able to answer question EK1
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                                                                         17:02 Tuesday, April 10, 2018   6
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 9
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK1X  continued)
+
+                   total                                       14,943    100.00
+
+EK19_ANS            
+
+                   0:incorrect                                 14,943    100.00
+                   total                                       14,943    100.00
+
+EK1_ANS             
+
+                   0:incorrect                                  1,924     12.88
+                   1:correct                                   13,019     87.12
+                   total                                       14,943    100.00
+
+EK2                EK2
+
+                   missing                                        948      6.34
+                   A                                            1,073      7.18
+                   B                                              200      1.34
+                   C                                              103      0.69
+                   D                                              847      5.67
+                   E                                              185      1.24
+                   F                                           11,579     77.49
+                   Y:Don't know                                     8      0.05
+                   total                                       14,943    100.00
+
+EK20X              able to answer question EK20
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK20               EK20
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK20_ANS            
+
+                   0:incorrect                                 14,943    100.00
+                   total                                       14,943    100.00
+
+EK21X              able to answer question EK21
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK21               EK21
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK21_ANS            
+
+                   0:incorrect                                 14,943    100.00
+                   total                                       14,943    100.00
+                                                                         17:02 Tuesday, April 10, 2018   7
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 10
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+
+EK22X              able to answer question EK22
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK22               EK22
+
+                   missing                                     14,943    100.00
+                   total                                       14,943    100.00
+
+EK2X               able to answer question EK2
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK22_ANS            
+
+                   0:incorrect                                 14,943    100.00
+                   total                                       14,943    100.00
+
+EK2_ANS             
+
+                   0:incorrect                                  3,364     22.51
+                   1:correct                                   11,579     77.49
+                   total                                       14,943    100.00
+
+EK3X               able to answer question EK3
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK3                EK3
+
+                   missing                                        948      6.34
+                   A                                           10,531     70.47
+                   B                                            1,639     10.97
+                   C                                              301      2.01
+                   D                                              299      2.00
+                   E                                              990      6.63
+                   F                                              232      1.55
+                   Y:Don't know                                     3      0.02
+                   total                                       14,943    100.00
+
+EK3_ANS             
+
+                   0:incorrect                                  4,412     29.53
+                   1:correct                                   10,531     70.47
+                   total                                       14,943    100.00
+                                                                         17:02 Tuesday, April 10, 2018   8
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 11
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EK4X               able to answer question EK4
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK4                EK4
+
+                   missing                                        948      6.34
+                   A                                              216      1.45
+                   B                                            1,752     11.72
+                   C                                              363      2.43
+                   D                                           10,372     69.41
+                   E                                            1,115      7.46
+                   F                                              168      1.12
+                   Y:Don't know                                     9      0.06
+                   total                                       14,943    100.00
+
+EK4_ANS             
+
+                   0:incorrect                                  4,571     30.59
+                   1:correct                                   10,372     69.41
+                   total                                       14,943    100.00
+
+EK5X               able to answer question EK5
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK5                EK5
+
+                   missing                                        948      6.34
+                   A                                              150      1.00
+                   B                                              333      2.23
+                   C                                            9,182     61.45
+                   D                                              956      6.40
+                   E                                              292      1.95
+                   F                                            3,074     20.57
+                   Y:Don't know                                     8      0.05
+                   total                                       14,943    100.00
+
+EK5_ANS             
+
+                   0:incorrect                                  5,761     38.55
+                   1:correct                                    9,182     61.45
+                   total                                       14,943    100.00
+
+EK6X               able to answer question EK6
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+                                                                         17:02 Tuesday, April 10, 2018   9
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 12
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK6  continued)
+
+EK6                EK6
+
+                   missing                                        948      6.34
+                   A                                            2,444     16.36
+                   B                                            5,515     36.91
+                   C                                            1,658     11.10
+                   D                                            2,549     17.06
+                   E                                            1,298      8.69
+                   F                                              515      3.45
+                   Y:Don't know                                    16      0.11
+                   total                                       14,943    100.00
+
+EK6_ANS             
+
+                   0:incorrect                                  9,428     63.09
+                   1:correct                                    5,515     36.91
+                   total                                       14,943    100.00
+
+EK7X               able to answer question EK7
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK7                EK7
+
+                   missing                                        948      6.34
+                   A                                              300      2.01
+                   B                                              775      5.19
+                   C                                              839      5.61
+                   D                                              353      2.36
+                   E                                           11,593     77.58
+                   F                                              129      0.86
+                   Y:Don't know                                     6      0.04
+                   total                                       14,943    100.00
+
+EK7_ANS             
+
+                   0:incorrect                                  3,350     22.42
+                   1:correct                                   11,593     77.58
+                   total                                       14,943    100.00
+
+EK8X               able to answer question EK8
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK8                EK8
+
+                   missing                                        948      6.34
+                   A                                              235      1.57
+                   B                                           12,123     81.13
+                   C                                              661      4.42
+                                                                         17:02 Tuesday, April 10, 2018  10
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 13
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK8  continued)
+
+                   D                                              432      2.89
+                   E                                              375      2.51
+                   F                                              159      1.06
+                   Y:Don't know                                    10      0.07
+                   total                                       14,943    100.00
+
+EK8_ANS             
+
+                   0:incorrect                                  2,820     18.87
+                   1:correct                                   12,123     81.13
+                   total                                       14,943    100.00
+
+EK9X               able to answer question EK9
+
+                   missing                                        948      6.34
+                   1.given                                     13,995     93.66
+                   total                                       14,943    100.00
+
+EK9                EK9
+
+                   missing                                        948      6.34
+                   A                                              312      2.09
+                   B                                            1,199      8.02
+                   C                                           11,771     78.77
+                   D                                              339      2.27
+                   E                                              236      1.58
+                   F                                              127      0.85
+                   Y:Don't know                                    11      0.07
+                   total                                       14,943    100.00
+
+EK9_ANS             
+
+                   0:incorrect                                  3,172     21.23
+                   1:correct                                   11,771     78.77
+                   total                                       14,943    100.00
+
+EKDAY              Day of interview
+
+                   min:                                          1.00
+                   mean:                                        15.81
+                   max:                                         31.00
+                   #obs                                        14,943
+                   #miss:                                           0
+
+EKHRSBEG           Time interview began (hour)
+
+                   min:                                          0.00
+                   mean:                                        15.93
+                   max:                                         23.00
+                   #obs                                        14,943
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  11
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 14
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EKHRSEND           Time interviewer ended (Hour)
+
+                   min:                                          0.00
+                   mean:                                        16.05
+                   max:                                         23.00
+                   #obs                                        14,943
+                   #miss:                                           0
+
+EKMINBEG           Time interview began (minute)
+
+                   min:                                          0.00
+                   mean:                                        26.47
+                   max:                                         59.00
+                   #obs                                        14,943
+                   #miss:                                           0
+
+EKMINEND           Time interviewer ended (minute)
+
+                   min:                                          0.00
+                   mean:                                        28.42
+                   max:                                         59.00
+                   #obs                                        14,943
+                   #miss:                                           0
+
+EKMTH              Month of interview
+
+                   min:                                          1.00
+                   mean:                                         6.78
+                   max:                                         12.00
+                   #obs                                        14,943
+                   #miss:                                           0
+
+EKTYPE             ektype.Age group
+
+                   min:                                          1.00
+                   mean:                                         1.00
+                   max:                                          1.00
+                   #obs                                        14,943
+                   #miss:                                           0
+
+EKYR               Year of interview
+
+                   min:                                       2014.00
+                   mean:                                      2014.56
+                   max:                                       2015.00
+                   #obs                                        14,943
+                   #miss:                                           0
+
+IDIVWR             Interviewer code
+
+
+REASON             Reason for not answering
+
+                   missing                                     13,995     93.66
+                   1:Refused                                      523      3.50
+                                                                         17:02 Tuesday, April 10, 2018  12
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 15
+book:    EK  - Logic Measurement                                   
+module:  EK_EK1               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(REASON  continued)
+
+                   2:Illiterate                                     4      0.03
+                   3:Mentally challenged                           26      0.17
+                   4:Had not time                                  11      0.07
+                   5:Proxy Respondent                             176      1.18
+                   6:Other                                         33      0.22
+                   7:Can't be contacted                           175      1.17
+                   total                                       14,943    100.00
+
+RESPTYPE           COV7.
+
+                   7-14 years old                               8,166     54.65
+                   2:Respondent of 2000                         6,777     45.35
+                   total                                       14,943    100.00
+
+SEX                Sex of respondent
+
+                   1:Male                                       7,600     50.86
+                   3:Female                                     7,343     49.14
+                   total                                       14,943    100.00
+
+RESULT             Result of measurement
+
+                   1:Completed                                 13,469     90.14
+                   2:Not completed                                526      3.52
+                   3:Did not anwer                                948      6.34
+                   total                                       14,943    100.00
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        14,943
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  13
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 16
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   EK_EK2                                      36,380    100.00
+                   total                                       36,380    100.00
+
+AGE                Age of respondent
+
+                   min:                                          7.00
+                   mean:                                        38.38
+                   max:                                         99.00
+                   #obs                                        36,380
+                   #miss:                                           0
+                   min:                                          7.00
+                   mean:                                        38.38
+                   max:                                         99.00
+                   #obs                                        36,380
+                   #miss:                                           0
+
+AGE                Age of respondent
+
+                   min:                                          7.00
+                   mean:                                        38.38
+                   max:                                         99.00
+                   #obs                                        36,380
+                   #miss:                                           0
+                   min:                                          7.00
+                   mean:                                        38.38
+                   max:                                         99.00
+                   #obs                                        36,380
+                   #miss:                                           0
+
+EK1                EK1
+
+                   missing                                      5,041     13.86
+                   A                                            1,195      3.28
+                   B                                            1,193      3.28
+                   C                                              628      1.73
+                   D                                              951      2.61
+                   E                                           26,923     74.00
+                   F                                              436      1.20
+                   Y:Don't know                                    13      0.04
+                   total                                       36,380    100.00
+                                                                         17:02 Tuesday, April 10, 2018  14
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 17
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EK10X              able to answer question EK10
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK10               EK10
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK10_ANS            
+
+                   0:incorrect                                 36,380    100.00
+                   total                                       36,380    100.00
+
+EK11X              able to answer question EK11
+
+                   missing                                      5,041     13.86
+                   1.given                                     31,339     86.14
+                   total                                       36,380    100.00
+
+EK11               EK11
+
+                   missing                                      5,041     13.86
+                   A                                            2,123      5.84
+                   B                                            1,785      4.91
+                   C                                           22,180     60.97
+                   D                                            1,317      3.62
+                   E                                            1,738      4.78
+                   F                                            2,179      5.99
+                   Y:Don't know                                    16      0.04
+                   Z:Missing                                        1      0.00
+                   total                                       36,380    100.00
+
+EK11_ANS            
+
+                   0:incorrect                                 14,200     39.03
+                   1:correct                                   22,180     60.97
+                   total                                       36,380    100.00
+
+EK12X              able to answer question EK12
+
+                   missing                                      5,041     13.86
+                   1.given                                     31,339     86.14
+                   total                                       36,380    100.00
+
+EK12               EK12
+
+                   missing                                      5,041     13.86
+                   A                                            4,194     11.53
+                   B                                            3,916     10.76
+                   C                                            2,424      6.66
+                   D                                            6,120     16.82
+                   E                                            8,167     22.45
+                   F                                            6,485     17.83
+                                                                         17:02 Tuesday, April 10, 2018  15
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 18
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK12  continued)
+
+                   Y:Don't know                                    33      0.09
+                   total                                       36,380    100.00
+
+EK12_ANS            
+
+                   0:incorrect                                 28,213     77.55
+                   1:correct                                    8,167     22.45
+                   total                                       36,380    100.00
+
+EK13X              able to answer question EK13
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK13               EK13
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK13_ANS            
+
+                   0:incorrect                                 36,380    100.00
+                   total                                       36,380    100.00
+
+EK14X              able to answer question EK14
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK14               EK14
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK14_ANS            
+
+                   0:incorrect                                 36,380    100.00
+                   total                                       36,380    100.00
+
+EK15X              able to answer question EK15
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK15               EK15
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK15_ANS            
+
+                   0:incorrect                                 36,380    100.00
+                   total                                       36,380    100.00
+                                                                         17:02 Tuesday, April 10, 2018  16
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 19
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EK16X              able to answer question EK16
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK16               EK16
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK16_ANS            
+
+                   0:incorrect                                 36,380    100.00
+                   total                                       36,380    100.00
+
+EK17X              able to answer question EK17
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK17               EK17
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK17_ANS            
+
+                   0:incorrect                                 36,380    100.00
+                   total                                       36,380    100.00
+
+EK18X              able to answer question EK18
+
+                   missing                                      7,966     21.90
+                   1.given                                     28,414     78.10
+                   total                                       36,380    100.00
+
+EK18               EK18
+
+                   missing                                      7,966     21.90
+                   A                                            6,084     16.72
+                   B                                            9,117     25.06
+                   C                                            5,153     14.16
+                   D                                            3,695     10.16
+                   X:Refused                                      107      0.29
+                   Y:Don't know                                 4,256     11.70
+                   Z:Missing                                        2      0.01
+                   total                                       36,380    100.00
+
+EK18_ANS            
+
+                   0:incorrect                                 27,263     74.94
+                   1:correct                                    9,117     25.06
+                   total                                       36,380    100.00
+                                                                         17:02 Tuesday, April 10, 2018  17
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 20
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EK19X              able to answer question EK19
+
+                   missing                                      7,966     21.90
+                   1.given                                     28,414     78.10
+                   total                                       36,380    100.00
+
+EK19               EK19
+
+                   missing                                      7,966     21.90
+                   A                                            3,875     10.65
+                   B                                            4,735     13.02
+                   C                                            5,476     15.05
+                   D                                           10,237     28.14
+                   X:Refused                                      108      0.30
+                   Y:Don't know                                 3,980     10.94
+                   Z:Missing                                        3      0.01
+                   total                                       36,380    100.00
+
+EK1X               able to answer question EK1
+
+                   missing                                      5,041     13.86
+                   1.given                                     31,339     86.14
+                   total                                       36,380    100.00
+
+EK19_ANS            
+
+                   0:incorrect                                 26,143     71.86
+                   1:correct                                   10,237     28.14
+                   total                                       36,380    100.00
+
+EK1_ANS             
+
+                   0:incorrect                                  9,457     26.00
+                   1:correct                                   26,923     74.00
+                   total                                       36,380    100.00
+
+EK2                EK2
+
+                   missing                                      5,041     13.86
+                   A                                            2,461      6.76
+                   B                                            1,081      2.97
+                   C                                              562      1.54
+                   D                                            2,210      6.07
+                   E                                              654      1.80
+                   F                                           24,358     66.95
+                   Y:Don't know                                    13      0.04
+                   total                                       36,380    100.00
+
+EK20X              able to answer question EK20
+
+                   missing                                      7,966     21.90
+                   1.given                                     28,414     78.10
+                   total                                       36,380    100.00
+                                                                         17:02 Tuesday, April 10, 2018  18
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 21
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK20  continued)
+
+EK20               EK20
+
+                   missing                                      7,966     21.90
+                   A                                            3,389      9.32
+                   B                                            5,031     13.83
+                   C                                           12,189     33.50
+                   D                                            3,458      9.51
+                   X:Refused                                      108      0.30
+                   Y:Don't know                                 4,236     11.64
+                   Z:Missing                                        3      0.01
+                   total                                       36,380    100.00
+
+EK20_ANS            
+
+                   0:incorrect                                 24,191     66.50
+                   1:correct                                   12,189     33.50
+                   total                                       36,380    100.00
+
+EK21X              able to answer question EK21
+
+                   missing                                      7,966     21.90
+                   1.given                                     28,414     78.10
+                   total                                       36,380    100.00
+
+EK21               EK21
+
+                   missing                                      7,966     21.90
+                   A                                            7,567     20.80
+                   B                                            5,627     15.47
+                   C                                            4,284     11.78
+                   D                                            6,535     17.96
+                   X:Refused                                      109      0.30
+                   Y:Don't know                                 4,290     11.79
+                   Z:Missing                                        2      0.01
+                   total                                       36,380    100.00
+
+EK21_ANS            
+
+                   0:incorrect                                 29,845     82.04
+                   1:correct                                    6,535     17.96
+                   total                                       36,380    100.00
+
+EK22X              able to answer question EK22
+
+                   missing                                      7,966     21.90
+                   1.given                                     28,414     78.10
+                   total                                       36,380    100.00
+
+EK22               EK22
+
+                   missing                                      7,966     21.90
+                   A                                            4,109     11.29
+                   B                                           10,033     27.58
+                   C                                            5,172     14.22
+                                                                         17:02 Tuesday, April 10, 2018  19
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 22
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK22  continued)
+
+                   D                                            4,846     13.32
+                   X:Refused                                      108      0.30
+                   Y:Don't know                                 4,143     11.39
+                   Z:Missing                                        3      0.01
+                   total                                       36,380    100.00
+
+EK2X               able to answer question EK2
+
+                   missing                                      5,041     13.86
+                   1.given                                     31,339     86.14
+                   total                                       36,380    100.00
+
+EK22_ANS            
+
+                   0:incorrect                                 26,347     72.42
+                   1:correct                                   10,033     27.58
+                   total                                       36,380    100.00
+
+EK2_ANS             
+
+                   0:incorrect                                 12,022     33.05
+                   1:correct                                   24,358     66.95
+                   total                                       36,380    100.00
+
+EK3X               able to answer question EK3
+
+                   missing                                      5,041     13.86
+                   1.given                                     31,339     86.14
+                   total                                       36,380    100.00
+
+EK3                EK3
+
+                   missing                                      5,041     13.86
+                   A                                           21,081     57.95
+                   B                                            3,913     10.76
+                   C                                            1,098      3.02
+                   D                                              969      2.66
+                   E                                            3,499      9.62
+                   F                                              766      2.11
+                   Y:Don't know                                    13      0.04
+                   total                                       36,380    100.00
+
+EK3_ANS             
+
+                   0:incorrect                                 15,299     42.05
+                   1:correct                                   21,081     57.95
+                   total                                       36,380    100.00
+
+EK4X               able to answer question EK4
+
+                   missing                                      5,041     13.86
+                   1.given                                     31,339     86.14
+                   total                                       36,380    100.00
+                                                                         17:02 Tuesday, April 10, 2018  20
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 23
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK4  continued)
+
+EK4                EK4
+
+                   missing                                      5,041     13.86
+                   A                                            1,051      2.89
+                   B                                            4,276     11.75
+                   C                                            1,341      3.69
+                   D                                           21,466     59.00
+                   E                                            2,670      7.34
+                   F                                              523      1.44
+                   Y:Don't know                                    12      0.03
+                   total                                       36,380    100.00
+
+EK4_ANS             
+
+                   0:incorrect                                 14,914     41.00
+                   1:correct                                   21,466     59.00
+                   total                                       36,380    100.00
+
+EK5X               able to answer question EK5
+
+                   missing                                      5,041     13.86
+                   1.given                                     31,339     86.14
+                   total                                       36,380    100.00
+
+EK5                EK5
+
+                   missing                                      5,041     13.86
+                   A                                              883      2.43
+                   B                                            1,487      4.09
+                   C                                           18,351     50.44
+                   D                                            2,389      6.57
+                   E                                              953      2.62
+                   F                                            7,261     19.96
+                   Y:Don't know                                    15      0.04
+                   total                                       36,380    100.00
+
+EK5_ANS             
+
+                   0:incorrect                                 18,029     49.56
+                   1:correct                                   18,351     50.44
+                   total                                       36,380    100.00
+
+EK6X               able to answer question EK6
+
+                   missing                                      5,041     13.86
+                   1.given                                     31,339     86.14
+                   total                                       36,380    100.00
+
+EK6                EK6
+
+                   missing                                      5,041     13.86
+                   A                                            7,958     21.87
+                   B                                           10,350     28.45
+                   C                                            3,712     10.20
+                                                                         17:02 Tuesday, April 10, 2018  21
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 24
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+(EK6  continued)
+
+                   D                                            4,886     13.43
+                   E                                            2,889      7.94
+                   F                                            1,516      4.17
+                   Y:Don't know                                    27      0.07
+                   Z:Missing                                        1      0.00
+                   total                                       36,380    100.00
+
+EK6_ANS             
+
+                   0:incorrect                                 26,030     71.55
+                   1:correct                                   10,350     28.45
+                   total                                       36,380    100.00
+
+EK7X               able to answer question EK7
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK7                EK7
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK7_ANS             
+
+                   0:incorrect                                 36,380    100.00
+                   total                                       36,380    100.00
+
+EK8X               able to answer question EK8
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK8                EK8
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK8_ANS             
+
+                   0:incorrect                                 36,380    100.00
+                   total                                       36,380    100.00
+
+EK9X               able to answer question EK9
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+
+EK9                EK9
+
+                   missing                                     36,380    100.00
+                   total                                       36,380    100.00
+                                                                         17:02 Tuesday, April 10, 2018  22
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 25
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EK9_ANS             
+
+                   0:incorrect                                 36,380    100.00
+                   total                                       36,380    100.00
+
+EKDAY              Day of interview
+
+                   min:                                          1.00
+                   mean:                                        15.85
+                   max:                                         31.00
+                   #obs                                        36,380
+                   #miss:                                           0
+
+EKHRSBEG           Time interview began (hour)
+
+                   min:                                          0.00
+                   mean:                                        16.16
+                   max:                                         23.00
+                   #obs                                        36,380
+                   #miss:                                           0
+
+EKHRSEND           Time interviewer ended (Hour)
+
+                   min:                                          0.00
+                   mean:                                        16.26
+                   max:                                         23.00
+                   #obs                                        36,380
+                   #miss:                                           0
+
+EKMINBEG           Time interview began (minute)
+
+                   min:                                          0.00
+                   mean:                                        26.40
+                   max:                                         59.00
+                   #obs                                        36,380
+                   #miss:                                           0
+
+EKMINEND           Time interviewer ended (minute)
+
+                   min:                                          0.00
+                   mean:                                        27.92
+                   max:                                         59.00
+                   #obs                                        36,380
+                   #miss:                                           0
+
+EKMTH              Month of interview
+
+                   min:                                          1.00
+                   mean:                                         6.89
+                   max:                                         12.00
+                   #obs                                        36,380
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  23
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 26
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+EKTYPE             ektype.Age group
+
+                   min:                                          2.00
+                   mean:                                         2.00
+                   max:                                          2.00
+                   #obs                                        36,380
+                   #miss:                                           0
+
+EKYR               Year of interview
+
+                   min:                                       2014.00
+                   mean:                                      2014.55
+                   max:                                       2015.00
+                   #obs                                        36,380
+                   #miss:                                           0
+
+IDIVWR             Interviewer code
+
+
+REASON             Reason for not answering
+
+                   missing                                     31,339     86.14
+                   1:Refused                                    2,023      5.56
+                   2:Illiterate                                   158      0.43
+                   3:Mentally challenged                           79      0.22
+                   4:Had not time                                  33      0.09
+                   5:Proxy Respondent                           1,951      5.36
+                   6:Other                                        246      0.68
+                   7:Can't be contacted                           551      1.51
+                   total                                       36,380    100.00
+
+RESPTYPE           COV7.
+
+                   7-14 years old                              32,160     88.40
+                   2:Respondent of 2000                         4,220     11.60
+                   total                                       36,380    100.00
+
+SEX                Sex of respondent
+
+                   1:Male                                      17,557     48.26
+                   3:Female                                    18,823     51.74
+                   total                                       36,380    100.00
+
+RESULT             Result of measurement
+
+                   1:Completed                                 29,642     81.48
+                   2:Not completed                              1,697      4.66
+                   3:Did not anwer                              5,041     13.86
+                   total                                       36,380    100.00
+                                                                         17:02 Tuesday, April 10, 2018  24
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 27
+book:    EK  - Logic Measurement                                   
+module:  EK_EK2               
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        36,380
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  25
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 28
+book:    EK  - Logic Measurement                                   
+module:  EK_TIME1             
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   EK_TIME1                                    15,052    100.00
+                   total                                       15,052    100.00
+
+BEGHR              Time interview began (hour)
+
+                   min:                                          0.00
+                   mean:                                        16.15
+                   max:                                         23.00
+                   #obs                                        15,052
+                   #miss:                                           0
+
+BEGMIN             Time interview began (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.23
+                   max:                                         59.00
+                   #obs                                        15,052
+                   #miss:                                           0
+
+EKTYPE             ektype.Age group
+
+                   min:                                          1.00
+                   mean:                                         1.00
+                   max:                                          1.00
+                   #obs                                        15,052
+                   #miss:                                           0
+
+ENDHR              Time interviewer ended (Hour)
+
+                   min:                                          0.00
+                   mean:                                        16.14
+                   max:                                         23.00
+                   #obs                                        15,052
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  26
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 29
+book:    EK  - Logic Measurement                                   
+module:  EK_TIME1             
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+ENDMIN             Time interviewer ended (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.27
+                   max:                                         59.00
+                   #obs                                        15,052
+                   #miss:                                           0
+
+HHID_MATCH          
+
+
+IVWDAY             Day of interview
+
+                   min:                                          1.00
+                   mean:                                        15.77
+                   max:                                         31.00
+                   #obs                                        15,052
+                   #miss:                                           0
+
+IVWMTH             Month of interview
+
+                   min:                                          1.00
+                   mean:                                         6.79
+                   max:                                         12.00
+                   #obs                                        15,052
+                   #miss:                                           0
+
+IVWYR              Year of interview
+
+                   min:                                       2014.00
+                   mean:                                      2014.56
+                   max:                                       2015.00
+                   #obs                                        15,052
+                   #miss:                                           0
+
+PID                 
+
+                   min:                                          1.00
+                   mean:                                         4.87
+                   max:                                         38.00
+                   #obs                                        15,052
+                   #miss:                                           0
+
+TIME_OCC_EK        Serial number
+
+                   min:                                          1.00
+                   mean:                                         1.01
+                   max:                                          3.00
+                   #obs                                        15,052
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  27
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 30
+book:    EK  - Logic Measurement                                   
+module:  EK_TIME1             
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        15,052
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  28
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 31
+book:    EK  - Logic Measurement                                   
+module:  EK_TIME2             
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+HHID14             2014 Household ID
+
+
+HHID14_9           2014 Household ID - 9 digit
+
+
+PID14              2014 Person ID within household
+
+
+PIDLINK            2014 Person ID
+
+
+MODULE             IFLS survey module
+
+                   EK_TIME2                                    36,657    100.00
+                   total                                       36,657    100.00
+
+BEGHR              Time interview began (hour)
+
+                   min:                                          0.00
+                   mean:                                        16.19
+                   max:                                         23.00
+                   #obs                                        36,657
+                   #miss:                                           0
+
+BEGMIN             Time interview began (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.37
+                   max:                                         59.00
+                   #obs                                        36,657
+                   #miss:                                           0
+
+EKTYPE             ektype.Age group
+
+                   min:                                          2.00
+                   mean:                                         2.00
+                   max:                                          2.00
+                   #obs                                        36,657
+                   #miss:                                           0
+
+ENDHR              Time interviewer ended (Hour)
+
+                   min:                                          0.00
+                   mean:                                        16.18
+                   max:                                         23.00
+                   #obs                                        36,657
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  29
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 32
+book:    EK  - Logic Measurement                                   
+module:  EK_TIME2             
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+ENDMIN             Time interviewer ended (minute)
+
+                   min:                                          0.00
+                   mean:                                        29.38
+                   max:                                         59.00
+                   #obs                                        36,657
+                   #miss:                                           0
+
+HHID_MATCH          
+
+
+IVWDAY             Day of interview
+
+                   min:                                          1.00
+                   mean:                                        15.84
+                   max:                                         31.00
+                   #obs                                        36,657
+                   #miss:                                           0
+
+IVWMTH             Month of interview
+
+                   min:                                          1.00
+                   mean:                                         6.90
+                   max:                                         12.00
+                   #obs                                        36,657
+                   #miss:                                           0
+
+IVWYR              Year of interview
+
+                   min:                                       2014.00
+                   mean:                                      2014.55
+                   max:                                       2015.00
+                   #obs                                        36,657
+                   #miss:                                           0
+
+PID                 
+
+                   min:                                          1.00
+                   mean:                                         3.10
+                   max:                                         27.00
+                   #obs                                        36,657
+                   #miss:                                           0
+
+TIME_OCC_EK        Serial number
+
+                   min:                                          1.00
+                   mean:                                         1.01
+                   max:                                          3.00
+                   #obs                                        36,657
+                   #miss:                                           0
+                                                                         17:02 Tuesday, April 10, 2018  30
+------------------------------------------------------------------------------------
+IFLS5 HOUSEHOLD SURVEY CODEBOOK                                            page 33
+book:    EK  - Logic Measurement                                   
+module:  EK_TIME2             
+------------------------------------------------------------------------------------
+variable name      value                                    frequency     percent   
+------------------------------------------------------------------------------------
+
+VERSION            IFLS 5 release number
+
+                   min:                                          1.30
+                   mean:                                         1.30
+                   max:                                          1.30
+                   #obs                                        36,657
+                   #miss:                                           0
