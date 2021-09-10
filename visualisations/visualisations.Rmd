@@ -7,9 +7,14 @@ theme_set(theme_classic())
 ```
 
 ```{r Import data}
-df <- read.csv("../ifls_hh2.csv")
+df <- read.csv("../ifls_hh_reduced.csv") %>% 
+  select(-X)
 
-df 
+df$own_fininstrument_14 <- case_when(df$own_fininstrument_14 == 3 ~ "Unbanked",
+                                     df$own_fininstrument_14 == 1 ~ "Banked")
+
+df$own_fininstrument_7 <- case_when(df$own_fininstrument_7 == 3 ~ "Unbanked",
+                                     df$own_fininstrument_7 == 1 ~ "Banked")
 ```
 
 #Visualise
@@ -289,7 +294,7 @@ df %>%
             position = position_dodge2(width=1),
             vjust = -0.5) +
   scale_fill_brewer(palette="Set2") +
-  labs(x= "Household income per capita",
+  labs(x= "Annual household income per capita 2007 (IDR)",
        y= "Own financial instrument",
        fill = "") +
   theme(axis.text.y = element_blank(),

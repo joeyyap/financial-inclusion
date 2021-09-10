@@ -19,7 +19,7 @@ from sklearn.metrics import precision_score, recall_score
 #Import classification methods
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier, GradientBoostingClassifier
 
 #Set seed
 seed=0
@@ -111,7 +111,7 @@ class_names = ["Banked", "Unbanked"]
 
 #Choose classifier
 st.sidebar.subheader("Choose classifier")
-classifier = st.sidebar.selectbox("Classifier", ("Support Vector Machine (SVM)", "Logistic Regression", "Random Forest"))
+classifier = st.sidebar.selectbox("Classifier", ("Support Vector Machine (SVM)", "Logistic Regression", "Random Forest", "Gradient Boosting"))
 
 #Finetune SVM hyperparameters !! Remember to use undersampled dataset (X_train_us, y_train_us)
 if classifier == "Support Vector Machine (SVM)":
@@ -165,6 +165,27 @@ if classifier == "Random Forest":
     if st.sidebar.button("Classify", key="classify"):
         st.subheader("Random Forest Results")
         model = RandomForestClassifier(n_estimators=n_estimators, max_depth=max_depth, bootstrap= bootstrap, n_jobs=-1 )
+        model.fit(X_train_us, y_train_us)
+        accuracy = model.score(X_test, y_test)
+        y_pred = model.predict(X_test)
+        st.write("Accuracy: ", accuracy.round(2))
+        st.write("Precision: ", precision_score(y_test, y_pred, labels=class_names).round(2))
+        st.write("Recall: ", recall_score(y_test, y_pred, labels=class_names).round(2))
+        plot_metrics(metrics)
+
+#Finetune Random Forest hyperparameters
+if classifier == "Gradient Boosting":
+    st.sidebar.subheader("Hyperparameters")
+    n_estimators= st.sidebar.number_input("The number of boosting stages to perform", 100, 5000, step=10, key="n_estimators")
+    min_samples_split= st.sidebar.number_input("The minimum number of samples in a node before splitting", 2, 100, step=1, key="min_samples_split")
+    max_depth = st.sidebar.number_input("The maximum depth of tree", 1, 20, step =1, key="max_depth")
+    loss = st.sidebar.radio("Loss function to be optimised", ("deviance", "exponential"), key="loss")
+    
+    metrics = st.sidebar.multiselect("What metrics to plot?", ("Confusion Matrix", "ROC Curve", "Precision-Recall Curve"))
+    
+    if st.sidebar.button("Classify", key="classify"):
+        st.subheader("Gradient Boosting Results")
+        model = GradientBoostingClassifier(n_estimators=n_estimators, min_samples_split=min_samples_split, max_depth=max_depth, loss=loss)
         model.fit(X_train_us, y_train_us)
         accuracy = model.score(X_test, y_test)
         y_pred = model.predict(X_test)
