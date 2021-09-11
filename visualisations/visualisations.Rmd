@@ -273,8 +273,7 @@ df %>%
        y= "Own financial instrument",
        fill = "Own household appliances") +
   theme(axis.text.x = element_blank(),
-        axis.ticks.x = element_blank(),
-        legend.position = "none")
+        axis.ticks.x = element_blank())
 
 ggsave("hhappliance_fi.png", height = 6, width = 14, unit="cm")
 
@@ -304,3 +303,57 @@ df %>%
 ggsave("ipercap_fi.png", height = 14, width = 12, unit="cm")
 
 ```
+
+```{r Visualise model results}
+
+imbres <- read.csv("../imbres.csv") %>% 
+  select(-X)
+
+usres <- read.csv("../usres.csv") %>% 
+  select(-X)
+
+osres <- read.csv("../osres.csv") %>% 
+  select(-X)
+
+
+imbres %>% 
+  pivot_longer(cols = c("Precision", "Recall", "F1.score"), names_to = "Metric", values_to = "Value") %>% 
+  filter(Metric != "F1.score") %>% 
+  ggplot(aes(x=Model, y = Value, fill = Metric)) +
+  geom_col(position="dodge") +
+  scale_fill_brewer(palette = "Set2") +
+  geom_text(aes(label = round(Value,2)),
+            position = position_dodge(width=1)) +
+  coord_flip()
+
+ggsave("imbres.png", height = 8, width = 22, unit = "cm")
+
+
+usres %>% 
+  pivot_longer(cols = c("Precision", "Recall", "F1.score"), names_to = "Metric", values_to = "Value") %>% 
+  filter(Metric != "F1.score") %>% 
+  ggplot(aes(x=Model, y = Value, fill = Metric)) +
+  geom_col(position="dodge") +
+  scale_fill_brewer(palette = "Set2") +
+  geom_text(aes(label = round(Value,2)),
+            position = position_dodge(width=1)) +
+  coord_flip() +
+  ylim(0,1)
+
+ggsave("usres.png", height = 8, width = 22, unit = "cm")
+
+
+osres %>% 
+  pivot_longer(cols = c("Precision", "Recall", "F1.score"), names_to = "Metric", values_to = "Value") %>% 
+  filter(Metric != "F1.score") %>% 
+  ggplot(aes(x=Model, y = Value, fill = Metric)) +
+  geom_col(position="dodge") +
+  scale_fill_brewer(palette = "Set2") +
+  geom_text(aes(label = round(Value,2)),
+            position = position_dodge(width=1)) +
+  coord_flip() +
+  ylim(0,1)
+
+ggsave("osres.png", height = 8, width = 22, unit = "cm")
+```
+
