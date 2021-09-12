@@ -29,7 +29,7 @@ def main():
     st.title("Predicting Financial Inclusion")
     st.markdown("### The case of Indonesia")
     #Page description
-    st.markdown("This is an app that predicts financial inclusion 7 years in the future, using the Indonesian Family Life Survey dataset. Use it to build your own machine learning models. ") 
+    st.markdown("This is an app that allows you to build your own machine learning models using a pre-determined dataset (the Indonesian Family Life Survey), and evaluate them. ") 
     st.markdown("The dataset includes 14 feature columns from 2007 used to predict the target variable, financial inclusion in 2014. This includes assets, consumption, housing, and wealth variables. ")
     st.markdown("Explore the data by clicking on 'Display data' in the sidebar. Choose your classifier, then adjust the hyperparameters, and visualise the metrics.")
     st.sidebar.title("Build model")
